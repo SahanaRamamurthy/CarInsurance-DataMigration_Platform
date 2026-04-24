@@ -1,0 +1,2001 @@
+claim_id,policy_id,claim_date,claim_type,claim_amount_usd,settled_amount_usd,status,description,is_fraud_flag,days_to_report
+CLM00001,POL00966,2023-09-09,Natural Disaster,28554.49,0.0,Rejected,Hit and run incident,False,18
+CLM00002,POL01661,2024-03-01,Vandalism,52455.85,0.0,Rejected,Front end collision on highway,False,46
+CLM00003,POL01761,2021-05-02,Fire,78288.69,53347.9,Settled,Windshield cracked by debris,False,39
+CLM00004,POL02123,2020-01-18,Theft,60430.71,0.0,Pending,Vandalism - scratches and dents,False,53
+CLM00005,POL00616,2022-08-03,Theft,31226.82,0.0,Approved,Windshield cracked by debris,False,1
+CLM00006,POL00797,2022-02-13,Vandalism,70816.39,0.0,Pending,Vandalism - scratches and dents,False,25
+CLM00007,POL01792,2024-10-25,Fire,52540.32,0.0,Rejected,Flood damage during heavy rainfall,False,32
+CLM00008,POL00903,2020-04-13,Fire,74538.84,73264.95,Settled,Windshield cracked by debris,False,38
+CLM00009,POL00771,2023-01-15,Vandalism,45616.06,0.0,Under Review,Hit and run incident,False,14
+CLM00010,POL02761,2022-11-14,Flood,62980.83,0.0,Approved,Vandalism - scratches and dents,False,42
+CLM00011,POL00461,2023-10-21,Theft,75195.69,0.0,Pending,Vandalism - scratches and dents,True,55
+CLM00012,POL01022,2021-10-28,Accident,51336.1,0.0,Rejected,Vandalism - scratches and dents,False,53
+CLM00013,POL01320,2024-07-12,Vandalism,17476.63,0.0,Pending,Flood damage during heavy rainfall,False,43
+CLM00014,POL01922,2023-10-12,Fire,77104.24,55769.52,Settled,Hit and run incident,False,14
+CLM00015,POL02419,2020-05-06,Natural Disaster,24334.84,0.0,Pending,,False,24
+CLM00016,POL01814,2024-04-28,Accident,20384.88,0.0,Rejected,Vandalism - scratches and dents,False,0
+CLM00017,POL00086,2021-04-17,Fire,64871.02,51031.21,Settled,Vehicle stolen from residential area,True,28
+CLM00018,POL00150,2020-01-16,Fire,-2076.32,0.0,Rejected,Hit and run incident,False,56
+CLM00019,POL02418,2020-12-13,Natural Disaster,22269.42,0.0,Approved,Vehicle stolen from residential area,True,46
+CLM00020,POL02021,2022-06-25,Natural Disaster,30621.73,0.0,Pending,Rear end damage in parking lot,True,13
+CLM00021,POL00233,2021-06-30,Accident,33980.54,0.0,Rejected,Vandalism - scratches and dents,False,53
+CLM00022,POL01230,2022-06-13,Vandalism,61696.05,40453.7,Settled,Front end collision on highway,False,14
+CLM00023,POL02122,2021-07-18,Theft,25311.39,0.0,Approved,Fire damage in garage,False,39
+CLM00024,POL01866,2023-03-02,Natural Disaster,12257.23,0.0,Pending,,False,36
+CLM00025,POL01660,2024-08-19,Flood,57227.21,0.0,Pending,Flood damage during heavy rainfall,False,4
+CLM00026,POL02448,2021-09-02,Vandalism,70652.21,0.0,Rejected,Front end collision on highway,False,21
+CLM00027,POL00497,2023-04-25,Vandalism,30671.19,38725.93,Settled,Front end collision on highway,False,13
+CLM00028,POL01093,2020-06-11,Flood,72019.43,0.0,Approved,,False,48
+CLM00029,POL02651,2022-04-17,Theft,-1336.9,0.0,Pending,Fire damage in garage,False,16
+CLM00030,POL01369,2021-08-26,Natural Disaster,24050.95,0.0,Approved,Rear end damage in parking lot,False,47
+CLM00031,POL01276,2022-08-10,Fire,68909.33,58141.96,Settled,Vehicle stolen from residential area,False,0
+CLM00032,POL02289,2022-08-23,Accident,73490.53,0.0,Approved,,False,25
+CLM00033,POL01322,2022-12-01,Flood,54178.64,0.0,Under Review,,False,45
+CLM00034,POL01651,2023-06-07,Accident,45237.07,0.0,Approved,Fire damage in garage,False,40
+CLM00035,POL01797,2022-09-07,Accident,73715.88,0.0,Pending,Flood damage during heavy rainfall,True,2
+CLM00036,POL01368,2020-03-17,Accident,45758.17,0.0,Pending,Front end collision on highway,False,43
+CLM00037,POL02092,2020-01-27,Fire,70870.21,0.0,Rejected,Flood damage during heavy rainfall,False,55
+CLM00038,POL00930,2023-08-05,Natural Disaster,2050.77,0.0,Under Review,Flood damage during heavy rainfall,False,54
+CLM00039,POL01345,2024-12-29,Natural Disaster,34984.0,0.0,Approved,Front end collision on highway,False,36
+CLM00040,POL00830,2024-07-09,Natural Disaster,49184.25,0.0,Pending,,False,0
+CLM00041,POL00769,2022-05-30,Theft,4235.53,0.0,Under Review,Front end collision on highway,False,28
+CLM00042,POL00846,2020-03-07,Flood,40419.44,0.0,Approved,Windshield cracked by debris,False,51
+CLM00043,POL00379,2023-12-02,Fire,30674.36,0.0,Approved,Rear end damage in parking lot,False,0
+CLM00044,POL01710,2022-06-02,Flood,73909.45,0.0,Approved,,False,49
+CLM00045,POL00351,2022-11-24,Flood,3545.85,0.0,Rejected,Front end collision on highway,False,8
+CLM00046,POL01567,2020-08-20,Fire,55130.62,0.0,Approved,Vandalism - scratches and dents,True,8
+CLM00047,POL00727,2020-11-21,Theft,20702.88,0.0,Rejected,Vehicle stolen from residential area,False,37
+CLM00048,POL02216,2021-07-13,Flood,64922.68,34689.12,Settled,Rear end damage in parking lot,False,38
+CLM00049,POL02970,2020-08-13,Flood,62025.26,47751.08,Settled,Rear end damage in parking lot,False,3
+CLM00050,POL01321,2023-10-13,Accident,23151.63,0.0,Pending,Rear end damage in parking lot,False,34
+CLM00051,POL01149,2024-08-21,Accident,39915.79,0.0,Approved,Rear end damage in parking lot,False,39
+CLM00052,POL01489,2021-12-03,Vandalism,16371.86,0.0,Rejected,Windshield cracked by debris,False,11
+CLM00053,POL00617,2024-12-11,Accident,37679.43,0.0,Under Review,,False,0
+CLM00054,POL01192,2023-09-19,Flood,16492.68,0.0,Pending,Flood damage during heavy rainfall,False,47
+CLM00055,POL01254,2024-01-05,Flood,70568.7,0.0,Approved,Windshield cracked by debris,False,55
+CLM00056,POL01940,2021-12-31,Accident,39068.96,0.0,Under Review,Front end collision on highway,False,31
+CLM00057,POL01098,2022-01-02,Fire,5709.57,3483.43,Settled,Vehicle stolen from residential area,False,23
+CLM00058,POL01335,2024-07-31,Accident,63661.75,0.0,Rejected,Front end collision on highway,False,21
+CLM00059,POL02799,2020-06-23,Natural Disaster,38178.25,0.0,Under Review,Windshield cracked by debris,False,13
+CLM00060,POL00813,2023-09-12,Vandalism,67305.7,0.0,Pending,Hit and run incident,False,44
+CLM00061,POL00790,2022-05-17,Accident,54875.56,0.0,Under Review,Flood damage during heavy rainfall,True,31
+CLM00062,POL02128,2020-08-13,Theft,34243.26,0.0,Approved,Vandalism - scratches and dents,False,30
+CLM00063,POL00040,2021-05-04,Vandalism,74229.23,0.0,Approved,Rear end damage in parking lot,False,45
+CLM00064,POL01025,2023-10-26,Natural Disaster,65786.71,0.0,Under Review,Flood damage during heavy rainfall,False,4
+CLM00065,POL00848,2021-05-23,Accident,62774.34,0.0,Under Review,Flood damage during heavy rainfall,False,47
+CLM00066,POL02120,2021-09-25,Fire,79649.86,42137.44,Settled,,False,34
+CLM00067,POL01395,2020-11-02,Accident,40015.2,0.0,Approved,Vandalism - scratches and dents,False,41
+CLM00068,POL00328,2021-06-30,Accident,9255.1,0.0,Under Review,Vandalism - scratches and dents,False,40
+CLM00069,POL01748,2023-02-08,Natural Disaster,0.0,0.0,Approved,,False,0
+CLM00070,POL01921,2022-09-08,Theft,67807.83,0.0,Rejected,Vandalism - scratches and dents,False,39
+CLM00071,POL01421,2024-12-18,Vandalism,47011.43,0.0,Rejected,Vandalism - scratches and dents,False,27
+CLM00072,POL01528,2022-06-10,Natural Disaster,2450.7,0.0,Under Review,Rear end damage in parking lot,False,18
+CLM00073,POL02935,2023-11-02,Vandalism,53608.26,0.0,Approved,Vehicle stolen from residential area,False,54
+CLM00074,POL00106,2023-09-29,Natural Disaster,41250.97,0.0,Under Review,Rear end damage in parking lot,False,57
+CLM00075,POL02549,2021-08-25,Vandalism,55125.24,0.0,Approved,Hit and run incident,False,31
+CLM00076,POL00543,2024-09-12,Flood,0.0,0.0,Settled,Rear end damage in parking lot,False,58
+CLM00077,POL00067,2022-01-19,Theft,74924.52,0.0,Rejected,Front end collision on highway,True,6
+CLM00078,POL02217,2024-06-02,Accident,53704.04,0.0,Approved,Vehicle stolen from residential area,False,8
+CLM00079,POL02100,2020-04-01,Natural Disaster,29301.0,28676.98,Settled,Fire damage in garage,False,12
+CLM00080,POL02216,2022-04-01,Natural Disaster,8885.74,0.0,Rejected,Hit and run incident,False,16
+CLM00081,POL02203,2024-11-02,Natural Disaster,49745.12,0.0,Under Review,Rear end damage in parking lot,False,0
+CLM00082,POL00282,2021-08-06,Natural Disaster,45439.32,0.0,Approved,Windshield cracked by debris,False,13
+CLM00083,POL00983,2024-05-17,Vandalism,3278.41,0.0,Under Review,Flood damage during heavy rainfall,False,23
+CLM00084,POL00057,2022-10-07,Flood,37296.66,0.0,Pending,Front end collision on highway,False,0
+CLM00085,POL01734,2022-10-25,Theft,33175.71,23817.38,Settled,Flood damage during heavy rainfall,False,7
+CLM00086,POL02167,2021-10-07,Vandalism,75979.4,0.0,Pending,Vandalism - scratches and dents,False,25
+CLM00087,POL02106,2024-02-03,Fire,9523.04,0.0,Pending,Fire damage in garage,False,15
+CLM00088,POL00453,2024-03-04,Natural Disaster,8351.62,0.0,Pending,Hit and run incident,False,19
+CLM00089,POL01046,2020-05-24,Flood,21309.59,0.0,Rejected,,False,29
+CLM00090,POL02616,2023-08-25,Natural Disaster,0.0,0.0,Under Review,Rear end damage in parking lot,False,41
+CLM00091,POL01589,2021-05-18,Theft,28536.77,0.0,Approved,Flood damage during heavy rainfall,False,8
+CLM00092,POL01789,2022-04-05,Flood,1610.51,1506.57,Settled,Rear end damage in parking lot,False,37
+CLM00093,POL02840,2024-04-09,Vandalism,8813.67,0.0,Under Review,Fire damage in garage,False,25
+CLM00094,POL01974,2022-08-31,Vandalism,6607.37,0.0,Rejected,Vandalism - scratches and dents,False,22
+CLM00095,POL01391,2024-03-25,Theft,49207.22,0.0,Approved,Rear end damage in parking lot,False,51
+CLM00096,POL01609,2024-04-12,Fire,58875.46,51777.81,Settled,Flood damage during heavy rainfall,False,50
+CLM00097,POL00154,2020-04-22,Accident,1102.01,0.0,Under Review,Rear end damage in parking lot,False,0
+CLM00098,POL02184,2024-09-11,Natural Disaster,36599.38,0.0,Pending,Fire damage in garage,False,51
+CLM00099,POL02636,2021-03-27,Vandalism,63170.2,60938.39,Settled,,False,15
+CLM00100,POL01160,2023-09-03,Accident,-2948.79,0.0,Under Review,Rear end damage in parking lot,False,48
+CLM00101,POL02975,2023-05-12,Fire,29649.41,23516.43,Settled,Rear end damage in parking lot,False,53
+CLM00102,POL02356,2020-11-23,Fire,58547.92,0.0,Pending,,False,17
+CLM00103,POL01975,2022-11-25,Natural Disaster,66635.44,0.0,Pending,Rear end damage in parking lot,False,41
+CLM00104,POL00195,2024-03-14,Accident,1510.3,0.0,Approved,,False,54
+CLM00105,POL00226,2024-12-18,Theft,41075.73,0.0,Pending,,False,6
+CLM00106,POL01461,2023-03-15,Fire,43143.71,0.0,Pending,Vandalism - scratches and dents,False,39
+CLM00107,POL00268,2024-06-25,Theft,35404.18,0.0,Under Review,Front end collision on highway,False,32
+CLM00108,POL00257,2020-03-01,Accident,58583.9,0.0,Approved,Vehicle stolen from residential area,False,10
+CLM00109,POL02584,2022-07-13,Fire,49333.33,47778.71,Settled,,False,45
+CLM00110,POL02418,2024-05-13,Accident,64763.63,0.0,Pending,Hit and run incident,False,41
+CLM00111,POL01147,2021-05-29,Flood,61743.39,0.0,Under Review,Hit and run incident,False,4
+CLM00112,POL02758,2020-06-26,Fire,7412.77,7318.04,Settled,Flood damage during heavy rainfall,False,1
+CLM00113,POL02268,2022-09-16,Flood,32624.72,0.0,Under Review,Fire damage in garage,False,19
+CLM00114,POL02746,2024-11-30,Fire,3857.44,0.0,Rejected,Fire damage in garage,False,14
+CLM00115,POL01889,2024-10-02,Theft,32233.54,28870.4,Settled,Windshield cracked by debris,False,25
+CLM00116,POL00822,2021-01-19,Natural Disaster,18123.56,16679.06,Settled,Hit and run incident,False,15
+CLM00117,POL00091,2020-11-20,Vandalism,0.0,0.0,Rejected,Vandalism - scratches and dents,False,11
+CLM00118,POL00070,2023-11-22,Flood,4645.63,0.0,Approved,Fire damage in garage,False,16
+CLM00119,POL00141,2021-05-01,Natural Disaster,4503.06,3608.53,Settled,Hit and run incident,False,6
+CLM00120,POL01205,2021-03-15,Flood,21898.63,0.0,Rejected,Windshield cracked by debris,False,51
+CLM00121,POL00432,2023-10-06,Theft,66490.67,40767.1,Settled,Vandalism - scratches and dents,False,18
+CLM00122,POL00786,2022-09-25,Flood,78662.97,0.0,Pending,Flood damage during heavy rainfall,False,2
+CLM00123,POL01904,2022-08-04,Flood,50326.01,0.0,Approved,,False,58
+CLM00124,POL01689,2023-02-25,Vandalism,14950.08,0.0,Approved,Hit and run incident,False,16
+CLM00125,POL02204,2022-03-19,Vandalism,75797.36,0.0,Pending,Hit and run incident,False,0
+CLM00126,POL02767,2024-09-22,Vandalism,18742.69,0.0,Approved,Rear end damage in parking lot,False,47
+CLM00127,POL02916,2021-08-22,Flood,30000.11,0.0,Rejected,,False,45
+CLM00128,POL01744,2020-09-15,Vandalism,55352.32,0.0,Approved,Vehicle stolen from residential area,False,28
+CLM00129,POL02417,2024-08-30,Flood,75108.12,0.0,Pending,,False,13
+CLM00130,POL02426,2022-04-28,Flood,17860.99,0.0,Rejected,Fire damage in garage,False,29
+CLM00131,POL00041,2024-01-17,Natural Disaster,43808.13,0.0,Under Review,Rear end damage in parking lot,False,42
+CLM00132,POL01405,2024-07-30,Natural Disaster,33305.17,0.0,Pending,Fire damage in garage,False,53
+CLM00133,POL02164,2020-10-20,Vandalism,6012.44,0.0,Rejected,Flood damage during heavy rainfall,False,26
+CLM00134,POL00346,2020-09-05,Vandalism,39379.31,37393.76,Settled,Vandalism - scratches and dents,False,52
+CLM00135,POL02830,2022-04-16,Flood,5344.86,0.0,Rejected,Fire damage in garage,False,15
+CLM00136,POL02894,2022-09-15,Vandalism,48745.68,0.0,Approved,Vandalism - scratches and dents,False,21
+CLM00137,POL01491,2020-05-24,Vandalism,49464.58,0.0,Pending,Vandalism - scratches and dents,False,28
+CLM00138,POL01315,2022-01-15,Theft,63720.39,0.0,Rejected,Hit and run incident,False,0
+CLM00139,POL00200,2024-09-20,Vandalism,5350.42,0.0,Rejected,Front end collision on highway,False,46
+CLM00140,POL02278,2024-08-11,Accident,77855.46,55058.0,Settled,,False,13
+CLM00141,POL01927,2024-06-11,Natural Disaster,75489.98,0.0,Approved,Vehicle stolen from residential area,False,14
+CLM00142,POL02969,2023-03-14,Fire,13099.43,0.0,Under Review,Front end collision on highway,False,3
+CLM00143,POL02571,2020-05-27,Flood,73173.97,0.0,Pending,Windshield cracked by debris,False,0
+CLM00144,POL02827,2020-01-15,Accident,25498.41,0.0,Rejected,Vehicle stolen from residential area,False,55
+CLM00145,POL02443,2024-05-23,Accident,79231.24,59736.25,Settled,Front end collision on highway,False,26
+CLM00146,POL01479,2024-05-16,Vandalism,17801.77,0.0,Rejected,Vandalism - scratches and dents,False,9
+CLM00147,POL01864,2022-10-21,Accident,7324.41,0.0,Rejected,Fire damage in garage,False,10
+CLM00148,POL02391,2020-02-02,Flood,56979.02,0.0,Under Review,Fire damage in garage,False,36
+CLM00149,POL00612,2022-05-08,Natural Disaster,74178.92,0.0,Under Review,Rear end damage in parking lot,False,20
+CLM00150,POL00391,2024-02-15,Vandalism,0.0,0.0,Rejected,,False,35
+CLM00151,POL00460,2022-06-27,Vandalism,49221.58,0.0,Rejected,,False,4
+CLM00152,POL01603,2022-12-25,Accident,50542.64,0.0,Approved,Front end collision on highway,False,21
+CLM00153,POL00144,2021-02-22,Fire,12434.09,0.0,Rejected,Fire damage in garage,False,41
+CLM00154,POL01115,2024-09-18,Natural Disaster,15566.25,12467.03,Settled,Vandalism - scratches and dents,False,25
+CLM00155,POL01390,2023-02-12,Natural Disaster,21380.71,0.0,Pending,Front end collision on highway,False,29
+CLM00156,POL00480,2022-02-10,Flood,35351.97,0.0,Approved,Front end collision on highway,False,24
+CLM00157,POL02991,2024-12-28,Flood,34503.86,0.0,Under Review,Hit and run incident,False,53
+CLM00158,POL02577,2023-07-08,Fire,76949.81,0.0,Rejected,,True,41
+CLM00159,POL01114,2021-01-24,Theft,0.0,0.0,Settled,Rear end damage in parking lot,False,31
+CLM00160,POL01618,2024-05-20,Theft,66637.64,61746.94,Settled,Vehicle stolen from residential area,False,17
+CLM00161,POL00357,2020-06-12,Vandalism,74131.04,0.0,Approved,Vehicle stolen from residential area,False,51
+CLM00162,POL02386,2024-12-15,Theft,62963.98,0.0,Approved,,False,51
+CLM00163,POL00550,2023-01-23,Vandalism,0.0,0.0,Settled,Fire damage in garage,False,36
+CLM00164,POL01375,2023-10-01,Theft,16193.6,13711.09,Settled,Rear end damage in parking lot,False,22
+CLM00165,POL00420,2022-03-21,Vandalism,74571.8,0.0,Under Review,Front end collision on highway,False,32
+CLM00166,POL00014,2023-12-08,Natural Disaster,60692.23,0.0,Rejected,Hit and run incident,False,52
+CLM00167,POL02447,2022-05-28,Vandalism,52469.79,0.0,Pending,Flood damage during heavy rainfall,False,44
+CLM00168,POL01397,2020-09-29,Fire,76310.26,0.0,Under Review,Flood damage during heavy rainfall,False,6
+CLM00169,POL00532,2021-02-13,Flood,75564.47,0.0,Approved,Rear end damage in parking lot,True,21
+CLM00170,POL00041,2020-06-26,Natural Disaster,51190.9,45459.29,Settled,Rear end damage in parking lot,False,14
+CLM00171,POL02053,2021-01-30,Natural Disaster,74405.99,0.0,Under Review,Windshield cracked by debris,False,39
+CLM00172,POL01107,2021-04-02,Natural Disaster,5929.43,0.0,Pending,,False,54
+CLM00173,POL00728,2022-04-26,Accident,37091.78,34458.03,Settled,Rear end damage in parking lot,False,53
+CLM00174,POL02239,2021-02-27,Accident,45107.05,42757.15,Settled,Windshield cracked by debris,False,4
+CLM00175,POL01045,2023-08-22,Vandalism,1422.97,0.0,Pending,Front end collision on highway,False,8
+CLM00176,POL02006,2022-05-05,Accident,63550.93,0.0,Rejected,Flood damage during heavy rainfall,True,57
+CLM00177,POL00523,2023-08-09,Fire,13707.56,0.0,Approved,Front end collision on highway,False,55
+CLM00178,POL00487,2020-01-11,Flood,60326.5,0.0,Rejected,Windshield cracked by debris,False,25
+CLM00179,POL01965,2021-05-14,Natural Disaster,69165.05,0.0,Pending,,False,10
+CLM00180,POL01448,2021-11-12,Fire,19100.98,13689.94,Settled,Hit and run incident,False,19
+CLM00181,POL00467,2020-06-13,Accident,66370.49,0.0,Rejected,Vehicle stolen from residential area,False,30
+CLM00182,POL00232,2022-09-24,Accident,35744.14,0.0,Under Review,Vehicle stolen from residential area,False,56
+CLM00183,POL01752,2024-12-08,Accident,56909.25,0.0,Rejected,Fire damage in garage,False,0
+CLM00184,POL02799,2023-05-25,Fire,-2968.21,0.0,Rejected,Windshield cracked by debris,False,45
+CLM00185,POL00187,2020-01-21,Vandalism,54097.54,0.0,Rejected,Flood damage during heavy rainfall,False,59
+CLM00186,POL02312,2024-12-06,Accident,53066.52,40100.5,Settled,,True,28
+CLM00187,POL00063,2024-07-14,Flood,64700.58,0.0,Pending,Windshield cracked by debris,True,11
+CLM00188,POL01142,2020-04-11,Flood,67589.68,0.0,Pending,Windshield cracked by debris,False,1
+CLM00189,POL01744,2020-01-11,Flood,51341.42,47339.34,Settled,Rear end damage in parking lot,False,14
+CLM00190,POL02713,2020-11-04,Natural Disaster,43579.6,0.0,Approved,Rear end damage in parking lot,False,0
+CLM00191,POL01789,2020-04-10,Vandalism,37610.52,0.0,Rejected,Windshield cracked by debris,False,30
+CLM00192,POL01923,2020-05-18,Vandalism,9914.01,0.0,Approved,Vandalism - scratches and dents,False,31
+CLM00193,POL02872,2021-02-25,Accident,7055.45,0.0,Under Review,Fire damage in garage,False,3
+CLM00194,POL02934,2020-08-09,Vandalism,71850.83,0.0,Pending,Fire damage in garage,False,47
+CLM00195,POL02369,2022-09-07,Fire,67381.04,0.0,Rejected,Hit and run incident,True,26
+CLM00196,POL00890,2021-07-06,Flood,71072.16,0.0,Under Review,Vehicle stolen from residential area,False,39
+CLM00197,POL01024,2023-11-08,Flood,62174.77,0.0,Pending,Fire damage in garage,False,34
+CLM00198,POL01241,2020-01-25,Vandalism,64413.89,0.0,Pending,Vandalism - scratches and dents,True,4
+CLM00199,POL01584,2020-05-09,Natural Disaster,27889.05,0.0,Under Review,,False,48
+CLM00200,POL00374,2022-08-30,Fire,56226.71,0.0,Approved,Vehicle stolen from residential area,False,5
+CLM00201,POL01379,2024-03-17,Vandalism,17818.71,0.0,Pending,Hit and run incident,False,51
+CLM00202,POL01580,2024-09-16,Fire,0.0,0.0,Rejected,Hit and run incident,False,17
+CLM00203,POL02449,2022-06-13,Fire,61512.78,0.0,Pending,Vandalism - scratches and dents,False,28
+CLM00204,POL02771,2022-06-30,Natural Disaster,74637.69,0.0,Under Review,Rear end damage in parking lot,False,24
+CLM00205,POL01366,2020-09-17,Flood,75321.49,58205.66,Settled,Rear end damage in parking lot,True,0
+CLM00206,POL01021,2021-05-23,Natural Disaster,54143.38,0.0,Pending,,False,6
+CLM00207,POL01784,2020-05-05,Natural Disaster,9008.4,0.0,Pending,Vandalism - scratches and dents,True,29
+CLM00208,POL01201,2022-06-24,Theft,76630.91,0.0,Pending,Vehicle stolen from residential area,True,28
+CLM00209,POL01528,2024-10-18,Theft,73816.85,0.0,Rejected,Hit and run incident,False,56
+CLM00210,POL02310,2020-05-28,Vandalism,13904.92,0.0,Approved,Hit and run incident,False,1
+CLM00211,POL01878,2020-04-10,Fire,74033.86,0.0,Pending,Fire damage in garage,False,46
+CLM00212,POL01346,2020-07-03,Accident,32481.94,0.0,Under Review,Vandalism - scratches and dents,False,34
+CLM00213,POL02278,2022-01-29,Theft,44151.7,0.0,Pending,Vehicle stolen from residential area,False,48
+CLM00214,POL00181,2022-07-20,Fire,34572.89,0.0,Rejected,Front end collision on highway,True,38
+CLM00215,POL00063,2020-10-02,Fire,11153.06,0.0,Rejected,Windshield cracked by debris,False,3
+CLM00216,POL02897,2020-03-21,Vandalism,13260.75,8154.0,Settled,Vehicle stolen from residential area,False,8
+CLM00217,POL00761,2022-09-23,Theft,57458.72,55646.52,Settled,Vandalism - scratches and dents,False,14
+CLM00218,POL00791,2021-05-04,Accident,60630.4,0.0,Rejected,Flood damage during heavy rainfall,False,13
+CLM00219,POL02413,2023-05-16,Fire,63931.39,0.0,Rejected,Vehicle stolen from residential area,False,39
+CLM00220,POL02710,2024-03-08,Natural Disaster,23018.35,0.0,Approved,Front end collision on highway,False,37
+CLM00221,POL01634,2022-04-25,Natural Disaster,818.09,0.0,Rejected,,False,39
+CLM00222,POL01705,2022-11-15,Accident,41686.17,0.0,Rejected,Rear end damage in parking lot,False,3
+CLM00223,POL02898,2022-12-09,Flood,58492.2,43791.11,Settled,Rear end damage in parking lot,False,5
+CLM00224,POL01484,2023-02-10,Natural Disaster,32701.45,0.0,Rejected,Windshield cracked by debris,False,13
+CLM00225,POL02864,2022-07-03,Vandalism,4462.9,0.0,Approved,Front end collision on highway,False,46
+CLM00226,POL02019,2023-01-09,Vandalism,14181.8,0.0,Approved,Windshield cracked by debris,False,47
+CLM00227,POL02883,2023-10-06,Fire,76940.25,0.0,Approved,Windshield cracked by debris,False,19
+CLM00228,POL00565,2020-05-26,Natural Disaster,73373.17,0.0,Rejected,Hit and run incident,False,31
+CLM00229,POL01410,2024-05-15,Natural Disaster,39076.86,48124.47,Settled,Hit and run incident,False,6
+CLM00230,POL01987,2024-07-22,Accident,74319.13,0.0,Pending,Rear end damage in parking lot,False,12
+CLM00231,POL00962,2023-06-22,Accident,60087.76,0.0,Approved,Front end collision on highway,False,19
+CLM00232,POL01887,2024-11-08,Theft,66877.12,0.0,Rejected,Rear end damage in parking lot,False,4
+CLM00233,POL02967,2021-08-21,Accident,49526.09,0.0,Pending,Rear end damage in parking lot,False,45
+CLM00234,POL00850,2021-11-06,Theft,63072.84,0.0,Under Review,Rear end damage in parking lot,False,48
+CLM00235,POL02582,2020-08-29,Fire,61979.22,0.0,Pending,Rear end damage in parking lot,False,30
+CLM00236,POL00166,2023-02-05,Theft,39250.73,0.0,Rejected,Flood damage during heavy rainfall,False,34
+CLM00237,POL01465,2024-08-06,Vandalism,43249.22,39904.67,Settled,Hit and run incident,False,0
+CLM00238,POL01860,2024-09-14,Theft,61549.9,59968.49,Settled,Flood damage during heavy rainfall,True,22
+CLM00239,POL01630,2020-11-29,Natural Disaster,14849.89,0.0,Approved,Vehicle stolen from residential area,False,47
+CLM00240,POL01587,2020-06-21,Theft,13339.62,12227.47,Settled,Flood damage during heavy rainfall,True,46
+CLM00241,POL00418,2024-10-18,Accident,78235.37,63658.11,Settled,Fire damage in garage,False,11
+CLM00242,POL01493,2020-08-01,Vandalism,38296.19,0.0,Under Review,Front end collision on highway,False,37
+CLM00243,POL01321,2024-03-18,Accident,36460.38,0.0,Pending,Front end collision on highway,False,0
+CLM00244,POL02317,2020-12-11,Flood,32373.31,0.0,Approved,Vehicle stolen from residential area,False,4
+CLM00245,POL00600,2020-07-04,Accident,75819.75,0.0,Approved,Flood damage during heavy rainfall,True,2
+CLM00246,POL02111,2024-07-17,Theft,31678.75,0.0,Approved,Fire damage in garage,False,59
+CLM00247,POL02897,2022-10-24,Theft,38174.06,0.0,Pending,Vandalism - scratches and dents,False,49
+CLM00248,POL00457,2020-11-15,Accident,56906.57,0.0,Pending,Vehicle stolen from residential area,False,37
+CLM00249,POL02726,2021-11-01,Vandalism,2572.15,0.0,Under Review,Vandalism - scratches and dents,False,24
+CLM00250,POL02307,2022-06-22,Fire,0.0,0.0,Approved,Windshield cracked by debris,False,41
+CLM00251,POL01440,2022-02-21,Vandalism,20432.17,0.0,Approved,Fire damage in garage,False,0
+CLM00252,POL01591,2021-03-11,Flood,75855.32,0.0,Under Review,,False,31
+CLM00253,POL02432,2024-04-25,Flood,53170.65,46682.84,Settled,,True,24
+CLM00254,POL02092,2024-09-17,Flood,51840.16,0.0,Under Review,Hit and run incident,False,35
+CLM00255,POL02097,2021-03-10,Flood,47590.39,0.0,Rejected,,False,23
+CLM00256,POL01686,2023-02-01,Flood,20167.16,0.0,Rejected,Flood damage during heavy rainfall,False,38
+CLM00257,POL00309,2021-05-25,Vandalism,47555.18,0.0,Approved,Rear end damage in parking lot,False,49
+CLM00258,POL01586,2024-04-18,Flood,45407.52,0.0,Under Review,Rear end damage in parking lot,False,55
+CLM00259,POL01420,2020-05-10,Theft,54806.48,0.0,Approved,,False,7
+CLM00260,POL00820,2023-04-23,Theft,37358.38,0.0,Approved,,False,18
+CLM00261,POL01379,2023-04-16,Natural Disaster,76883.34,0.0,Under Review,Front end collision on highway,False,3
+CLM00262,POL02099,2020-07-13,Fire,38577.39,0.0,Approved,Rear end damage in parking lot,False,13
+CLM00263,POL00986,2020-03-26,Flood,36436.57,0.0,Approved,Windshield cracked by debris,False,6
+CLM00264,POL00732,2021-02-24,Theft,17123.25,0.0,Pending,Hit and run incident,False,39
+CLM00265,POL01870,2024-11-16,Fire,51223.46,0.0,Approved,Flood damage during heavy rainfall,False,29
+CLM00266,POL02183,2020-04-16,Fire,76619.03,0.0,Approved,Windshield cracked by debris,False,47
+CLM00267,POL02075,2024-04-25,Fire,73974.2,0.0,Approved,Hit and run incident,False,26
+CLM00268,POL02433,2022-01-02,Fire,5688.51,0.0,Approved,Hit and run incident,False,31
+CLM00269,POL02042,2024-02-17,Theft,72429.4,51043.77,Settled,,False,55
+CLM00270,POL02444,2021-01-23,Fire,56986.96,0.0,Pending,Vehicle stolen from residential area,False,50
+CLM00271,POL01388,2022-10-12,Fire,67566.94,0.0,Pending,Rear end damage in parking lot,False,22
+CLM00272,POL00231,2021-06-19,Vandalism,49785.45,0.0,Under Review,Vandalism - scratches and dents,False,38
+CLM00273,POL02865,2022-07-01,Accident,31394.0,23854.14,Settled,Hit and run incident,False,41
+CLM00274,POL02138,2022-08-10,Natural Disaster,35098.77,0.0,Under Review,Vehicle stolen from residential area,False,4
+CLM00275,POL00181,2020-08-11,Fire,29332.76,0.0,Approved,Flood damage during heavy rainfall,False,25
+CLM00276,POL00429,2023-03-03,Flood,61758.0,57076.92,Settled,Vehicle stolen from residential area,False,0
+CLM00277,POL00507,2023-06-06,Vandalism,65922.38,55236.44,Settled,Flood damage during heavy rainfall,False,0
+CLM00278,POL02819,2020-11-23,Flood,76760.76,0.0,Pending,,False,19
+CLM00279,POL00845,2020-11-06,Theft,10860.84,0.0,Approved,Windshield cracked by debris,False,23
+CLM00280,POL02352,2021-10-06,Flood,73820.29,0.0,Rejected,,False,26
+CLM00281,POL00852,2023-12-16,Vandalism,8587.74,7357.56,Settled,Flood damage during heavy rainfall,False,34
+CLM00282,POL01623,2024-05-30,Natural Disaster,25843.92,0.0,Approved,Vandalism - scratches and dents,False,36
+CLM00283,POL01254,2023-01-19,Natural Disaster,69942.24,0.0,Under Review,Fire damage in garage,False,25
+CLM00284,POL01362,2024-03-24,Fire,24174.38,0.0,Under Review,Vandalism - scratches and dents,False,44
+CLM00285,POL01789,2020-11-24,Vandalism,0.0,0.0,Rejected,Vehicle stolen from residential area,False,31
+CLM00286,POL01377,2024-08-04,Theft,27773.55,0.0,Under Review,,False,15
+CLM00287,POL01767,2023-11-04,Accident,15525.58,0.0,Under Review,Front end collision on highway,False,38
+CLM00288,POL00070,2021-12-18,Vandalism,0.0,0.0,Under Review,Rear end damage in parking lot,False,35
+CLM00289,POL02881,2021-04-19,Theft,1057.41,864.9,Settled,Front end collision on highway,False,23
+CLM00290,POL00921,2022-05-11,Flood,34845.18,0.0,Rejected,Vehicle stolen from residential area,False,8
+CLM00291,POL01997,2021-11-17,Theft,38708.46,0.0,Rejected,,True,21
+CLM00292,POL00328,2023-02-07,Theft,46568.0,32037.78,Settled,Rear end damage in parking lot,False,20
+CLM00293,POL02939,2021-09-07,Natural Disaster,2141.24,0.0,Rejected,,False,43
+CLM00294,POL01727,2020-02-18,Vandalism,74765.9,0.0,Pending,,False,52
+CLM00295,POL00158,2020-12-06,Natural Disaster,44552.31,0.0,Rejected,Rear end damage in parking lot,False,38
+CLM00296,POL00692,2024-06-11,Theft,59360.93,0.0,Approved,Front end collision on highway,False,3
+CLM00297,POL01112,2021-07-23,Natural Disaster,73187.67,0.0,Pending,Fire damage in garage,True,33
+CLM00298,POL01748,2021-10-06,Natural Disaster,30013.05,24399.29,Settled,Rear end damage in parking lot,False,50
+CLM00299,POL02261,2021-08-06,Accident,35956.51,0.0,Pending,Front end collision on highway,False,44
+CLM00300,POL00579,2020-05-26,Natural Disaster,37909.26,0.0,Approved,Flood damage during heavy rainfall,False,46
+CLM00301,POL00659,2020-07-17,Theft,29422.46,0.0,Under Review,Hit and run incident,False,48
+CLM00302,POL01590,2024-07-27,Flood,48561.22,0.0,Under Review,,True,0
+CLM00303,POL02993,2021-01-08,Accident,64576.52,0.0,Pending,Windshield cracked by debris,False,45
+CLM00304,POL02687,2021-01-29,Theft,74001.49,0.0,Approved,Flood damage during heavy rainfall,True,22
+CLM00305,POL01115,2020-04-10,Vandalism,72799.26,0.0,Pending,Hit and run incident,False,36
+CLM00306,POL02088,2024-03-30,Accident,16923.65,0.0,Pending,Fire damage in garage,False,42
+CLM00307,POL00334,2022-02-05,Vandalism,-4921.95,0.0,Under Review,Rear end damage in parking lot,True,43
+CLM00308,POL01186,2021-10-18,Vandalism,56547.42,0.0,Approved,Rear end damage in parking lot,False,29
+CLM00309,POL00307,2020-07-31,Accident,55949.53,49286.3,Settled,Windshield cracked by debris,False,57
+CLM00310,POL01415,2022-10-28,Fire,54618.51,0.0,Approved,,True,3
+CLM00311,POL02504,2023-02-01,Theft,79228.09,0.0,Pending,Fire damage in garage,False,53
+CLM00312,POL01510,2020-09-17,Accident,27260.66,0.0,Approved,Windshield cracked by debris,False,54
+CLM00313,POL01986,2024-02-19,Vandalism,76883.39,0.0,Rejected,Front end collision on highway,True,2
+CLM00314,POL01198,2024-04-04,Vandalism,25419.06,0.0,Rejected,,False,37
+CLM00315,POL02373,2022-02-07,Flood,23331.91,0.0,Pending,Hit and run incident,False,56
+CLM00316,POL00353,2020-12-31,Natural Disaster,2941.97,0.0,Approved,Vandalism - scratches and dents,False,38
+CLM00317,POL01222,2023-08-22,Natural Disaster,31856.85,25127.86,Settled,Rear end damage in parking lot,False,53
+CLM00318,POL01392,2024-01-19,Fire,71880.35,0.0,Rejected,Fire damage in garage,False,20
+CLM00319,POL01236,2021-12-20,Theft,29385.56,0.0,Approved,Windshield cracked by debris,False,52
+CLM00320,POL02846,2021-03-17,Flood,2945.51,0.0,Approved,,False,58
+CLM00321,POL02089,2024-04-06,Theft,67348.08,0.0,Rejected,Windshield cracked by debris,False,52
+CLM00322,POL01940,2022-07-19,Vandalism,63326.46,0.0,Pending,Vandalism - scratches and dents,False,0
+CLM00323,POL01913,2023-05-08,Theft,68907.89,52706.16,Settled,Vandalism - scratches and dents,False,48
+CLM00324,POL00129,2020-12-17,Theft,23429.09,12378.91,Settled,Front end collision on highway,False,0
+CLM00325,POL01558,2024-09-16,Vandalism,77406.34,0.0,Pending,,False,47
+CLM00326,POL02243,2020-02-27,Natural Disaster,50385.66,0.0,Rejected,,False,48
+CLM00327,POL01397,2021-09-05,Vandalism,18441.32,0.0,Approved,Vehicle stolen from residential area,True,51
+CLM00328,POL01451,2023-02-15,Theft,26869.53,0.0,Under Review,Rear end damage in parking lot,False,25
+CLM00329,POL00103,2021-01-13,Vandalism,5211.98,0.0,Approved,Rear end damage in parking lot,False,49
+CLM00330,POL02081,2021-03-10,Flood,5800.26,0.0,Rejected,Fire damage in garage,False,24
+CLM00331,POL01203,2022-07-28,Fire,22248.32,0.0,Rejected,,False,10
+CLM00332,POL00277,2022-09-02,Fire,65733.14,50800.21,Settled,Vehicle stolen from residential area,False,41
+CLM00333,POL01569,2024-08-09,Flood,-2926.07,0.0,Approved,Hit and run incident,False,57
+CLM00334,POL01646,2021-04-17,Natural Disaster,14330.26,0.0,Approved,Windshield cracked by debris,False,0
+CLM00335,POL00933,2021-12-12,Accident,19852.95,0.0,Pending,Vandalism - scratches and dents,True,53
+CLM00336,POL01468,2021-07-01,Vandalism,20915.21,0.0,Under Review,Rear end damage in parking lot,False,8
+CLM00337,POL00151,2022-11-30,Accident,0.0,0.0,Rejected,,False,48
+CLM00338,POL01206,2020-10-27,Fire,63624.29,0.0,Approved,Vehicle stolen from residential area,False,8
+CLM00339,POL02199,2022-12-06,Theft,73000.26,0.0,Rejected,Rear end damage in parking lot,True,58
+CLM00340,POL00582,2021-12-05,Vandalism,75337.51,0.0,Under Review,Vandalism - scratches and dents,False,0
+CLM00341,POL00717,2021-12-09,Theft,1866.53,996.8,Settled,Flood damage during heavy rainfall,False,1
+CLM00342,POL01309,2022-07-29,Vandalism,55174.62,0.0,Rejected,,False,44
+CLM00343,POL01824,2021-08-07,Theft,68911.11,0.0,Rejected,Fire damage in garage,False,7
+CLM00344,POL02408,2024-09-12,Fire,75599.78,0.0,Rejected,Front end collision on highway,False,16
+CLM00345,POL02472,2020-03-16,Flood,54032.3,0.0,Under Review,Vehicle stolen from residential area,False,48
+CLM00346,POL02168,2023-05-11,Natural Disaster,65188.79,0.0,Rejected,,False,15
+CLM00347,POL00787,2022-09-19,Natural Disaster,857.69,0.0,Pending,Vandalism - scratches and dents,True,1
+CLM00348,POL01424,2021-02-14,Theft,69519.2,0.0,Pending,Windshield cracked by debris,True,9
+CLM00349,POL02302,2020-04-01,Natural Disaster,34469.08,0.0,Under Review,Flood damage during heavy rainfall,False,36
+CLM00350,POL01025,2023-08-29,Natural Disaster,0.0,0.0,Under Review,Vandalism - scratches and dents,False,5
+CLM00351,POL02921,2020-05-03,Flood,23417.37,15756.54,Settled,Fire damage in garage,False,58
+CLM00352,POL01750,2024-02-28,Natural Disaster,5374.81,0.0,Pending,Rear end damage in parking lot,False,30
+CLM00353,POL01860,2021-02-28,Vandalism,21077.36,0.0,Approved,Hit and run incident,False,36
+CLM00354,POL01899,2022-11-28,Fire,8367.24,0.0,Under Review,Hit and run incident,False,6
+CLM00355,POL01876,2023-08-11,Fire,33085.28,0.0,Rejected,,False,41
+CLM00356,POL02431,2020-05-26,Flood,10559.46,9065.01,Settled,,False,48
+CLM00357,POL00933,2022-10-16,Theft,28074.15,14386.99,Settled,Fire damage in garage,False,27
+CLM00358,POL01498,2020-12-07,Fire,17921.48,0.0,Pending,Rear end damage in parking lot,False,52
+CLM00359,POL01726,2020-07-04,Vandalism,38490.24,0.0,Rejected,Flood damage during heavy rainfall,False,30
+CLM00360,POL02687,2020-10-01,Natural Disaster,60876.25,0.0,Approved,Front end collision on highway,False,54
+CLM00361,POL01734,2021-05-06,Vandalism,68725.96,0.0,Approved,Fire damage in garage,False,42
+CLM00362,POL00030,2023-07-21,Theft,5570.6,0.0,Pending,Windshield cracked by debris,False,10
+CLM00363,POL02344,2020-01-20,Theft,69641.86,0.0,Pending,Windshield cracked by debris,False,14
+CLM00364,POL00837,2024-01-18,Accident,18050.72,0.0,Rejected,Fire damage in garage,False,22
+CLM00365,POL00536,2024-08-12,Flood,26380.83,0.0,Under Review,Front end collision on highway,False,48
+CLM00366,POL02233,2020-12-13,Accident,20668.84,0.0,Under Review,Front end collision on highway,False,58
+CLM00367,POL00525,2023-10-01,Fire,22700.24,0.0,Rejected,,False,7
+CLM00368,POL00379,2022-09-25,Flood,17641.7,0.0,Rejected,Windshield cracked by debris,False,44
+CLM00369,POL00075,2023-10-04,Natural Disaster,45630.87,0.0,Approved,Fire damage in garage,False,60
+CLM00370,POL02595,2021-06-21,Flood,63422.32,0.0,Pending,Vandalism - scratches and dents,False,15
+CLM00371,POL00794,2021-03-19,Flood,34800.74,22624.04,Settled,Rear end damage in parking lot,False,50
+CLM00372,POL01214,2021-12-05,Vandalism,73928.81,0.0,Approved,Vandalism - scratches and dents,False,0
+CLM00373,POL00238,2020-05-26,Flood,48512.76,0.0,Under Review,Rear end damage in parking lot,False,54
+CLM00374,POL01580,2020-01-31,Theft,40168.7,37932.21,Settled,Hit and run incident,False,22
+CLM00375,POL00087,2020-02-21,Natural Disaster,44154.3,0.0,Rejected,Fire damage in garage,False,26
+CLM00376,POL00493,2022-09-01,Accident,65959.4,0.0,Pending,Front end collision on highway,False,0
+CLM00377,POL02365,2020-12-17,Natural Disaster,26333.45,0.0,Approved,Windshield cracked by debris,False,23
+CLM00378,POL01069,2020-10-28,Natural Disaster,50076.63,38876.02,Settled,Hit and run incident,True,6
+CLM00379,POL01025,2023-05-30,Accident,56637.87,0.0,Approved,Vehicle stolen from residential area,False,42
+CLM00380,POL01578,2021-07-25,Natural Disaster,43414.69,0.0,Pending,Flood damage during heavy rainfall,False,38
+CLM00381,POL01527,2023-04-22,Flood,11912.14,0.0,Under Review,,False,0
+CLM00382,POL00033,2022-02-26,Fire,51517.02,0.0,Approved,,False,43
+CLM00383,POL02066,2022-07-29,Fire,47295.03,0.0,Under Review,Fire damage in garage,False,20
+CLM00384,POL00967,2024-07-14,Flood,34318.68,0.0,Pending,Flood damage during heavy rainfall,False,15
+CLM00385,POL00344,2020-03-22,Vandalism,27600.7,25243.17,Settled,,False,59
+CLM00386,POL02858,2023-05-10,Natural Disaster,63239.01,0.0,Under Review,,False,48
+CLM00387,POL02060,2022-09-10,Vandalism,74657.15,0.0,Rejected,Flood damage during heavy rainfall,False,0
+CLM00388,POL01149,2024-04-22,Accident,3848.21,0.0,Under Review,Vehicle stolen from residential area,False,11
+CLM00389,POL01946,2020-02-21,Flood,68596.77,0.0,Under Review,Rear end damage in parking lot,True,32
+CLM00390,POL02606,2022-06-27,Natural Disaster,45011.52,0.0,Pending,Front end collision on highway,False,33
+CLM00391,POL00455,2024-08-12,Theft,40738.88,0.0,Approved,Windshield cracked by debris,False,38
+CLM00392,POL01014,2022-06-22,Accident,27114.63,0.0,Rejected,Front end collision on highway,False,11
+CLM00393,POL00597,2024-09-27,Accident,60446.81,0.0,Pending,Vandalism - scratches and dents,False,17
+CLM00394,POL01220,2021-01-30,Flood,1951.82,0.0,Under Review,Fire damage in garage,True,40
+CLM00395,POL01080,2021-05-14,Accident,54684.59,0.0,Under Review,,True,10
+CLM00396,POL01644,2024-11-10,Accident,28545.3,17955.65,Settled,Rear end damage in parking lot,False,19
+CLM00397,POL01577,2023-09-14,Flood,37545.61,0.0,Pending,Vehicle stolen from residential area,False,35
+CLM00398,POL00903,2023-05-17,Fire,64735.3,62801.98,Settled,Windshield cracked by debris,True,45
+CLM00399,POL01576,2020-11-17,Accident,16430.35,0.0,Rejected,Hit and run incident,False,0
+CLM00400,POL02291,2022-09-27,Natural Disaster,54271.97,0.0,Pending,Rear end damage in parking lot,False,34
+CLM00401,POL01734,2021-08-12,Flood,24584.1,0.0,Pending,,False,7
+CLM00402,POL00193,2021-09-16,Vandalism,22671.36,0.0,Pending,Fire damage in garage,False,15
+CLM00403,POL02480,2024-03-19,Flood,42159.25,0.0,Pending,Hit and run incident,False,13
+CLM00404,POL02383,2020-03-19,Fire,24493.48,0.0,Approved,,False,0
+CLM00405,POL00241,2023-08-29,Natural Disaster,17013.0,0.0,Rejected,Vandalism - scratches and dents,False,40
+CLM00406,POL01333,2020-12-08,Flood,13791.11,9163.12,Settled,Vandalism - scratches and dents,False,54
+CLM00407,POL00065,2021-09-21,Theft,60605.43,0.0,Under Review,,False,48
+CLM00408,POL02777,2020-05-05,Fire,2505.71,0.0,Rejected,Rear end damage in parking lot,False,51
+CLM00409,POL00829,2020-04-04,Flood,66635.06,36130.68,Settled,Hit and run incident,True,0
+CLM00410,POL00924,2022-09-18,Flood,61738.21,0.0,Pending,Rear end damage in parking lot,False,28
+CLM00411,POL00835,2021-10-13,Natural Disaster,69725.56,0.0,Rejected,Vehicle stolen from residential area,False,0
+CLM00412,POL00717,2024-04-19,Vandalism,37221.18,22970.88,Settled,Flood damage during heavy rainfall,False,5
+CLM00413,POL00859,2021-03-08,Natural Disaster,60575.5,0.0,Under Review,Hit and run incident,False,11
+CLM00414,POL01556,2024-06-15,Accident,14690.62,0.0,Rejected,Vandalism - scratches and dents,False,51
+CLM00415,POL02507,2021-05-31,Vandalism,28658.85,21197.53,Settled,Hit and run incident,False,12
+CLM00416,POL02618,2023-04-20,Natural Disaster,53533.47,0.0,Pending,Flood damage during heavy rainfall,False,60
+CLM00417,POL01113,2023-07-08,Natural Disaster,19899.89,0.0,Approved,Windshield cracked by debris,False,1
+CLM00418,POL01654,2023-11-10,Flood,79154.57,0.0,Approved,Rear end damage in parking lot,False,49
+CLM00419,POL00976,2021-05-23,Fire,59828.86,0.0,Pending,Rear end damage in parking lot,False,48
+CLM00420,POL02303,2022-10-02,Flood,66353.79,0.0,Rejected,Fire damage in garage,False,23
+CLM00421,POL02331,2021-01-23,Accident,66000.91,0.0,Approved,,False,51
+CLM00422,POL02382,2023-06-28,Natural Disaster,54103.05,0.0,Pending,Vandalism - scratches and dents,False,57
+CLM00423,POL02352,2024-08-04,Vandalism,0.0,0.0,Rejected,Flood damage during heavy rainfall,False,0
+CLM00424,POL00644,2020-05-25,Flood,9770.69,0.0,Under Review,Flood damage during heavy rainfall,False,45
+CLM00425,POL02663,2024-10-08,Vandalism,29695.36,0.0,Pending,Fire damage in garage,False,40
+CLM00426,POL02095,2021-11-30,Flood,53891.61,53555.32,Settled,Front end collision on highway,True,28
+CLM00427,POL00122,2020-09-06,Fire,37985.54,0.0,Under Review,Rear end damage in parking lot,False,25
+CLM00428,POL01536,2022-04-11,Flood,4351.85,2915.53,Settled,Flood damage during heavy rainfall,False,4
+CLM00429,POL01314,2020-01-09,Fire,79393.0,53616.37,Settled,Vandalism - scratches and dents,False,42
+CLM00430,POL01819,2022-09-05,Accident,13313.32,0.0,Under Review,Hit and run incident,False,23
+CLM00431,POL02289,2021-12-28,Natural Disaster,-139.35,0.0,Pending,Fire damage in garage,False,48
+CLM00432,POL01285,2023-10-28,Accident,14955.72,0.0,Approved,,False,44
+CLM00433,POL02040,2020-09-18,Flood,6658.45,0.0,Approved,Rear end damage in parking lot,False,25
+CLM00434,POL00394,2024-08-19,Vandalism,59204.25,0.0,Rejected,Hit and run incident,False,0
+CLM00435,POL01910,2024-03-02,Theft,77708.51,105011.34,Settled,,True,13
+CLM00436,POL00306,2023-10-23,Natural Disaster,58010.88,53988.41,Settled,Windshield cracked by debris,False,40
+CLM00437,POL01461,2024-12-09,Theft,54993.08,0.0,Pending,Hit and run incident,False,50
+CLM00438,POL02129,2020-04-04,Flood,59973.7,0.0,Rejected,Windshield cracked by debris,False,26
+CLM00439,POL02350,2022-09-18,Vandalism,18457.4,0.0,Pending,Rear end damage in parking lot,False,44
+CLM00440,POL02272,2020-06-15,Natural Disaster,41270.67,0.0,Approved,Windshield cracked by debris,False,59
+CLM00441,POL02133,2020-01-07,Flood,36983.7,0.0,Under Review,Windshield cracked by debris,False,3
+CLM00442,POL00359,2020-01-21,Accident,-3566.74,-1986.11,Settled,,False,9
+CLM00443,POL00237,2022-04-13,Flood,31710.69,0.0,Pending,Vandalism - scratches and dents,False,7
+CLM00444,POL02239,2024-10-14,Fire,19770.19,0.0,Pending,Hit and run incident,False,2
+CLM00445,POL02175,2023-06-17,Vandalism,49648.91,0.0,Under Review,Fire damage in garage,False,35
+CLM00446,POL02895,2023-08-07,Flood,4940.9,0.0,Approved,Rear end damage in parking lot,False,40
+CLM00447,POL00795,2021-11-09,Natural Disaster,30006.32,0.0,Rejected,,False,54
+CLM00448,POL00339,2021-12-31,Fire,-747.18,0.0,Under Review,Windshield cracked by debris,False,55
+CLM00449,POL00118,2024-04-27,Flood,70169.92,0.0,Pending,Vandalism - scratches and dents,False,52
+CLM00450,POL01899,2021-06-25,Flood,30770.19,0.0,Approved,Vandalism - scratches and dents,False,3
+CLM00451,POL02905,2024-04-07,Accident,78007.4,43102.55,Settled,Rear end damage in parking lot,False,18
+CLM00452,POL00419,2024-11-20,Natural Disaster,56382.18,0.0,Approved,Vehicle stolen from residential area,False,28
+CLM00453,POL01050,2022-03-24,Theft,70997.75,0.0,Rejected,Hit and run incident,False,56
+CLM00454,POL01785,2022-10-09,Vandalism,30093.65,0.0,Approved,Vehicle stolen from residential area,False,35
+CLM00455,POL02256,2020-07-31,Fire,78939.98,0.0,Under Review,Flood damage during heavy rainfall,True,29
+CLM00456,POL02098,2020-03-17,Vandalism,0.0,0.0,Pending,Front end collision on highway,False,49
+CLM00457,POL02824,2020-05-07,Vandalism,67223.19,0.0,Pending,Flood damage during heavy rainfall,False,33
+CLM00458,POL02573,2023-12-03,Vandalism,77275.87,0.0,Under Review,Vehicle stolen from residential area,False,28
+CLM00459,POL00527,2021-01-11,Vandalism,19126.67,0.0,Under Review,,False,29
+CLM00460,POL00290,2023-07-02,Fire,19041.05,0.0,Rejected,Vandalism - scratches and dents,False,18
+CLM00461,POL01803,2023-08-04,Natural Disaster,17993.7,0.0,Under Review,Flood damage during heavy rainfall,False,34
+CLM00462,POL01921,2024-12-19,Flood,64272.66,48606.83,Settled,,False,41
+CLM00463,POL01307,2021-08-12,Theft,11402.89,0.0,Pending,Vandalism - scratches and dents,True,4
+CLM00464,POL00156,2022-09-17,Natural Disaster,15224.69,0.0,Approved,Windshield cracked by debris,False,27
+CLM00465,POL02605,2023-08-11,Theft,-4772.33,0.0,Pending,Flood damage during heavy rainfall,False,16
+CLM00466,POL00634,2021-12-10,Accident,55804.75,28714.34,Settled,Rear end damage in parking lot,False,23
+CLM00467,POL01397,2024-11-18,Flood,-4461.52,0.0,Approved,Windshield cracked by debris,False,43
+CLM00468,POL02784,2024-09-08,Accident,35855.26,0.0,Under Review,Front end collision on highway,False,4
+CLM00469,POL02491,2022-01-03,Fire,31378.25,0.0,Rejected,,False,9
+CLM00470,POL02623,2024-04-01,Natural Disaster,54685.67,28056.63,Settled,Hit and run incident,True,10
+CLM00471,POL01977,2023-04-12,Natural Disaster,7147.22,0.0,Pending,Hit and run incident,False,21
+CLM00472,POL02647,2024-01-16,Natural Disaster,60628.5,0.0,Pending,Windshield cracked by debris,False,57
+CLM00473,POL02413,2021-03-13,Accident,65753.95,0.0,Approved,Vandalism - scratches and dents,False,12
+CLM00474,POL02053,2023-05-31,Natural Disaster,6408.61,0.0,Pending,Hit and run incident,False,31
+CLM00475,POL01716,2022-06-23,Natural Disaster,43242.01,0.0,Pending,Hit and run incident,False,44
+CLM00476,POL02047,2022-07-31,Natural Disaster,54118.79,0.0,Rejected,Windshield cracked by debris,False,34
+CLM00477,POL02468,2020-09-27,Theft,46718.27,36968.04,Settled,Rear end damage in parking lot,False,43
+CLM00478,POL02955,2021-05-24,Theft,66250.06,0.0,Under Review,Vehicle stolen from residential area,False,53
+CLM00479,POL00634,2023-08-16,Fire,0.0,0.0,Pending,Vehicle stolen from residential area,False,52
+CLM00480,POL00597,2021-12-24,Flood,60918.2,0.0,Pending,Windshield cracked by debris,False,8
+CLM00481,POL01286,2020-10-18,Accident,57720.99,0.0,Pending,Vandalism - scratches and dents,False,19
+CLM00482,POL02663,2024-11-02,Theft,56649.51,0.0,Under Review,Flood damage during heavy rainfall,False,37
+CLM00483,POL01467,2023-04-16,Theft,38222.15,29088.08,Settled,Flood damage during heavy rainfall,False,6
+CLM00484,POL01573,2021-06-24,Natural Disaster,12315.07,0.0,Approved,Flood damage during heavy rainfall,False,52
+CLM00485,POL02442,2023-03-28,Fire,41864.52,0.0,Rejected,Windshield cracked by debris,False,2
+CLM00486,POL02750,2024-03-30,Theft,33996.15,0.0,Rejected,Flood damage during heavy rainfall,False,2
+CLM00487,POL01107,2024-10-10,Flood,-1799.49,0.0,Approved,Rear end damage in parking lot,False,60
+CLM00488,POL02758,2023-02-08,Accident,7157.22,0.0,Pending,Fire damage in garage,False,8
+CLM00489,POL01996,2024-03-07,Fire,-2471.86,0.0,Approved,Front end collision on highway,False,59
+CLM00490,POL02205,2024-08-16,Accident,33239.35,0.0,Under Review,Flood damage during heavy rainfall,False,48
+CLM00491,POL00153,2023-09-12,Vandalism,32118.96,0.0,Pending,Hit and run incident,False,44
+CLM00492,POL02698,2020-08-29,Natural Disaster,51085.4,0.0,Pending,Windshield cracked by debris,False,52
+CLM00493,POL02096,2020-06-11,Fire,78455.43,0.0,Pending,Windshield cracked by debris,True,54
+CLM00494,POL00554,2021-09-25,Flood,-497.39,-593.3,Settled,Rear end damage in parking lot,False,24
+CLM00495,POL00741,2022-04-02,Vandalism,61411.44,0.0,Rejected,Hit and run incident,False,26
+CLM00496,POL00688,2024-06-13,Vandalism,65657.41,0.0,Rejected,Rear end damage in parking lot,False,20
+CLM00497,POL02668,2021-08-19,Fire,7793.44,0.0,Rejected,Flood damage during heavy rainfall,False,29
+CLM00498,POL00179,2022-02-28,Theft,16640.53,0.0,Pending,Vehicle stolen from residential area,False,31
+CLM00499,POL02721,2022-07-12,Accident,48424.03,39337.74,Settled,Rear end damage in parking lot,False,48
+CLM00500,POL00001,2023-08-28,Accident,51257.52,0.0,Under Review,Hit and run incident,True,16
+CLM00501,POL01472,2022-05-06,Flood,48179.07,0.0,Rejected,Hit and run incident,False,2
+CLM00502,POL01356,2023-02-04,Flood,66612.58,0.0,Rejected,Vandalism - scratches and dents,False,54
+CLM00503,POL00761,2020-06-10,Natural Disaster,-1571.87,0.0,Approved,,False,36
+CLM00504,POL02823,2020-08-02,Vandalism,62881.89,0.0,Approved,Windshield cracked by debris,False,57
+CLM00505,POL00791,2020-06-13,Flood,27819.72,18432.59,Settled,Rear end damage in parking lot,False,0
+CLM00506,POL00215,2022-08-07,Fire,42148.26,0.0,Under Review,Vandalism - scratches and dents,False,21
+CLM00507,POL01667,2020-01-10,Fire,54408.28,0.0,Approved,Vandalism - scratches and dents,False,44
+CLM00508,POL00059,2022-02-27,Fire,46048.03,0.0,Rejected,Hit and run incident,False,56
+CLM00509,POL01036,2022-09-04,Flood,27758.4,0.0,Under Review,Windshield cracked by debris,True,46
+CLM00510,POL00871,2021-01-26,Fire,872.37,0.0,Under Review,Vehicle stolen from residential area,False,2
+CLM00511,POL02811,2024-05-28,Natural Disaster,46112.92,0.0,Under Review,Vehicle stolen from residential area,False,20
+CLM00512,POL01788,2024-01-05,Flood,77389.83,0.0,Under Review,,False,17
+CLM00513,POL02035,2021-01-18,Natural Disaster,13121.47,0.0,Rejected,Vehicle stolen from residential area,False,47
+CLM00514,POL01538,2020-07-29,Vandalism,67611.79,0.0,Approved,Front end collision on highway,False,17
+CLM00515,POL01028,2024-02-28,Flood,34956.64,0.0,Approved,Front end collision on highway,False,52
+CLM00516,POL01249,2023-02-14,Theft,77422.25,0.0,Approved,Vandalism - scratches and dents,False,4
+CLM00517,POL02826,2024-11-24,Fire,75849.15,41994.05,Settled,Hit and run incident,False,46
+CLM00518,POL00831,2024-01-09,Accident,52275.01,0.0,Rejected,Front end collision on highway,False,58
+CLM00519,POL01589,2023-12-29,Vandalism,76128.71,0.0,Under Review,Vandalism - scratches and dents,False,55
+CLM00520,POL02754,2020-11-04,Natural Disaster,9369.24,0.0,Under Review,Fire damage in garage,False,42
+CLM00521,POL00563,2023-03-28,Accident,20315.31,0.0,Pending,Vandalism - scratches and dents,False,13
+CLM00522,POL00331,2020-05-09,Theft,37154.59,0.0,Rejected,Windshield cracked by debris,False,9
+CLM00523,POL01075,2022-09-25,Theft,78884.34,44061.67,Settled,Front end collision on highway,False,0
+CLM00524,POL00366,2020-03-12,Fire,710.58,0.0,Pending,Windshield cracked by debris,False,4
+CLM00525,POL00311,2022-08-12,Vandalism,54070.8,0.0,Under Review,Hit and run incident,False,25
+CLM00526,POL02407,2023-06-26,Natural Disaster,-2080.58,0.0,Pending,Vandalism - scratches and dents,False,55
+CLM00527,POL00974,2020-11-24,Fire,3235.08,2555.2,Settled,,False,25
+CLM00528,POL02885,2020-01-31,Fire,-2204.0,0.0,Rejected,Front end collision on highway,False,0
+CLM00529,POL02082,2020-10-20,Theft,29528.72,25960.64,Settled,Vandalism - scratches and dents,False,41
+CLM00530,POL00364,2023-10-13,Theft,63427.6,0.0,Pending,Flood damage during heavy rainfall,False,54
+CLM00531,POL02427,2020-02-18,Accident,55276.08,0.0,Under Review,Fire damage in garage,False,41
+CLM00532,POL00915,2022-08-02,Accident,31596.8,0.0,Pending,Hit and run incident,False,50
+CLM00533,POL00771,2020-02-10,Flood,73463.78,0.0,Rejected,Front end collision on highway,False,34
+CLM00534,POL01629,2020-03-19,Flood,22030.18,0.0,Rejected,Vehicle stolen from residential area,False,38
+CLM00535,POL00014,2022-03-15,Theft,24665.78,0.0,Pending,Front end collision on highway,False,54
+CLM00536,POL02073,2022-08-26,Accident,7806.32,0.0,Approved,Rear end damage in parking lot,False,22
+CLM00537,POL01744,2023-02-19,Theft,48360.58,0.0,Rejected,Front end collision on highway,False,13
+CLM00538,POL01994,2022-08-26,Fire,18265.82,0.0,Approved,Vandalism - scratches and dents,False,8
+CLM00539,POL01403,2023-03-29,Vandalism,16903.8,0.0,Approved,Windshield cracked by debris,False,36
+CLM00540,POL02788,2022-04-07,Flood,25274.27,0.0,Under Review,Flood damage during heavy rainfall,False,27
+CLM00541,POL01176,2022-03-03,Natural Disaster,63390.94,0.0,Pending,Vandalism - scratches and dents,False,46
+CLM00542,POL00970,2024-02-22,Accident,38802.76,0.0,Approved,Flood damage during heavy rainfall,False,2
+CLM00543,POL02674,2024-08-12,Fire,18290.15,16143.99,Settled,,False,59
+CLM00544,POL00399,2020-07-02,Flood,27273.57,0.0,Pending,Flood damage during heavy rainfall,False,5
+CLM00545,POL01515,2024-12-02,Flood,51625.53,0.0,Pending,Windshield cracked by debris,False,20
+CLM00546,POL02908,2020-06-13,Vandalism,40710.61,0.0,Under Review,,False,10
+CLM00547,POL02019,2020-05-10,Flood,27842.83,0.0,Rejected,Windshield cracked by debris,False,16
+CLM00548,POL00109,2024-05-08,Natural Disaster,32037.04,0.0,Pending,Fire damage in garage,False,34
+CLM00549,POL00735,2021-02-01,Flood,6423.73,0.0,Rejected,Flood damage during heavy rainfall,False,34
+CLM00550,POL01133,2023-12-13,Flood,-2177.44,0.0,Pending,,False,25
+CLM00551,POL00397,2022-07-27,Natural Disaster,66748.51,0.0,Rejected,Front end collision on highway,True,30
+CLM00552,POL02771,2020-09-13,Vandalism,72572.5,46085.96,Settled,Flood damage during heavy rainfall,False,2
+CLM00553,POL02346,2020-08-13,Accident,5288.63,0.0,Approved,Front end collision on highway,False,30
+CLM00554,POL02877,2022-05-28,Vandalism,62111.99,0.0,Rejected,Windshield cracked by debris,False,48
+CLM00555,POL00791,2020-01-02,Natural Disaster,74475.5,0.0,Approved,Windshield cracked by debris,False,2
+CLM00556,POL01026,2020-09-20,Fire,21378.96,0.0,Approved,,False,26
+CLM00557,POL00520,2020-04-08,Flood,7408.18,4885.18,Settled,Rear end damage in parking lot,False,47
+CLM00558,POL00640,2021-06-30,Fire,16068.68,0.0,Approved,Windshield cracked by debris,False,39
+CLM00559,POL00622,2022-10-24,Accident,68367.11,0.0,Approved,Windshield cracked by debris,False,4
+CLM00560,POL02026,2021-06-27,Natural Disaster,21217.15,15914.19,Settled,Vandalism - scratches and dents,False,20
+CLM00561,POL00480,2022-01-11,Flood,32884.53,0.0,Rejected,Windshield cracked by debris,False,57
+CLM00562,POL00665,2021-10-05,Accident,0.0,0.0,Pending,Flood damage during heavy rainfall,False,40
+CLM00563,POL00273,2024-06-30,Natural Disaster,51123.4,0.0,Rejected,Windshield cracked by debris,False,11
+CLM00564,POL02364,2021-04-21,Natural Disaster,26741.46,0.0,Approved,Vandalism - scratches and dents,False,60
+CLM00565,POL01944,2022-01-21,Natural Disaster,48738.8,0.0,Approved,Windshield cracked by debris,False,32
+CLM00566,POL00037,2024-03-03,Theft,49816.82,0.0,Rejected,Rear end damage in parking lot,False,46
+CLM00567,POL00477,2021-02-20,Natural Disaster,31236.07,0.0,Rejected,Fire damage in garage,False,3
+CLM00568,POL00617,2021-01-20,Vandalism,49274.4,39856.78,Settled,,False,42
+CLM00569,POL01320,2021-11-07,Natural Disaster,40191.83,0.0,Rejected,,False,29
+CLM00570,POL00089,2022-05-04,Natural Disaster,27019.7,14658.77,Settled,Fire damage in garage,False,18
+CLM00571,POL02117,2021-01-21,Flood,-2945.99,0.0,Rejected,Flood damage during heavy rainfall,False,47
+CLM00572,POL00679,2024-07-27,Theft,39391.75,0.0,Pending,Hit and run incident,False,6
+CLM00573,POL00438,2020-12-28,Flood,73652.6,0.0,Under Review,Windshield cracked by debris,False,0
+CLM00574,POL02259,2020-01-28,Natural Disaster,45157.11,26552.08,Settled,Hit and run incident,False,59
+CLM00575,POL01530,2023-09-11,Vandalism,67326.77,49966.32,Settled,Windshield cracked by debris,False,0
+CLM00576,POL00186,2020-04-22,Accident,67895.6,0.0,Under Review,Fire damage in garage,False,7
+CLM00577,POL00665,2023-04-15,Natural Disaster,67479.35,0.0,Pending,,False,60
+CLM00578,POL01404,2023-05-03,Vandalism,49342.47,0.0,Approved,Windshield cracked by debris,False,59
+CLM00579,POL01625,2023-05-29,Natural Disaster,52501.13,0.0,Approved,Hit and run incident,False,28
+CLM00580,POL02756,2022-11-12,Theft,69778.46,0.0,Approved,Flood damage during heavy rainfall,False,8
+CLM00581,POL00548,2020-07-12,Flood,1156.4,0.0,Under Review,Vandalism - scratches and dents,False,10
+CLM00582,POL00376,2023-07-20,Natural Disaster,62417.13,57374.25,Settled,Hit and run incident,False,2
+CLM00583,POL00620,2024-06-30,Vandalism,53192.73,0.0,Pending,Fire damage in garage,False,52
+CLM00584,POL02114,2020-04-23,Accident,40626.92,33917.99,Settled,Rear end damage in parking lot,False,48
+CLM00585,POL01663,2020-07-25,Accident,73049.86,0.0,Under Review,Vandalism - scratches and dents,False,53
+CLM00586,POL02760,2023-10-01,Accident,56905.43,0.0,Approved,Fire damage in garage,False,17
+CLM00587,POL01364,2022-03-05,Fire,20478.22,0.0,Under Review,Windshield cracked by debris,False,43
+CLM00588,POL01433,2022-12-25,Theft,64119.87,50822.99,Settled,,False,9
+CLM00589,POL01507,2023-01-30,Accident,19908.09,0.0,Under Review,Vehicle stolen from residential area,False,21
+CLM00590,POL02813,2020-03-21,Fire,12509.52,0.0,Approved,Vehicle stolen from residential area,False,30
+CLM00591,POL01855,2021-04-04,Theft,18571.61,0.0,Rejected,Rear end damage in parking lot,True,3
+CLM00592,POL00666,2020-10-24,Accident,24548.83,18627.97,Settled,Front end collision on highway,False,49
+CLM00593,POL02229,2022-03-16,Flood,75815.3,0.0,Approved,Windshield cracked by debris,False,48
+CLM00594,POL01826,2024-05-02,Natural Disaster,39909.01,39168.04,Settled,Vehicle stolen from residential area,False,50
+CLM00595,POL02155,2024-01-13,Theft,7010.64,0.0,Approved,Fire damage in garage,False,3
+CLM00596,POL01251,2023-10-20,Theft,61219.14,0.0,Rejected,Windshield cracked by debris,False,59
+CLM00597,POL02344,2023-11-30,Fire,34158.15,0.0,Rejected,Windshield cracked by debris,False,32
+CLM00598,POL01237,2021-11-04,Flood,19800.75,11174.52,Settled,Fire damage in garage,False,24
+CLM00599,POL01380,2021-11-07,Theft,1949.5,0.0,Under Review,Fire damage in garage,False,28
+CLM00600,POL00700,2024-02-16,Flood,22662.5,0.0,Approved,Hit and run incident,False,47
+CLM00601,POL00949,2024-10-14,Theft,71295.37,0.0,Approved,Vehicle stolen from residential area,False,2
+CLM00602,POL00565,2023-11-17,Flood,47979.11,0.0,Under Review,Fire damage in garage,False,0
+CLM00603,POL02988,2021-08-18,Accident,68378.89,64554.73,Settled,Vehicle stolen from residential area,False,18
+CLM00604,POL01953,2023-07-05,Vandalism,41475.42,30737.21,Settled,Windshield cracked by debris,False,53
+CLM00605,POL01122,2022-03-26,Theft,43769.59,36938.16,Settled,Flood damage during heavy rainfall,False,11
+CLM00606,POL00547,2024-09-28,Fire,34663.6,0.0,Approved,Vehicle stolen from residential area,False,39
+CLM00607,POL01881,2022-06-16,Theft,0.0,0.0,Approved,Vehicle stolen from residential area,False,44
+CLM00608,POL00612,2023-01-23,Vandalism,3778.54,0.0,Rejected,Flood damage during heavy rainfall,False,0
+CLM00609,POL02887,2024-10-30,Fire,63942.49,0.0,Approved,Fire damage in garage,True,42
+CLM00610,POL02787,2021-11-06,Accident,26686.79,25275.68,Settled,Front end collision on highway,False,14
+CLM00611,POL02529,2022-04-10,Vandalism,55273.79,52940.37,Settled,Vehicle stolen from residential area,False,48
+CLM00612,POL02500,2021-07-22,Theft,57305.04,0.0,Rejected,Fire damage in garage,False,5
+CLM00613,POL02293,2020-08-15,Natural Disaster,-3415.19,0.0,Approved,Fire damage in garage,False,37
+CLM00614,POL01015,2021-08-20,Accident,7542.18,5490.21,Settled,Fire damage in garage,False,21
+CLM00615,POL00550,2020-02-25,Theft,79970.43,55484.2,Settled,Vehicle stolen from residential area,False,16
+CLM00616,POL00659,2021-11-17,Natural Disaster,45995.62,34442.46,Settled,Fire damage in garage,False,24
+CLM00617,POL02157,2024-08-06,Fire,15409.96,0.0,Rejected,,False,9
+CLM00618,POL02663,2023-06-14,Flood,75001.98,0.0,Under Review,Fire damage in garage,False,7
+CLM00619,POL02463,2023-09-15,Theft,14394.72,0.0,Approved,,False,12
+CLM00620,POL02583,2022-07-12,Accident,63505.61,61143.72,Settled,Hit and run incident,True,5
+CLM00621,POL02628,2021-08-06,Flood,18064.78,0.0,Rejected,Vehicle stolen from residential area,False,26
+CLM00622,POL00548,2024-01-31,Theft,8673.97,8380.73,Settled,Rear end damage in parking lot,False,33
+CLM00623,POL01376,2024-06-08,Accident,14180.02,0.0,Rejected,Rear end damage in parking lot,False,20
+CLM00624,POL01096,2023-03-04,Theft,40241.78,0.0,Pending,Rear end damage in parking lot,False,15
+CLM00625,POL00805,2023-02-15,Natural Disaster,0.0,0.0,Approved,Front end collision on highway,False,18
+CLM00626,POL01021,2023-10-18,Fire,64152.46,0.0,Under Review,Front end collision on highway,False,53
+CLM00627,POL02043,2020-12-13,Flood,65034.85,0.0,Under Review,Vehicle stolen from residential area,False,43
+CLM00628,POL01374,2020-07-30,Flood,16586.41,0.0,Rejected,Windshield cracked by debris,False,24
+CLM00629,POL00334,2020-02-08,Fire,71818.78,0.0,Rejected,,False,54
+CLM00630,POL00653,2024-10-12,Theft,12084.48,0.0,Approved,Flood damage during heavy rainfall,False,37
+CLM00631,POL00089,2024-08-27,Vandalism,10535.84,0.0,Approved,Vehicle stolen from residential area,False,57
+CLM00632,POL00267,2022-03-28,Theft,57020.37,0.0,Approved,Fire damage in garage,False,0
+CLM00633,POL00477,2020-08-15,Accident,18589.53,0.0,Under Review,Vandalism - scratches and dents,False,24
+CLM00634,POL00549,2024-02-24,Accident,70966.87,0.0,Under Review,Hit and run incident,False,3
+CLM00635,POL00235,2023-04-27,Flood,78706.93,0.0,Under Review,Vandalism - scratches and dents,True,15
+CLM00636,POL02891,2020-09-20,Fire,69575.12,41375.95,Settled,Flood damage during heavy rainfall,False,41
+CLM00637,POL00829,2022-06-21,Fire,31123.48,0.0,Under Review,Flood damage during heavy rainfall,False,6
+CLM00638,POL01297,2024-07-13,Flood,0.0,0.0,Pending,Flood damage during heavy rainfall,False,0
+CLM00639,POL00608,2024-07-22,Natural Disaster,8234.9,0.0,Rejected,Flood damage during heavy rainfall,False,48
+CLM00640,POL02018,2020-02-19,Theft,20271.78,0.0,Approved,Fire damage in garage,False,50
+CLM00641,POL00018,2023-05-28,Vandalism,56937.28,0.0,Rejected,Hit and run incident,False,3
+CLM00642,POL01526,2021-04-05,Vandalism,29415.71,24877.8,Settled,Front end collision on highway,False,49
+CLM00643,POL01925,2023-03-02,Natural Disaster,38863.71,0.0,Pending,Vehicle stolen from residential area,False,27
+CLM00644,POL02521,2020-05-30,Natural Disaster,50361.65,0.0,Under Review,Rear end damage in parking lot,False,4
+CLM00645,POL02992,2024-04-08,Natural Disaster,0.0,0.0,Approved,Front end collision on highway,True,7
+CLM00646,POL02463,2021-11-29,Vandalism,33687.0,0.0,Approved,Flood damage during heavy rainfall,False,0
+CLM00647,POL00973,2021-12-23,Flood,73022.05,49515.77,Settled,Flood damage during heavy rainfall,False,50
+CLM00648,POL02098,2021-07-12,Natural Disaster,10942.67,0.0,Pending,Front end collision on highway,False,51
+CLM00649,POL01531,2021-12-26,Accident,15472.22,0.0,Pending,Front end collision on highway,False,0
+CLM00650,POL02202,2021-06-26,Flood,34221.62,0.0,Rejected,,False,0
+CLM00651,POL01868,2024-11-11,Vandalism,67002.69,0.0,Rejected,Fire damage in garage,False,49
+CLM00652,POL02929,2023-11-17,Accident,27471.43,0.0,Rejected,Hit and run incident,False,15
+CLM00653,POL00480,2020-12-04,Accident,30149.77,0.0,Pending,Vehicle stolen from residential area,False,31
+CLM00654,POL02951,2024-08-04,Accident,44829.81,0.0,Approved,Rear end damage in parking lot,False,24
+CLM00655,POL00816,2023-11-02,Flood,14346.57,0.0,Pending,Rear end damage in parking lot,False,26
+CLM00656,POL02480,2020-01-02,Accident,1726.64,1276.2,Settled,Hit and run incident,False,53
+CLM00657,POL02505,2024-02-09,Flood,57072.72,0.0,Pending,Front end collision on highway,True,41
+CLM00658,POL01465,2024-08-24,Flood,28047.1,0.0,Approved,Rear end damage in parking lot,False,60
+CLM00659,POL01849,2021-05-15,Natural Disaster,78022.83,0.0,Pending,Hit and run incident,False,13
+CLM00660,POL02499,2021-05-31,Natural Disaster,74367.58,0.0,Pending,Vandalism - scratches and dents,False,47
+CLM00661,POL02479,2024-11-07,Fire,39549.72,0.0,Under Review,Fire damage in garage,False,48
+CLM00662,POL01209,2024-02-24,Vandalism,-4478.34,0.0,Rejected,Hit and run incident,False,15
+CLM00663,POL01865,2024-05-11,Theft,48248.09,0.0,Under Review,Rear end damage in parking lot,False,36
+CLM00664,POL00491,2024-05-03,Accident,46847.76,33536.64,Settled,Rear end damage in parking lot,False,58
+CLM00665,POL01316,2020-05-17,Flood,78697.67,0.0,Rejected,Hit and run incident,False,40
+CLM00666,POL02137,2021-12-06,Vandalism,-1004.16,0.0,Approved,Vehicle stolen from residential area,False,35
+CLM00667,POL02617,2024-01-07,Vandalism,64208.41,83523.25,Settled,Windshield cracked by debris,False,5
+CLM00668,POL01407,2021-02-09,Flood,38503.03,0.0,Pending,Windshield cracked by debris,False,22
+CLM00669,POL02741,2021-07-04,Theft,45094.61,0.0,Approved,Rear end damage in parking lot,False,39
+CLM00670,POL00570,2021-04-11,Fire,17640.27,0.0,Pending,,True,13
+CLM00671,POL01288,2021-08-17,Flood,45963.69,45863.0,Settled,Windshield cracked by debris,False,12
+CLM00672,POL01856,2022-01-15,Natural Disaster,51598.05,0.0,Rejected,Rear end damage in parking lot,False,13
+CLM00673,POL00669,2020-01-24,Flood,63260.0,0.0,Under Review,Windshield cracked by debris,False,32
+CLM00674,POL00169,2021-11-15,Theft,74258.48,44531.61,Settled,Front end collision on highway,False,56
+CLM00675,POL00046,2022-08-17,Fire,43383.21,28348.88,Settled,Windshield cracked by debris,False,28
+CLM00676,POL00372,2021-09-29,Vandalism,20302.09,0.0,Under Review,Fire damage in garage,False,58
+CLM00677,POL02849,2024-10-23,Flood,36580.14,0.0,Approved,Fire damage in garage,False,60
+CLM00678,POL01743,2023-09-17,Natural Disaster,13034.68,0.0,Under Review,Rear end damage in parking lot,False,28
+CLM00679,POL01168,2020-09-17,Fire,23767.18,0.0,Approved,,False,57
+CLM00680,POL02954,2023-10-08,Vandalism,5460.17,0.0,Approved,Hit and run incident,False,22
+CLM00681,POL02672,2023-06-30,Accident,18164.79,12676.03,Settled,Rear end damage in parking lot,False,11
+CLM00682,POL01295,2022-11-16,Flood,20127.5,0.0,Approved,,False,0
+CLM00683,POL02393,2024-03-31,Theft,51235.09,0.0,Approved,Hit and run incident,False,33
+CLM00684,POL00781,2023-10-04,Fire,51999.01,0.0,Approved,Windshield cracked by debris,False,39
+CLM00685,POL01142,2023-07-04,Fire,63824.96,0.0,Pending,Hit and run incident,True,30
+CLM00686,POL01712,2024-02-22,Vandalism,30198.61,25056.71,Settled,Rear end damage in parking lot,False,0
+CLM00687,POL02263,2020-07-29,Natural Disaster,79260.01,0.0,Pending,,True,34
+CLM00688,POL01106,2023-01-04,Vandalism,10844.12,0.0,Rejected,Windshield cracked by debris,False,23
+CLM00689,POL02901,2021-05-14,Fire,6221.85,0.0,Under Review,,True,9
+CLM00690,POL01760,2020-10-17,Fire,16863.1,16158.06,Settled,Flood damage during heavy rainfall,False,56
+CLM00691,POL00906,2023-12-09,Fire,47016.17,0.0,Pending,,False,9
+CLM00692,POL01040,2022-10-21,Accident,68628.73,0.0,Rejected,Hit and run incident,False,20
+CLM00693,POL00008,2024-05-27,Vandalism,610.07,0.0,Rejected,,False,42
+CLM00694,POL01446,2021-03-26,Accident,26884.92,25569.32,Settled,Front end collision on highway,False,51
+CLM00695,POL00446,2021-02-23,Flood,21246.06,16814.98,Settled,,False,28
+CLM00696,POL00254,2020-01-17,Fire,10329.62,7331.51,Settled,Front end collision on highway,False,8
+CLM00697,POL02109,2024-01-09,Natural Disaster,9605.37,0.0,Approved,Hit and run incident,False,39
+CLM00698,POL00866,2020-11-08,Fire,30678.46,0.0,Approved,Windshield cracked by debris,False,6
+CLM00699,POL00373,2024-05-06,Natural Disaster,11247.18,0.0,Pending,Rear end damage in parking lot,False,13
+CLM00700,POL00500,2024-08-13,Fire,53692.39,0.0,Approved,Vehicle stolen from residential area,False,1
+CLM00701,POL02789,2024-11-28,Vandalism,0.0,0.0,Under Review,Vehicle stolen from residential area,False,51
+CLM00702,POL01229,2021-12-19,Vandalism,71081.21,0.0,Pending,Vandalism - scratches and dents,False,40
+CLM00703,POL00876,2022-10-21,Theft,26659.96,0.0,Approved,,False,33
+CLM00704,POL00806,2023-01-04,Fire,66030.77,0.0,Approved,Front end collision on highway,False,3
+CLM00705,POL00592,2021-01-03,Natural Disaster,23828.44,13446.27,Settled,Vehicle stolen from residential area,False,44
+CLM00706,POL02973,2020-07-20,Vandalism,62088.25,0.0,Approved,Vehicle stolen from residential area,True,35
+CLM00707,POL01532,2023-02-09,Natural Disaster,38623.64,21540.36,Settled,Flood damage during heavy rainfall,False,43
+CLM00708,POL00622,2023-12-27,Theft,70284.72,0.0,Approved,Windshield cracked by debris,False,57
+CLM00709,POL01673,2024-05-09,Accident,1188.3,0.0,Rejected,Front end collision on highway,False,52
+CLM00710,POL02422,2024-09-22,Flood,55330.09,36991.61,Settled,Hit and run incident,False,51
+CLM00711,POL00979,2020-09-02,Natural Disaster,53654.58,0.0,Rejected,Flood damage during heavy rainfall,False,45
+CLM00712,POL02533,2020-07-12,Fire,2707.45,0.0,Rejected,Vandalism - scratches and dents,False,58
+CLM00713,POL00455,2022-03-15,Natural Disaster,7448.37,0.0,Approved,Rear end damage in parking lot,False,5
+CLM00714,POL02466,2024-09-03,Theft,45333.49,0.0,Pending,Hit and run incident,False,56
+CLM00715,POL01301,2023-08-31,Fire,43368.38,0.0,Pending,Hit and run incident,False,38
+CLM00716,POL02940,2022-11-20,Accident,26907.3,0.0,Approved,Vandalism - scratches and dents,False,50
+CLM00717,POL01641,2023-07-29,Natural Disaster,34002.2,0.0,Rejected,Windshield cracked by debris,False,51
+CLM00718,POL02279,2020-01-11,Flood,47448.71,0.0,Rejected,Front end collision on highway,False,9
+CLM00719,POL01033,2023-08-19,Accident,44696.06,39179.75,Settled,Vandalism - scratches and dents,False,32
+CLM00720,POL02377,2024-08-15,Accident,2113.53,0.0,Pending,Windshield cracked by debris,False,5
+CLM00721,POL01322,2020-09-19,Fire,58441.9,0.0,Pending,Fire damage in garage,False,20
+CLM00722,POL02785,2024-12-14,Accident,37457.34,0.0,Approved,Flood damage during heavy rainfall,False,6
+CLM00723,POL00599,2024-01-31,Accident,13324.96,13138.96,Settled,Rear end damage in parking lot,False,47
+CLM00724,POL01852,2023-09-23,Fire,66492.16,0.0,Under Review,Windshield cracked by debris,False,53
+CLM00725,POL00660,2022-09-05,Theft,78116.5,0.0,Under Review,Vandalism - scratches and dents,False,22
+CLM00726,POL01667,2022-09-13,Flood,49667.63,0.0,Under Review,Windshield cracked by debris,False,13
+CLM00727,POL00457,2024-05-29,Flood,29616.68,0.0,Rejected,Flood damage during heavy rainfall,False,20
+CLM00728,POL02160,2022-08-05,Theft,35406.34,0.0,Approved,Vandalism - scratches and dents,False,36
+CLM00729,POL01254,2021-02-07,Fire,5888.17,5116.62,Settled,,False,39
+CLM00730,POL01264,2023-10-10,Theft,7062.28,3640.28,Settled,Flood damage during heavy rainfall,False,1
+CLM00731,POL01235,2022-11-09,Accident,40958.54,0.0,Under Review,Vehicle stolen from residential area,False,53
+CLM00732,POL02600,2024-05-23,Vandalism,69572.88,0.0,Rejected,Vehicle stolen from residential area,False,0
+CLM00733,POL01604,2020-12-01,Fire,72636.16,0.0,Pending,Rear end damage in parking lot,False,42
+CLM00734,POL01702,2022-08-12,Vandalism,25484.22,0.0,Pending,Vandalism - scratches and dents,False,0
+CLM00735,POL01342,2021-08-28,Theft,63001.37,0.0,Pending,Vandalism - scratches and dents,False,38
+CLM00736,POL00095,2024-09-24,Fire,68952.42,0.0,Under Review,,False,59
+CLM00737,POL02922,2021-09-17,Natural Disaster,64233.21,0.0,Approved,Fire damage in garage,False,23
+CLM00738,POL00572,2020-03-16,Theft,60012.15,30832.49,Settled,,False,6
+CLM00739,POL02568,2022-05-02,Vandalism,62190.72,0.0,Under Review,Vehicle stolen from residential area,False,42
+CLM00740,POL00858,2021-05-20,Fire,33690.45,0.0,Under Review,,False,29
+CLM00741,POL02731,2024-05-06,Fire,510.5,0.0,Rejected,Vandalism - scratches and dents,False,10
+CLM00742,POL02053,2023-08-11,Theft,79907.0,0.0,Rejected,Windshield cracked by debris,False,48
+CLM00743,POL00343,2024-09-07,Accident,25432.78,0.0,Rejected,Vandalism - scratches and dents,False,13
+CLM00744,POL02774,2020-02-20,Flood,56258.33,0.0,Approved,Windshield cracked by debris,False,0
+CLM00745,POL02648,2023-01-06,Natural Disaster,7456.07,4486.65,Settled,Fire damage in garage,False,32
+CLM00746,POL02524,2023-09-16,Natural Disaster,46737.54,40226.75,Settled,Fire damage in garage,False,0
+CLM00747,POL02445,2022-01-05,Vandalism,53124.44,0.0,Rejected,Windshield cracked by debris,False,11
+CLM00748,POL01062,2022-12-03,Flood,47197.71,0.0,Approved,Flood damage during heavy rainfall,False,21
+CLM00749,POL00785,2021-04-14,Vandalism,76623.66,0.0,Rejected,Vehicle stolen from residential area,False,51
+CLM00750,POL01939,2024-05-02,Natural Disaster,71009.77,46841.9,Settled,Fire damage in garage,False,22
+CLM00751,POL01641,2023-09-07,Vandalism,65131.44,45006.1,Settled,Flood damage during heavy rainfall,False,48
+CLM00752,POL02342,2023-04-15,Theft,33507.28,29911.15,Settled,Vehicle stolen from residential area,False,49
+CLM00753,POL01965,2021-11-08,Vandalism,19578.16,18716.4,Settled,Rear end damage in parking lot,False,0
+CLM00754,POL00455,2020-06-18,Flood,11401.52,0.0,Approved,Front end collision on highway,False,5
+CLM00755,POL02741,2021-12-13,Vandalism,7594.58,0.0,Approved,,False,0
+CLM00756,POL01129,2023-05-15,Theft,71877.73,67282.67,Settled,Flood damage during heavy rainfall,False,52
+CLM00757,POL00858,2023-02-02,Fire,51701.98,0.0,Pending,Rear end damage in parking lot,False,20
+CLM00758,POL02399,2023-10-03,Natural Disaster,73544.19,0.0,Approved,Vehicle stolen from residential area,False,6
+CLM00759,POL01942,2021-02-27,Fire,47319.22,55890.52,Settled,Rear end damage in parking lot,False,35
+CLM00760,POL00052,2022-07-03,Fire,46668.35,0.0,Rejected,,False,18
+CLM00761,POL01927,2022-06-23,Flood,50760.57,0.0,Approved,Vandalism - scratches and dents,False,0
+CLM00762,POL02815,2020-05-03,Natural Disaster,76007.73,0.0,Approved,Rear end damage in parking lot,False,42
+CLM00763,POL01333,2023-04-26,Vandalism,61116.42,0.0,Under Review,Flood damage during heavy rainfall,False,15
+CLM00764,POL00579,2023-10-26,Natural Disaster,3311.56,4474.13,Settled,,False,24
+CLM00765,POL01389,2022-03-07,Fire,-3431.51,0.0,Under Review,Front end collision on highway,False,32
+CLM00766,POL02854,2023-05-04,Vandalism,9833.24,0.0,Rejected,Windshield cracked by debris,False,53
+CLM00767,POL00400,2023-03-18,Theft,43799.79,37231.85,Settled,Vehicle stolen from residential area,False,32
+CLM00768,POL01770,2022-10-26,Flood,74852.89,0.0,Pending,Vandalism - scratches and dents,True,32
+CLM00769,POL00192,2023-11-23,Vandalism,28517.81,20026.87,Settled,Hit and run incident,False,42
+CLM00770,POL02572,2023-08-21,Fire,47395.55,0.0,Pending,,False,51
+CLM00771,POL02847,2021-03-31,Theft,17978.95,0.0,Under Review,,True,19
+CLM00772,POL01685,2024-07-13,Fire,6207.48,0.0,Under Review,Front end collision on highway,False,15
+CLM00773,POL01031,2024-05-21,Natural Disaster,42475.19,0.0,Approved,Fire damage in garage,False,17
+CLM00774,POL01973,2021-08-23,Accident,55917.96,0.0,Pending,Rear end damage in parking lot,False,48
+CLM00775,POL02235,2021-12-26,Flood,40510.26,0.0,Under Review,Flood damage during heavy rainfall,False,7
+CLM00776,POL00768,2024-03-24,Vandalism,14398.93,7935.94,Settled,Fire damage in garage,False,59
+CLM00777,POL01218,2020-06-05,Accident,48380.08,0.0,Under Review,Hit and run incident,False,11
+CLM00778,POL02775,2021-09-24,Theft,28426.11,0.0,Rejected,Front end collision on highway,False,0
+CLM00779,POL00022,2022-11-03,Theft,15641.1,0.0,Pending,Front end collision on highway,False,3
+CLM00780,POL00603,2024-12-30,Natural Disaster,9363.96,0.0,Under Review,Hit and run incident,False,57
+CLM00781,POL01900,2021-10-03,Accident,72472.63,0.0,Under Review,Flood damage during heavy rainfall,False,25
+CLM00782,POL01440,2023-12-13,Fire,47698.21,0.0,Pending,Flood damage during heavy rainfall,False,24
+CLM00783,POL00681,2022-02-23,Natural Disaster,-4367.63,0.0,Under Review,Windshield cracked by debris,False,4
+CLM00784,POL00293,2022-10-27,Vandalism,69920.7,0.0,Rejected,Fire damage in garage,False,0
+CLM00785,POL00389,2023-01-13,Flood,5741.74,0.0,Pending,Windshield cracked by debris,False,11
+CLM00786,POL02374,2022-08-25,Fire,36923.18,0.0,Pending,Flood damage during heavy rainfall,False,17
+CLM00787,POL02770,2021-09-09,Accident,70203.44,0.0,Approved,Flood damage during heavy rainfall,False,53
+CLM00788,POL02874,2022-02-26,Flood,5558.03,4070.34,Settled,Hit and run incident,False,49
+CLM00789,POL02402,2023-01-07,Flood,21798.95,11482.44,Settled,Front end collision on highway,False,3
+CLM00790,POL02646,2022-12-27,Accident,21719.79,0.0,Rejected,Front end collision on highway,False,40
+CLM00791,POL00810,2024-11-26,Natural Disaster,74568.07,0.0,Approved,Hit and run incident,False,23
+CLM00792,POL01909,2023-01-13,Accident,54449.49,0.0,Approved,,False,16
+CLM00793,POL00606,2022-03-10,Theft,49658.26,29462.07,Settled,Front end collision on highway,False,47
+CLM00794,POL02775,2023-12-01,Flood,32979.42,18802.21,Settled,Front end collision on highway,False,29
+CLM00795,POL02198,2021-09-08,Flood,20227.07,0.0,Pending,,False,2
+CLM00796,POL01501,2020-06-28,Vandalism,74317.05,0.0,Approved,Windshield cracked by debris,False,15
+CLM00797,POL02615,2021-02-22,Fire,61336.97,0.0,Approved,Vehicle stolen from residential area,False,59
+CLM00798,POL00552,2024-11-07,Flood,-570.78,0.0,Under Review,Vehicle stolen from residential area,False,2
+CLM00799,POL01694,2022-10-29,Vandalism,14858.0,0.0,Under Review,Flood damage during heavy rainfall,False,13
+CLM00800,POL02652,2023-01-29,Vandalism,2228.6,0.0,Rejected,Vandalism - scratches and dents,False,49
+CLM00801,POL01848,2021-05-22,Theft,14238.06,7349.25,Settled,,False,45
+CLM00802,POL00378,2020-03-28,Natural Disaster,47638.93,25474.8,Settled,Flood damage during heavy rainfall,False,26
+CLM00803,POL02907,2023-08-24,Theft,70905.19,69720.82,Settled,Flood damage during heavy rainfall,False,0
+CLM00804,POL01946,2021-02-17,Flood,17331.28,14594.6,Settled,Vehicle stolen from residential area,False,40
+CLM00805,POL02739,2022-09-26,Accident,41008.16,0.0,Rejected,Vandalism - scratches and dents,False,36
+CLM00806,POL02179,2023-07-17,Flood,25781.73,20944.34,Settled,Vandalism - scratches and dents,False,21
+CLM00807,POL02455,2022-08-04,Vandalism,0.0,0.0,Rejected,Windshield cracked by debris,False,19
+CLM00808,POL00908,2023-10-19,Flood,17533.78,0.0,Rejected,Flood damage during heavy rainfall,False,19
+CLM00809,POL00436,2024-05-06,Vandalism,31431.2,0.0,Rejected,Hit and run incident,False,12
+CLM00810,POL00261,2022-03-23,Theft,21993.39,17984.03,Settled,,False,40
+CLM00811,POL00053,2024-03-11,Fire,59825.82,0.0,Pending,Rear end damage in parking lot,False,60
+CLM00812,POL02618,2022-09-13,Flood,55261.56,0.0,Approved,Vehicle stolen from residential area,False,49
+CLM00813,POL02314,2021-04-05,Accident,7151.75,0.0,Approved,Vehicle stolen from residential area,False,6
+CLM00814,POL00894,2020-02-21,Theft,54895.59,40289.08,Settled,,False,41
+CLM00815,POL00477,2022-01-28,Accident,61368.3,0.0,Approved,Rear end damage in parking lot,False,39
+CLM00816,POL00235,2022-07-28,Natural Disaster,4862.15,0.0,Approved,Vehicle stolen from residential area,False,20
+CLM00817,POL00675,2021-12-05,Natural Disaster,8077.45,0.0,Approved,Fire damage in garage,False,15
+CLM00818,POL00035,2020-07-04,Natural Disaster,72573.67,0.0,Pending,Vandalism - scratches and dents,False,1
+CLM00819,POL02189,2023-08-04,Natural Disaster,38907.47,0.0,Under Review,Rear end damage in parking lot,False,15
+CLM00820,POL01565,2023-09-02,Fire,27165.75,0.0,Approved,Fire damage in garage,False,8
+CLM00821,POL01335,2021-11-13,Accident,69101.11,0.0,Under Review,Fire damage in garage,False,42
+CLM00822,POL01563,2024-01-13,Fire,43964.64,0.0,Pending,Hit and run incident,False,40
+CLM00823,POL02567,2024-12-13,Flood,18545.72,12557.92,Settled,Vehicle stolen from residential area,False,28
+CLM00824,POL02224,2024-12-31,Vandalism,45441.57,28340.62,Settled,Windshield cracked by debris,False,34
+CLM00825,POL01902,2024-05-09,Natural Disaster,68277.75,0.0,Rejected,Flood damage during heavy rainfall,False,55
+CLM00826,POL01384,2024-04-25,Flood,16158.55,0.0,Pending,Vehicle stolen from residential area,False,28
+CLM00827,POL00242,2022-09-27,Fire,1689.05,0.0,Pending,Rear end damage in parking lot,False,49
+CLM00828,POL01536,2024-05-30,Theft,57546.16,0.0,Rejected,Hit and run incident,False,22
+CLM00829,POL02048,2021-07-24,Flood,33678.09,0.0,Rejected,,True,7
+CLM00830,POL00212,2021-06-29,Accident,25914.45,0.0,Rejected,Hit and run incident,False,30
+CLM00831,POL02814,2020-10-08,Accident,65195.96,0.0,Rejected,,False,49
+CLM00832,POL00491,2022-07-12,Fire,16747.11,13109.66,Settled,,False,2
+CLM00833,POL00228,2020-07-09,Theft,62455.71,0.0,Approved,Vandalism - scratches and dents,False,33
+CLM00834,POL01191,2022-07-15,Flood,16975.13,11680.78,Settled,Fire damage in garage,False,51
+CLM00835,POL00449,2024-04-25,Natural Disaster,70935.22,0.0,Under Review,Flood damage during heavy rainfall,False,26
+CLM00836,POL00790,2021-01-22,Vandalism,7341.67,0.0,Approved,Front end collision on highway,True,35
+CLM00837,POL00847,2021-06-10,Natural Disaster,77466.52,0.0,Approved,Vandalism - scratches and dents,False,27
+CLM00838,POL01476,2023-09-08,Flood,61352.52,47091.77,Settled,Flood damage during heavy rainfall,False,49
+CLM00839,POL01197,2023-08-29,Fire,22912.72,0.0,Pending,Front end collision on highway,False,36
+CLM00840,POL01463,2024-04-23,Vandalism,72003.65,0.0,Approved,Vandalism - scratches and dents,False,12
+CLM00841,POL00427,2021-02-15,Theft,32007.71,19594.97,Settled,Windshield cracked by debris,False,51
+CLM00842,POL00379,2022-10-24,Flood,7695.41,0.0,Under Review,,False,42
+CLM00843,POL02940,2024-02-12,Theft,9375.06,0.0,Pending,Windshield cracked by debris,True,31
+CLM00844,POL02622,2020-01-16,Vandalism,34377.51,0.0,Under Review,Fire damage in garage,False,16
+CLM00845,POL01689,2022-03-10,Accident,50592.78,0.0,Rejected,Fire damage in garage,False,6
+CLM00846,POL00860,2023-07-18,Accident,14071.11,0.0,Approved,Vehicle stolen from residential area,False,1
+CLM00847,POL02694,2024-07-19,Vandalism,16915.82,0.0,Pending,Flood damage during heavy rainfall,False,2
+CLM00848,POL02752,2021-08-21,Vandalism,49765.9,34079.93,Settled,Vandalism - scratches and dents,False,12
+CLM00849,POL02152,2021-02-15,Flood,35899.42,0.0,Under Review,Vehicle stolen from residential area,False,43
+CLM00850,POL02921,2022-12-29,Vandalism,15456.07,13545.4,Settled,Front end collision on highway,False,59
+CLM00851,POL01258,2022-07-03,Accident,12191.32,0.0,Under Review,Fire damage in garage,False,39
+CLM00852,POL02506,2023-04-26,Accident,13843.7,0.0,Rejected,,False,56
+CLM00853,POL00161,2022-04-23,Flood,24644.72,0.0,Under Review,Vehicle stolen from residential area,False,27
+CLM00854,POL00214,2023-01-26,Fire,58466.21,0.0,Under Review,Front end collision on highway,False,41
+CLM00855,POL02980,2022-06-07,Theft,-2392.89,0.0,Under Review,Flood damage during heavy rainfall,False,24
+CLM00856,POL00655,2023-06-04,Natural Disaster,31606.81,0.0,Under Review,Vandalism - scratches and dents,False,19
+CLM00857,POL00970,2020-01-21,Fire,6622.71,0.0,Approved,,False,7
+CLM00858,POL01432,2021-01-10,Accident,57444.12,30366.51,Settled,,False,35
+CLM00859,POL00841,2020-03-14,Flood,23978.15,0.0,Pending,Fire damage in garage,False,11
+CLM00860,POL00301,2024-04-16,Vandalism,14007.83,0.0,Approved,Vehicle stolen from residential area,False,36
+CLM00861,POL00172,2024-06-29,Vandalism,45245.39,0.0,Rejected,Vehicle stolen from residential area,False,12
+CLM00862,POL01353,2024-04-03,Theft,6976.81,0.0,Pending,Rear end damage in parking lot,True,57
+CLM00863,POL01945,2024-04-21,Vandalism,41851.76,28803.97,Settled,Windshield cracked by debris,False,30
+CLM00864,POL00463,2021-03-23,Natural Disaster,18409.59,0.0,Under Review,Hit and run incident,False,10
+CLM00865,POL01475,2022-07-25,Fire,12418.09,8546.44,Settled,Hit and run incident,False,43
+CLM00866,POL02301,2024-12-03,Flood,58311.11,0.0,Pending,Rear end damage in parking lot,True,46
+CLM00867,POL00125,2020-10-16,Accident,14123.83,0.0,Pending,Hit and run incident,False,32
+CLM00868,POL01419,2022-07-25,Vandalism,69261.21,0.0,Approved,Hit and run incident,True,48
+CLM00869,POL02417,2021-04-23,Flood,65358.86,47444.53,Settled,,False,13
+CLM00870,POL01552,2021-12-18,Natural Disaster,25697.18,18092.42,Settled,Flood damage during heavy rainfall,True,60
+CLM00871,POL02849,2021-08-13,Natural Disaster,26234.1,0.0,Pending,Windshield cracked by debris,False,57
+CLM00872,POL01068,2023-07-12,Fire,21159.5,15905.58,Settled,Fire damage in garage,False,11
+CLM00873,POL01947,2024-12-01,Theft,48869.27,0.0,Approved,Rear end damage in parking lot,True,22
+CLM00874,POL02915,2023-03-08,Fire,38174.16,0.0,Under Review,Hit and run incident,False,56
+CLM00875,POL00762,2021-12-12,Flood,43504.45,0.0,Approved,Fire damage in garage,False,29
+CLM00876,POL01826,2020-03-21,Natural Disaster,25843.07,0.0,Pending,Windshield cracked by debris,False,42
+CLM00877,POL02378,2024-11-16,Theft,9634.4,9437.62,Settled,Windshield cracked by debris,False,8
+CLM00878,POL00429,2024-06-13,Flood,0.0,0.0,Approved,Vandalism - scratches and dents,False,46
+CLM00879,POL02944,2024-11-11,Fire,78833.99,0.0,Approved,Hit and run incident,False,59
+CLM00880,POL02397,2023-12-10,Fire,57737.32,0.0,Under Review,Rear end damage in parking lot,False,4
+CLM00881,POL01012,2020-03-08,Theft,65310.72,0.0,Under Review,Fire damage in garage,False,50
+CLM00882,POL01115,2023-10-13,Vandalism,63767.14,0.0,Under Review,Front end collision on highway,False,27
+CLM00883,POL01990,2024-09-07,Theft,47076.06,0.0,Pending,Hit and run incident,False,36
+CLM00884,POL00417,2021-08-14,Theft,64035.48,0.0,Rejected,Fire damage in garage,False,49
+CLM00885,POL01251,2024-10-16,Theft,69162.67,0.0,Under Review,Fire damage in garage,False,22
+CLM00886,POL02382,2020-01-15,Theft,4650.61,0.0,Under Review,Vehicle stolen from residential area,False,16
+CLM00887,POL00483,2022-01-14,Natural Disaster,0.0,0.0,Under Review,Vandalism - scratches and dents,False,39
+CLM00888,POL01824,2021-12-24,Accident,41774.39,22042.07,Settled,Front end collision on highway,False,27
+CLM00889,POL01320,2023-07-29,Accident,74601.83,0.0,Rejected,Windshield cracked by debris,False,37
+CLM00890,POL02058,2021-06-30,Vandalism,14393.35,0.0,Approved,Flood damage during heavy rainfall,False,31
+CLM00891,POL01548,2024-02-17,Vandalism,45248.76,0.0,Pending,Rear end damage in parking lot,False,50
+CLM00892,POL01275,2022-11-16,Fire,0.0,0.0,Under Review,Hit and run incident,False,48
+CLM00893,POL00794,2023-05-24,Natural Disaster,6140.18,0.0,Rejected,Fire damage in garage,False,44
+CLM00894,POL01162,2021-08-29,Natural Disaster,50634.81,0.0,Rejected,Front end collision on highway,False,38
+CLM00895,POL01254,2021-01-31,Flood,64931.21,41621.37,Settled,Flood damage during heavy rainfall,False,28
+CLM00896,POL02727,2020-02-05,Accident,19465.24,0.0,Rejected,Vehicle stolen from residential area,False,24
+CLM00897,POL02163,2021-08-30,Accident,21595.72,0.0,Approved,Front end collision on highway,False,6
+CLM00898,POL02525,2021-08-01,Vandalism,29148.58,0.0,Under Review,Rear end damage in parking lot,False,20
+CLM00899,POL02481,2022-11-28,Natural Disaster,43866.04,0.0,Under Review,Rear end damage in parking lot,False,25
+CLM00900,POL02763,2024-03-22,Vandalism,75067.59,0.0,Pending,Hit and run incident,False,19
+CLM00901,POL01470,2020-06-07,Theft,9627.72,0.0,Pending,Front end collision on highway,False,49
+CLM00902,POL01216,2021-09-29,Fire,20729.63,0.0,Pending,Flood damage during heavy rainfall,False,38
+CLM00903,POL02405,2022-07-18,Natural Disaster,33376.53,0.0,Rejected,,False,44
+CLM00904,POL01339,2024-11-14,Natural Disaster,43487.42,0.0,Approved,Fire damage in garage,False,57
+CLM00905,POL02189,2021-05-27,Accident,30576.91,16862.13,Settled,Rear end damage in parking lot,False,52
+CLM00906,POL00575,2024-05-27,Natural Disaster,9904.84,0.0,Under Review,Rear end damage in parking lot,False,48
+CLM00907,POL02131,2020-07-02,Theft,39548.43,0.0,Under Review,Windshield cracked by debris,False,30
+CLM00908,POL00223,2023-08-02,Natural Disaster,57699.81,0.0,Approved,Windshield cracked by debris,False,49
+CLM00909,POL01987,2024-08-26,Theft,23048.41,0.0,Pending,Fire damage in garage,False,39
+CLM00910,POL02362,2022-02-06,Flood,22572.98,0.0,Rejected,Rear end damage in parking lot,False,51
+CLM00911,POL01597,2020-07-24,Accident,67812.14,0.0,Under Review,Vehicle stolen from residential area,True,11
+CLM00912,POL02650,2024-06-12,Fire,66320.27,38593.64,Settled,Flood damage during heavy rainfall,False,13
+CLM00913,POL02416,2024-07-10,Theft,8123.6,0.0,Rejected,Vandalism - scratches and dents,False,12
+CLM00914,POL01376,2023-11-04,Accident,15847.05,0.0,Rejected,Rear end damage in parking lot,False,58
+CLM00915,POL02461,2022-01-08,Theft,22108.23,0.0,Approved,Hit and run incident,False,36
+CLM00916,POL01241,2020-04-05,Theft,57066.48,0.0,Under Review,Flood damage during heavy rainfall,False,43
+CLM00917,POL01438,2022-05-21,Natural Disaster,598.75,0.0,Pending,Hit and run incident,False,21
+CLM00918,POL01914,2024-08-18,Accident,16346.43,0.0,Under Review,,False,14
+CLM00919,POL00736,2020-10-21,Vandalism,36613.11,27165.58,Settled,Flood damage during heavy rainfall,False,57
+CLM00920,POL01545,2024-01-13,Theft,18655.36,9436.75,Settled,Flood damage during heavy rainfall,False,12
+CLM00921,POL00925,2023-10-23,Flood,78260.97,0.0,Pending,,False,42
+CLM00922,POL00267,2022-11-08,Theft,26838.53,0.0,Under Review,Hit and run incident,False,54
+CLM00923,POL02887,2024-07-02,Theft,71570.41,0.0,Approved,Fire damage in garage,False,20
+CLM00924,POL00409,2021-08-04,Natural Disaster,33530.8,20402.74,Settled,Hit and run incident,False,36
+CLM00925,POL00917,2023-02-23,Accident,3505.78,2524.75,Settled,Hit and run incident,False,1
+CLM00926,POL02193,2023-01-17,Flood,51481.94,43233.46,Settled,Rear end damage in parking lot,False,35
+CLM00927,POL00230,2022-10-26,Natural Disaster,8507.15,0.0,Pending,Flood damage during heavy rainfall,False,7
+CLM00928,POL02611,2023-09-26,Fire,56307.51,0.0,Approved,,False,49
+CLM00929,POL02393,2021-11-09,Natural Disaster,67318.45,0.0,Approved,Flood damage during heavy rainfall,True,2
+CLM00930,POL00245,2023-08-08,Fire,77151.08,0.0,Approved,Vehicle stolen from residential area,True,30
+CLM00931,POL01631,2023-12-01,Accident,69446.27,0.0,Pending,Rear end damage in parking lot,False,31
+CLM00932,POL00362,2023-01-14,Accident,14615.97,10106.46,Settled,Fire damage in garage,False,27
+CLM00933,POL02262,2023-08-20,Flood,4854.72,0.0,Pending,Vandalism - scratches and dents,False,21
+CLM00934,POL00346,2020-12-15,Flood,47947.92,0.0,Rejected,Flood damage during heavy rainfall,False,17
+CLM00935,POL01563,2023-04-07,Fire,58861.33,0.0,Under Review,Rear end damage in parking lot,False,0
+CLM00936,POL01844,2021-04-20,Theft,43371.52,0.0,Pending,Front end collision on highway,False,0
+CLM00937,POL01458,2023-03-28,Vandalism,15811.82,0.0,Approved,Vandalism - scratches and dents,False,13
+CLM00938,POL00929,2023-03-17,Vandalism,29487.83,0.0,Pending,Windshield cracked by debris,False,33
+CLM00939,POL01009,2023-07-08,Fire,65911.46,0.0,Under Review,Rear end damage in parking lot,False,15
+CLM00940,POL00021,2021-02-05,Accident,9019.69,5686.37,Settled,Windshield cracked by debris,False,0
+CLM00941,POL01359,2022-11-26,Flood,56797.98,0.0,Under Review,Front end collision on highway,False,50
+CLM00942,POL02412,2021-01-17,Flood,51758.3,0.0,Rejected,Vandalism - scratches and dents,False,35
+CLM00943,POL02420,2022-03-11,Vandalism,19869.05,0.0,Pending,Rear end damage in parking lot,False,49
+CLM00944,POL02140,2020-02-16,Accident,40615.96,0.0,Approved,Front end collision on highway,False,28
+CLM00945,POL02877,2023-12-17,Natural Disaster,39931.67,23936.17,Settled,Windshield cracked by debris,False,24
+CLM00946,POL00944,2024-01-08,Natural Disaster,79287.5,0.0,Under Review,Vandalism - scratches and dents,False,37
+CLM00947,POL00531,2023-02-09,Vandalism,18668.85,9665.42,Settled,,True,39
+CLM00948,POL02642,2023-05-02,Theft,12613.46,10958.69,Settled,Vehicle stolen from residential area,False,21
+CLM00949,POL02211,2022-06-23,Theft,7447.17,0.0,Under Review,,False,28
+CLM00950,POL01395,2023-04-07,Fire,40727.34,0.0,Pending,Hit and run incident,False,0
+CLM00951,POL02495,2024-07-26,Theft,21629.59,17946.57,Settled,,False,23
+CLM00952,POL00741,2020-08-15,Vandalism,40005.83,36360.48,Settled,Flood damage during heavy rainfall,False,25
+CLM00953,POL01294,2022-01-27,Accident,28291.92,0.0,Rejected,Flood damage during heavy rainfall,True,33
+CLM00954,POL01239,2022-08-25,Natural Disaster,58160.24,29621.87,Settled,Front end collision on highway,False,31
+CLM00955,POL02642,2023-06-02,Theft,72087.05,70194.42,Settled,Flood damage during heavy rainfall,True,15
+CLM00956,POL01770,2023-08-24,Accident,41658.65,0.0,Rejected,Front end collision on highway,False,11
+CLM00957,POL02272,2022-02-22,Vandalism,77553.41,63313.33,Settled,Hit and run incident,False,0
+CLM00958,POL02664,2021-07-13,Theft,73694.41,62109.94,Settled,Vehicle stolen from residential area,False,41
+CLM00959,POL01215,2021-02-18,Theft,3844.51,0.0,Pending,,False,48
+CLM00960,POL00833,2021-08-19,Vandalism,71162.9,0.0,Rejected,Windshield cracked by debris,False,0
+CLM00961,POL02554,2020-12-29,Natural Disaster,74396.94,0.0,Approved,Windshield cracked by debris,False,18
+CLM00962,POL00539,2023-02-13,Flood,45801.45,34216.3,Settled,Vehicle stolen from residential area,False,49
+CLM00963,POL02760,2021-09-29,Vandalism,50344.12,0.0,Approved,,False,13
+CLM00964,POL01755,2022-05-01,Theft,75390.76,0.0,Pending,Vehicle stolen from residential area,False,23
+CLM00965,POL01776,2020-04-12,Theft,6374.33,0.0,Pending,Vandalism - scratches and dents,False,54
+CLM00966,POL01864,2021-06-16,Flood,13474.53,0.0,Under Review,Front end collision on highway,False,15
+CLM00967,POL00221,2022-02-24,Flood,60448.74,0.0,Rejected,Hit and run incident,False,8
+CLM00968,POL02193,2024-04-05,Accident,26672.06,25662.57,Settled,Vehicle stolen from residential area,False,26
+CLM00969,POL00030,2020-12-03,Flood,28888.12,0.0,Approved,Flood damage during heavy rainfall,False,47
+CLM00970,POL00756,2022-06-01,Vandalism,38609.79,0.0,Approved,Windshield cracked by debris,False,5
+CLM00971,POL02519,2021-09-01,Accident,30977.49,0.0,Approved,Vandalism - scratches and dents,False,57
+CLM00972,POL01031,2020-06-23,Theft,4800.06,0.0,Pending,Rear end damage in parking lot,False,25
+CLM00973,POL02024,2023-08-26,Natural Disaster,45657.25,0.0,Under Review,,False,30
+CLM00974,POL00323,2024-07-31,Natural Disaster,77386.37,0.0,Approved,Vandalism - scratches and dents,False,29
+CLM00975,POL01794,2024-03-24,Theft,45045.45,0.0,Under Review,Fire damage in garage,False,0
+CLM00976,POL01974,2023-01-10,Flood,38290.39,26009.78,Settled,Hit and run incident,True,6
+CLM00977,POL00393,2021-10-30,Fire,14797.24,0.0,Rejected,Vehicle stolen from residential area,True,1
+CLM00978,POL02272,2021-08-04,Flood,74003.09,0.0,Under Review,Hit and run incident,False,32
+CLM00979,POL02135,2022-02-26,Natural Disaster,48978.43,0.0,Approved,Windshield cracked by debris,False,0
+CLM00980,POL02337,2023-07-23,Fire,69479.14,0.0,Pending,Hit and run incident,False,0
+CLM00981,POL01109,2023-10-17,Accident,7026.45,0.0,Pending,Hit and run incident,False,57
+CLM00982,POL02754,2024-12-28,Theft,9718.4,0.0,Under Review,Front end collision on highway,False,16
+CLM00983,POL01082,2020-12-12,Theft,10599.69,0.0,Rejected,Rear end damage in parking lot,False,11
+CLM00984,POL02038,2024-02-19,Flood,68672.32,0.0,Approved,Fire damage in garage,False,57
+CLM00985,POL00111,2021-12-08,Accident,57779.97,0.0,Approved,,False,48
+CLM00986,POL01292,2022-10-25,Fire,26811.28,0.0,Approved,Flood damage during heavy rainfall,False,19
+CLM00987,POL02628,2021-12-08,Flood,61940.98,0.0,Pending,Flood damage during heavy rainfall,False,0
+CLM00988,POL02765,2021-08-26,Theft,71851.31,0.0,Rejected,Front end collision on highway,False,23
+CLM00989,POL01456,2022-06-12,Vandalism,77084.39,62631.51,Settled,,False,42
+CLM00990,POL01863,2022-11-12,Flood,-1775.02,0.0,Under Review,Flood damage during heavy rainfall,False,59
+CLM00991,POL01123,2024-04-06,Vandalism,76830.76,0.0,Under Review,Hit and run incident,False,40
+CLM00992,POL01746,2024-08-07,Flood,12013.92,0.0,Pending,Front end collision on highway,False,42
+CLM00993,POL02295,2020-11-23,Accident,28412.97,0.0,Pending,Front end collision on highway,False,49
+CLM00994,POL02196,2024-08-31,Flood,18650.65,0.0,Rejected,Fire damage in garage,False,18
+CLM00995,POL01520,2020-08-10,Theft,40301.49,24080.64,Settled,Fire damage in garage,False,19
+CLM00996,POL00324,2021-05-12,Flood,47875.44,28725.6,Settled,Front end collision on highway,False,29
+CLM00997,POL00334,2022-08-04,Fire,55826.19,0.0,Rejected,Vandalism - scratches and dents,False,44
+CLM00998,POL01041,2024-01-13,Vandalism,3664.76,0.0,Pending,Vandalism - scratches and dents,True,29
+CLM00999,POL02741,2022-02-27,Natural Disaster,11611.26,0.0,Approved,Rear end damage in parking lot,False,37
+CLM01000,POL01508,2024-03-31,Fire,16716.75,11075.91,Settled,Hit and run incident,False,18
+CLM01001,POL01023,2024-07-09,Accident,13276.43,0.0,Under Review,Flood damage during heavy rainfall,False,18
+CLM01002,POL01533,2023-02-18,Flood,71777.96,0.0,Rejected,Flood damage during heavy rainfall,False,51
+CLM01003,POL00377,2021-06-10,Natural Disaster,57671.24,44455.79,Settled,Vandalism - scratches and dents,False,42
+CLM01004,POL02097,2022-08-21,Theft,60494.82,0.0,Pending,Fire damage in garage,True,59
+CLM01005,POL01983,2023-04-30,Flood,33466.63,0.0,Under Review,Front end collision on highway,False,56
+CLM01006,POL00738,2024-01-30,Natural Disaster,0.0,0.0,Approved,Flood damage during heavy rainfall,False,41
+CLM01007,POL00445,2022-11-10,Accident,-3130.59,-2255.08,Settled,Front end collision on highway,False,4
+CLM01008,POL02779,2023-03-05,Accident,69805.36,61237.09,Settled,Vandalism - scratches and dents,False,25
+CLM01009,POL02854,2024-03-14,Accident,13853.03,0.0,Under Review,Vandalism - scratches and dents,False,11
+CLM01010,POL00835,2024-11-26,Theft,74201.95,0.0,Pending,Hit and run incident,True,5
+CLM01011,POL00178,2020-03-26,Vandalism,11344.02,0.0,Rejected,Fire damage in garage,False,7
+CLM01012,POL00228,2022-03-05,Theft,43641.31,0.0,Rejected,Hit and run incident,False,8
+CLM01013,POL00412,2021-01-01,Flood,12473.45,0.0,Approved,Vandalism - scratches and dents,False,50
+CLM01014,POL00504,2022-06-09,Flood,24505.25,0.0,Approved,Vehicle stolen from residential area,False,37
+CLM01015,POL01230,2024-08-19,Accident,61052.21,0.0,Pending,Flood damage during heavy rainfall,True,51
+CLM01016,POL01073,2023-02-11,Accident,78874.93,0.0,Rejected,Front end collision on highway,False,5
+CLM01017,POL01517,2023-08-29,Natural Disaster,0.0,0.0,Settled,Vandalism - scratches and dents,False,55
+CLM01018,POL00566,2024-03-22,Natural Disaster,45847.91,0.0,Approved,Front end collision on highway,False,21
+CLM01019,POL01789,2022-08-10,Theft,41825.04,0.0,Under Review,Front end collision on highway,False,38
+CLM01020,POL01104,2021-12-11,Vandalism,26930.37,0.0,Rejected,Flood damage during heavy rainfall,False,58
+CLM01021,POL01576,2021-01-05,Accident,67734.64,0.0,Pending,,False,7
+CLM01022,POL02099,2020-05-27,Vandalism,5382.31,0.0,Pending,,False,44
+CLM01023,POL00422,2020-08-09,Vandalism,50410.18,0.0,Pending,Windshield cracked by debris,False,38
+CLM01024,POL02923,2023-12-17,Fire,59284.09,57656.68,Settled,Vandalism - scratches and dents,True,43
+CLM01025,POL00107,2023-03-30,Fire,54724.81,0.0,Rejected,Vandalism - scratches and dents,False,23
+CLM01026,POL00248,2022-08-22,Vandalism,29302.14,0.0,Rejected,,False,15
+CLM01027,POL00715,2020-03-25,Fire,66428.94,0.0,Approved,Vehicle stolen from residential area,False,11
+CLM01028,POL01215,2021-07-26,Theft,48194.82,37886.62,Settled,Rear end damage in parking lot,False,11
+CLM01029,POL01031,2023-03-25,Flood,41560.25,0.0,Approved,Front end collision on highway,False,15
+CLM01030,POL00333,2020-03-27,Fire,0.0,0.0,Approved,Windshield cracked by debris,False,5
+CLM01031,POL02614,2021-01-07,Accident,9953.62,0.0,Pending,Vehicle stolen from residential area,False,43
+CLM01032,POL02819,2024-09-03,Fire,79156.8,0.0,Pending,Flood damage during heavy rainfall,False,16
+CLM01033,POL00180,2023-04-28,Vandalism,17762.48,0.0,Under Review,,False,47
+CLM01034,POL02263,2022-10-20,Natural Disaster,73673.11,0.0,Approved,Flood damage during heavy rainfall,False,0
+CLM01035,POL01832,2023-04-05,Vandalism,42573.31,0.0,Pending,Fire damage in garage,True,37
+CLM01036,POL02327,2021-04-06,Vandalism,52709.78,0.0,Under Review,Vehicle stolen from residential area,False,41
+CLM01037,POL00795,2022-02-21,Accident,0.0,0.0,Settled,Front end collision on highway,False,58
+CLM01038,POL01894,2021-12-24,Fire,71505.56,0.0,Approved,Rear end damage in parking lot,False,24
+CLM01039,POL02782,2020-07-03,Vandalism,8034.04,0.0,Rejected,Rear end damage in parking lot,False,38
+CLM01040,POL00864,2024-05-02,Natural Disaster,66513.72,0.0,Under Review,Windshield cracked by debris,False,56
+CLM01041,POL00358,2022-07-07,Natural Disaster,69015.13,0.0,Under Review,Front end collision on highway,False,51
+CLM01042,POL01037,2023-12-09,Vandalism,7824.1,5411.32,Settled,Vehicle stolen from residential area,False,39
+CLM01043,POL00485,2020-05-03,Accident,-1744.77,0.0,Pending,Vehicle stolen from residential area,False,58
+CLM01044,POL01090,2022-05-12,Vandalism,7710.71,0.0,Approved,Front end collision on highway,False,52
+CLM01045,POL00139,2023-12-10,Theft,73462.17,0.0,Approved,Fire damage in garage,True,40
+CLM01046,POL01511,2020-06-24,Vandalism,51482.02,0.0,Approved,Rear end damage in parking lot,False,0
+CLM01047,POL02778,2023-01-20,Theft,67316.59,0.0,Under Review,Fire damage in garage,False,29
+CLM01048,POL01790,2024-03-26,Accident,2400.88,0.0,Under Review,Flood damage during heavy rainfall,False,7
+CLM01049,POL02945,2021-02-18,Vandalism,30760.14,0.0,Pending,Vandalism - scratches and dents,False,49
+CLM01050,POL00093,2024-10-19,Fire,74607.83,67931.63,Settled,,False,52
+CLM01051,POL01956,2021-04-11,Flood,38247.78,0.0,Pending,Flood damage during heavy rainfall,False,0
+CLM01052,POL01883,2021-12-22,Vandalism,34133.05,0.0,Pending,Vehicle stolen from residential area,False,35
+CLM01053,POL00200,2020-06-29,Flood,75419.7,0.0,Rejected,Windshield cracked by debris,False,15
+CLM01054,POL02943,2024-10-14,Accident,59407.14,0.0,Pending,Flood damage during heavy rainfall,False,0
+CLM01055,POL02762,2023-07-05,Natural Disaster,551.57,0.0,Pending,Vehicle stolen from residential area,True,31
+CLM01056,POL02970,2023-08-28,Vandalism,22849.15,0.0,Rejected,Rear end damage in parking lot,False,41
+CLM01057,POL01241,2021-09-11,Theft,55135.64,0.0,Pending,Windshield cracked by debris,False,53
+CLM01058,POL00889,2021-10-24,Theft,41331.21,0.0,Pending,Front end collision on highway,False,39
+CLM01059,POL00437,2022-04-08,Theft,887.62,0.0,Approved,Hit and run incident,False,38
+CLM01060,POL02840,2021-01-24,Flood,36323.22,0.0,Pending,Flood damage during heavy rainfall,False,20
+CLM01061,POL02394,2023-12-03,Flood,21542.55,0.0,Under Review,Vandalism - scratches and dents,False,42
+CLM01062,POL01775,2024-05-26,Flood,20939.62,0.0,Rejected,Vehicle stolen from residential area,False,14
+CLM01063,POL02958,2024-09-04,Accident,27891.97,14458.94,Settled,Front end collision on highway,False,21
+CLM01064,POL02782,2020-02-14,Natural Disaster,39711.13,0.0,Under Review,Hit and run incident,False,25
+CLM01065,POL02248,2020-02-29,Flood,572.4,489.49,Settled,Windshield cracked by debris,False,36
+CLM01066,POL01107,2020-06-21,Natural Disaster,60308.73,59060.86,Settled,Fire damage in garage,False,2
+CLM01067,POL00938,2022-08-31,Fire,19555.68,0.0,Pending,Windshield cracked by debris,False,39
+CLM01068,POL01675,2020-09-13,Fire,18308.5,16972.81,Settled,Vandalism - scratches and dents,False,38
+CLM01069,POL01235,2021-06-07,Flood,4043.47,0.0,Approved,Flood damage during heavy rainfall,False,44
+CLM01070,POL01978,2023-12-12,Accident,37429.56,0.0,Pending,Vehicle stolen from residential area,False,0
+CLM01071,POL02603,2022-05-16,Natural Disaster,22701.53,0.0,Pending,Flood damage during heavy rainfall,False,21
+CLM01072,POL01253,2020-02-06,Vandalism,58684.69,37483.2,Settled,Front end collision on highway,False,35
+CLM01073,POL00617,2021-11-22,Natural Disaster,76474.94,0.0,Rejected,Rear end damage in parking lot,False,26
+CLM01074,POL01535,2023-12-25,Theft,61467.7,59115.24,Settled,Vandalism - scratches and dents,False,40
+CLM01075,POL00181,2024-09-07,Vandalism,41703.03,0.0,Pending,,False,0
+CLM01076,POL01872,2022-11-27,Theft,16826.02,0.0,Under Review,Rear end damage in parking lot,True,44
+CLM01077,POL00850,2021-07-18,Theft,16416.95,19195.16,Settled,Windshield cracked by debris,False,54
+CLM01078,POL00149,2022-03-06,Theft,53036.05,0.0,Rejected,Front end collision on highway,False,0
+CLM01079,POL01934,2024-12-24,Accident,34186.07,0.0,Under Review,Vandalism - scratches and dents,False,0
+CLM01080,POL00214,2020-06-26,Flood,64941.92,0.0,Approved,,False,13
+CLM01081,POL01934,2022-12-14,Flood,76273.0,0.0,Approved,Flood damage during heavy rainfall,False,43
+CLM01082,POL00830,2020-07-25,Natural Disaster,38189.19,0.0,Rejected,,False,51
+CLM01083,POL02457,2021-02-02,Accident,36376.34,0.0,Approved,Vehicle stolen from residential area,False,57
+CLM01084,POL02959,2020-01-30,Theft,55323.93,0.0,Approved,Flood damage during heavy rainfall,False,40
+CLM01085,POL00214,2022-07-21,Fire,79928.62,0.0,Pending,Hit and run incident,False,5
+CLM01086,POL00403,2021-06-16,Accident,73044.88,0.0,Pending,Vandalism - scratches and dents,True,19
+CLM01087,POL02257,2024-09-28,Flood,33152.37,0.0,Pending,Hit and run incident,False,7
+CLM01088,POL01589,2022-05-12,Flood,65457.61,0.0,Rejected,Fire damage in garage,False,10
+CLM01089,POL00203,2020-10-22,Flood,7754.57,0.0,Rejected,Flood damage during heavy rainfall,False,60
+CLM01090,POL00115,2023-10-27,Accident,2080.73,1537.89,Settled,Vandalism - scratches and dents,False,12
+CLM01091,POL02919,2024-10-19,Accident,29876.97,21363.2,Settled,,False,42
+CLM01092,POL01944,2021-05-19,Vandalism,38104.69,0.0,Approved,Fire damage in garage,False,0
+CLM01093,POL01800,2021-09-15,Theft,13315.94,0.0,Rejected,,False,5
+CLM01094,POL02880,2020-03-21,Vandalism,4027.7,0.0,Rejected,Rear end damage in parking lot,False,17
+CLM01095,POL01400,2023-11-01,Flood,5620.53,0.0,Under Review,Front end collision on highway,False,9
+CLM01096,POL00779,2020-02-19,Accident,9531.97,5482.81,Settled,,False,46
+CLM01097,POL01781,2022-04-20,Flood,61764.04,46988.67,Settled,Front end collision on highway,False,22
+CLM01098,POL01130,2020-07-29,Flood,31012.54,0.0,Rejected,Front end collision on highway,False,14
+CLM01099,POL00453,2021-10-01,Natural Disaster,72270.93,0.0,Approved,,False,1
+CLM01100,POL02498,2024-09-01,Fire,33585.22,0.0,Approved,Windshield cracked by debris,False,47
+CLM01101,POL01805,2024-12-15,Theft,67917.96,0.0,Pending,,False,34
+CLM01102,POL01235,2023-06-18,Fire,68382.65,35306.42,Settled,Vehicle stolen from residential area,False,32
+CLM01103,POL00993,2021-11-06,Flood,77220.16,0.0,Under Review,Vandalism - scratches and dents,False,30
+CLM01104,POL02481,2022-05-07,Natural Disaster,-3581.06,0.0,Rejected,,False,8
+CLM01105,POL01460,2024-01-26,Flood,10752.39,0.0,Under Review,Rear end damage in parking lot,False,43
+CLM01106,POL02645,2023-03-31,Fire,47083.54,0.0,Rejected,Vandalism - scratches and dents,False,44
+CLM01107,POL02069,2021-11-13,Vandalism,27951.31,0.0,Under Review,Windshield cracked by debris,False,25
+CLM01108,POL01425,2022-08-05,Flood,5628.85,0.0,Rejected,Front end collision on highway,False,0
+CLM01109,POL01880,2023-10-24,Vandalism,73115.25,53713.86,Settled,Fire damage in garage,False,16
+CLM01110,POL01547,2023-10-17,Theft,34822.98,0.0,Under Review,Vehicle stolen from residential area,False,3
+CLM01111,POL01021,2021-05-25,Vandalism,45970.23,0.0,Under Review,Hit and run incident,False,25
+CLM01112,POL00480,2021-08-11,Vandalism,3053.07,1750.92,Settled,Hit and run incident,False,9
+CLM01113,POL02028,2023-01-26,Theft,69244.52,0.0,Approved,Hit and run incident,False,44
+CLM01114,POL02608,2022-01-13,Theft,16117.0,0.0,Rejected,Fire damage in garage,False,53
+CLM01115,POL01303,2023-11-13,Natural Disaster,26162.51,0.0,Under Review,Fire damage in garage,False,20
+CLM01116,POL00198,2023-10-29,Flood,53370.2,0.0,Rejected,Hit and run incident,False,47
+CLM01117,POL01540,2021-12-22,Theft,41380.73,0.0,Under Review,Rear end damage in parking lot,False,20
+CLM01118,POL02895,2023-05-16,Flood,50032.18,0.0,Pending,Hit and run incident,False,36
+CLM01119,POL00218,2020-12-31,Natural Disaster,60403.18,44252.48,Settled,Windshield cracked by debris,False,60
+CLM01120,POL02258,2020-10-03,Vandalism,27600.13,0.0,Approved,,False,56
+CLM01121,POL00644,2020-01-06,Accident,15104.85,0.0,Approved,Vandalism - scratches and dents,True,38
+CLM01122,POL00227,2021-02-20,Accident,6282.42,0.0,Approved,,False,8
+CLM01123,POL02732,2020-05-12,Theft,74553.97,53037.11,Settled,Fire damage in garage,False,26
+CLM01124,POL02787,2022-10-12,Fire,59066.08,41682.38,Settled,Hit and run incident,False,36
+CLM01125,POL00972,2022-12-06,Theft,27168.93,0.0,Under Review,Vehicle stolen from residential area,False,2
+CLM01126,POL02442,2022-10-15,Vandalism,23686.32,0.0,Pending,Flood damage during heavy rainfall,False,11
+CLM01127,POL02266,2022-04-01,Theft,16186.27,13348.6,Settled,Vandalism - scratches and dents,False,36
+CLM01128,POL02809,2022-04-21,Natural Disaster,50035.09,0.0,Rejected,Front end collision on highway,False,0
+CLM01129,POL00888,2022-01-19,Flood,8873.7,6056.97,Settled,Rear end damage in parking lot,False,15
+CLM01130,POL00025,2023-04-16,Theft,72897.44,46698.27,Settled,Vandalism - scratches and dents,False,12
+CLM01131,POL00286,2020-11-26,Fire,30592.65,0.0,Rejected,Vandalism - scratches and dents,False,16
+CLM01132,POL01276,2021-03-01,Flood,62033.6,0.0,Approved,,False,13
+CLM01133,POL01102,2020-08-20,Vandalism,22050.92,0.0,Pending,Windshield cracked by debris,False,39
+CLM01134,POL00917,2024-12-30,Natural Disaster,46635.57,28914.35,Settled,,False,13
+CLM01135,POL01186,2024-05-24,Theft,67123.79,0.0,Rejected,Vandalism - scratches and dents,False,49
+CLM01136,POL01095,2021-11-02,Flood,55856.29,0.0,Rejected,,True,21
+CLM01137,POL00586,2024-07-15,Theft,19219.51,16295.52,Settled,,False,2
+CLM01138,POL00547,2024-03-31,Vandalism,69649.79,0.0,Approved,,False,55
+CLM01139,POL02110,2022-03-16,Accident,51988.96,0.0,Pending,Windshield cracked by debris,False,0
+CLM01140,POL00185,2020-02-21,Fire,24466.69,0.0,Under Review,Vehicle stolen from residential area,False,36
+CLM01141,POL02601,2022-01-23,Flood,40597.24,0.0,Pending,Front end collision on highway,False,52
+CLM01142,POL01436,2023-10-21,Natural Disaster,41553.49,0.0,Rejected,Vehicle stolen from residential area,False,39
+CLM01143,POL02726,2021-10-21,Natural Disaster,74097.13,0.0,Rejected,Vehicle stolen from residential area,True,39
+CLM01144,POL00446,2024-01-14,Accident,46156.77,25182.35,Settled,Vehicle stolen from residential area,False,8
+CLM01145,POL01018,2021-04-04,Fire,48603.42,0.0,Pending,Hit and run incident,False,36
+CLM01146,POL02666,2021-08-21,Flood,33747.68,0.0,Under Review,Hit and run incident,False,54
+CLM01147,POL01546,2023-05-23,Flood,14376.44,0.0,Under Review,,False,7
+CLM01148,POL02419,2020-04-28,Flood,17076.61,0.0,Pending,Front end collision on highway,False,58
+CLM01149,POL02191,2021-11-12,Theft,63737.68,0.0,Pending,Vehicle stolen from residential area,False,31
+CLM01150,POL01488,2022-06-13,Flood,0.0,0.0,Approved,Flood damage during heavy rainfall,False,10
+CLM01151,POL00308,2021-12-27,Accident,27229.39,26257.27,Settled,Vandalism - scratches and dents,False,48
+CLM01152,POL00012,2023-12-16,Accident,21641.65,0.0,Approved,,False,44
+CLM01153,POL00026,2022-12-27,Fire,77320.47,46638.41,Settled,Fire damage in garage,False,60
+CLM01154,POL00717,2020-03-07,Natural Disaster,50889.82,0.0,Pending,Vehicle stolen from residential area,False,55
+CLM01155,POL02661,2024-05-05,Flood,24904.07,22196.65,Settled,,False,0
+CLM01156,POL02720,2020-01-18,Vandalism,12348.71,0.0,Rejected,Fire damage in garage,False,52
+CLM01157,POL00924,2022-06-12,Accident,18374.83,0.0,Approved,Front end collision on highway,False,50
+CLM01158,POL02220,2022-09-30,Vandalism,34425.1,0.0,Approved,Vehicle stolen from residential area,False,36
+CLM01159,POL00707,2024-09-25,Theft,71407.31,0.0,Rejected,Fire damage in garage,True,13
+CLM01160,POL02909,2020-01-01,Accident,6365.21,4669.69,Settled,Vehicle stolen from residential area,False,45
+CLM01161,POL00048,2021-02-13,Natural Disaster,-1420.8,0.0,Pending,Hit and run incident,True,46
+CLM01162,POL01603,2024-05-22,Vandalism,64015.09,0.0,Approved,Fire damage in garage,False,11
+CLM01163,POL00424,2024-10-23,Theft,6260.98,0.0,Under Review,Flood damage during heavy rainfall,False,54
+CLM01164,POL01993,2021-08-10,Natural Disaster,57500.1,0.0,Rejected,Vehicle stolen from residential area,True,58
+CLM01165,POL01513,2023-06-20,Theft,23874.19,0.0,Pending,Rear end damage in parking lot,False,55
+CLM01166,POL00394,2021-10-18,Natural Disaster,21773.51,0.0,Pending,,False,37
+CLM01167,POL01056,2021-03-11,Flood,15885.24,0.0,Under Review,Flood damage during heavy rainfall,False,39
+CLM01168,POL01486,2021-10-03,Fire,2457.68,0.0,Under Review,Front end collision on highway,False,34
+CLM01169,POL01170,2023-10-22,Fire,73323.93,0.0,Approved,Vandalism - scratches and dents,False,37
+CLM01170,POL01582,2023-04-24,Accident,60403.24,0.0,Rejected,Vehicle stolen from residential area,False,57
+CLM01171,POL01240,2021-11-11,Flood,40756.35,0.0,Pending,Fire damage in garage,False,47
+CLM01172,POL01036,2020-02-24,Fire,11983.67,0.0,Under Review,Vandalism - scratches and dents,False,7
+CLM01173,POL02490,2022-12-15,Theft,46416.37,0.0,Rejected,Rear end damage in parking lot,False,54
+CLM01174,POL01207,2022-11-16,Natural Disaster,65484.69,0.0,Approved,Vehicle stolen from residential area,False,27
+CLM01175,POL02517,2024-05-17,Theft,13515.37,0.0,Pending,,False,31
+CLM01176,POL02391,2020-06-07,Fire,22715.12,0.0,Rejected,,False,39
+CLM01177,POL00418,2024-04-29,Flood,62789.45,0.0,Approved,Vehicle stolen from residential area,False,53
+CLM01178,POL02469,2023-09-14,Fire,41882.28,0.0,Rejected,Front end collision on highway,False,10
+CLM01179,POL00426,2024-05-23,Natural Disaster,68200.63,0.0,Under Review,Front end collision on highway,False,32
+CLM01180,POL01411,2020-01-02,Accident,52386.4,45159.28,Settled,,False,45
+CLM01181,POL02727,2024-12-20,Flood,63375.06,0.0,Rejected,Vandalism - scratches and dents,False,54
+CLM01182,POL02479,2021-03-20,Flood,37032.49,32395.48,Settled,,False,7
+CLM01183,POL02327,2024-03-08,Vandalism,22485.19,0.0,Under Review,Vandalism - scratches and dents,True,27
+CLM01184,POL01766,2021-03-24,Fire,12267.68,0.0,Under Review,Vandalism - scratches and dents,False,11
+CLM01185,POL02810,2021-01-09,Fire,29844.42,0.0,Approved,Fire damage in garage,False,59
+CLM01186,POL02027,2021-08-23,Accident,34344.58,0.0,Under Review,Vehicle stolen from residential area,False,38
+CLM01187,POL02727,2021-04-08,Theft,28861.88,0.0,Pending,Windshield cracked by debris,False,57
+CLM01188,POL02549,2020-06-19,Natural Disaster,6322.01,0.0,Approved,Fire damage in garage,False,56
+CLM01189,POL01788,2023-04-10,Accident,21660.36,0.0,Approved,Flood damage during heavy rainfall,False,34
+CLM01190,POL01958,2021-07-13,Natural Disaster,46624.75,38499.81,Settled,Vandalism - scratches and dents,False,21
+CLM01191,POL01121,2020-04-21,Natural Disaster,571.33,404.44,Settled,Vehicle stolen from residential area,False,14
+CLM01192,POL00018,2021-08-24,Flood,0.0,0.0,Approved,Flood damage during heavy rainfall,False,59
+CLM01193,POL01416,2023-09-20,Accident,14844.74,0.0,Approved,Vehicle stolen from residential area,True,9
+CLM01194,POL01447,2024-10-09,Accident,27830.87,0.0,Under Review,Vehicle stolen from residential area,False,17
+CLM01195,POL01884,2022-07-05,Natural Disaster,69441.23,0.0,Under Review,Vehicle stolen from residential area,False,35
+CLM01196,POL00539,2022-06-29,Vandalism,69338.74,0.0,Under Review,Hit and run incident,False,44
+CLM01197,POL00233,2023-03-22,Theft,-3438.5,0.0,Rejected,Vandalism - scratches and dents,False,2
+CLM01198,POL02699,2020-04-22,Theft,22618.64,20969.78,Settled,Rear end damage in parking lot,False,11
+CLM01199,POL02634,2023-11-01,Theft,21055.1,11678.37,Settled,Hit and run incident,False,0
+CLM01200,POL01182,2023-09-15,Natural Disaster,18576.09,0.0,Approved,Hit and run incident,False,39
+CLM01201,POL02349,2020-12-22,Natural Disaster,59332.24,35549.11,Settled,,False,0
+CLM01202,POL01009,2021-10-18,Accident,62457.0,0.0,Rejected,Vehicle stolen from residential area,False,25
+CLM01203,POL00507,2022-09-18,Theft,59044.33,0.0,Under Review,Front end collision on highway,False,2
+CLM01204,POL02488,2022-12-18,Natural Disaster,0.0,0.0,Rejected,,False,42
+CLM01205,POL00007,2021-06-30,Vandalism,68288.71,0.0,Rejected,Vandalism - scratches and dents,False,36
+CLM01206,POL01338,2022-04-15,Accident,76088.8,58038.3,Settled,Front end collision on highway,False,39
+CLM01207,POL00210,2020-05-15,Theft,69118.18,0.0,Rejected,Windshield cracked by debris,False,32
+CLM01208,POL02265,2020-11-30,Fire,14134.35,0.0,Pending,Windshield cracked by debris,False,30
+CLM01209,POL02644,2020-01-31,Fire,78690.04,0.0,Pending,Rear end damage in parking lot,True,51
+CLM01210,POL01119,2022-04-29,Accident,57874.8,0.0,Pending,Windshield cracked by debris,False,27
+CLM01211,POL01029,2024-11-15,Fire,12017.02,0.0,Pending,Vandalism - scratches and dents,False,26
+CLM01212,POL01158,2022-03-28,Vandalism,50617.8,0.0,Under Review,,False,58
+CLM01213,POL01366,2021-11-11,Natural Disaster,0.0,0.0,Under Review,Fire damage in garage,False,0
+CLM01214,POL01877,2024-09-11,Vandalism,38094.75,0.0,Under Review,Vehicle stolen from residential area,False,41
+CLM01215,POL00901,2023-05-25,Accident,64239.76,32532.89,Settled,Windshield cracked by debris,False,36
+CLM01216,POL02922,2021-05-08,Theft,67989.92,0.0,Approved,Vandalism - scratches and dents,False,22
+CLM01217,POL02889,2024-05-28,Fire,61595.87,0.0,Under Review,Flood damage during heavy rainfall,False,60
+CLM01218,POL01538,2021-07-15,Fire,43066.32,0.0,Approved,Front end collision on highway,False,0
+CLM01219,POL02458,2021-03-10,Vandalism,12106.07,0.0,Pending,Rear end damage in parking lot,False,30
+CLM01220,POL00903,2024-02-28,Flood,54673.59,27739.36,Settled,Flood damage during heavy rainfall,False,4
+CLM01221,POL02222,2021-11-28,Accident,21088.69,0.0,Approved,Vehicle stolen from residential area,False,43
+CLM01222,POL01515,2021-03-09,Flood,25675.1,0.0,Rejected,Front end collision on highway,False,4
+CLM01223,POL00062,2024-03-24,Flood,72701.68,0.0,Approved,Hit and run incident,False,3
+CLM01224,POL01468,2023-04-26,Natural Disaster,68780.68,0.0,Approved,Rear end damage in parking lot,False,1
+CLM01225,POL01835,2022-03-30,Theft,59382.68,58324.23,Settled,,False,47
+CLM01226,POL01279,2023-12-16,Accident,25912.6,0.0,Pending,Vehicle stolen from residential area,False,59
+CLM01227,POL01067,2024-10-07,Accident,13076.82,0.0,Pending,Vandalism - scratches and dents,False,22
+CLM01228,POL00869,2020-11-09,Vandalism,27216.9,0.0,Rejected,Fire damage in garage,False,19
+CLM01229,POL02052,2020-03-29,Fire,73019.63,61910.09,Settled,Rear end damage in parking lot,False,30
+CLM01230,POL01759,2024-07-16,Accident,64250.65,0.0,Approved,Front end collision on highway,False,58
+CLM01231,POL00767,2021-03-10,Flood,79212.31,0.0,Rejected,,False,6
+CLM01232,POL00368,2020-11-04,Natural Disaster,7519.77,0.0,Rejected,Rear end damage in parking lot,False,7
+CLM01233,POL02108,2024-04-08,Natural Disaster,34543.14,0.0,Under Review,Front end collision on highway,False,22
+CLM01234,POL01229,2021-12-16,Theft,32837.85,19473.54,Settled,Front end collision on highway,True,0
+CLM01235,POL00058,2021-09-26,Accident,58912.86,0.0,Approved,Front end collision on highway,True,8
+CLM01236,POL00639,2024-04-13,Vandalism,27112.28,0.0,Pending,Vehicle stolen from residential area,False,45
+CLM01237,POL02404,2021-10-31,Accident,0.0,0.0,Settled,Hit and run incident,False,34
+CLM01238,POL02739,2024-09-01,Vandalism,47280.17,0.0,Under Review,Rear end damage in parking lot,False,0
+CLM01239,POL00464,2024-02-16,Flood,58317.68,0.0,Approved,Front end collision on highway,False,2
+CLM01240,POL01907,2021-12-13,Flood,17224.94,12418.7,Settled,Hit and run incident,False,36
+CLM01241,POL01225,2024-05-20,Natural Disaster,6906.2,0.0,Approved,Rear end damage in parking lot,False,40
+CLM01242,POL02713,2023-07-19,Theft,60404.54,0.0,Approved,Rear end damage in parking lot,False,23
+CLM01243,POL01264,2021-03-17,Flood,45084.67,0.0,Approved,Fire damage in garage,False,0
+CLM01244,POL01800,2024-04-14,Vandalism,59901.0,34351.36,Settled,Fire damage in garage,False,38
+CLM01245,POL02938,2021-10-20,Vandalism,37887.74,19113.83,Settled,Rear end damage in parking lot,False,49
+CLM01246,POL00897,2023-07-23,Vandalism,15033.98,0.0,Under Review,Fire damage in garage,False,25
+CLM01247,POL02647,2024-04-18,Theft,70426.93,0.0,Under Review,Vehicle stolen from residential area,True,2
+CLM01248,POL01046,2020-01-25,Vandalism,58598.53,0.0,Rejected,Hit and run incident,False,21
+CLM01249,POL02975,2021-02-06,Fire,44140.12,0.0,Under Review,Hit and run incident,False,54
+CLM01250,POL00433,2021-05-27,Vandalism,16138.23,11244.12,Settled,Rear end damage in parking lot,False,25
+CLM01251,POL02381,2023-06-27,Natural Disaster,68311.55,55281.09,Settled,Front end collision on highway,False,22
+CLM01252,POL02799,2023-11-13,Vandalism,68597.0,0.0,Under Review,Rear end damage in parking lot,False,0
+CLM01253,POL02160,2023-05-16,Vandalism,1567.68,1318.98,Settled,Rear end damage in parking lot,False,31
+CLM01254,POL02533,2023-01-10,Vandalism,38525.92,0.0,Pending,Rear end damage in parking lot,False,7
+CLM01255,POL02543,2021-12-18,Theft,51122.21,36632.08,Settled,Rear end damage in parking lot,False,57
+CLM01256,POL00923,2021-05-29,Fire,48586.91,0.0,Rejected,Front end collision on highway,False,4
+CLM01257,POL02210,2021-11-12,Fire,71994.58,0.0,Approved,Front end collision on highway,False,27
+CLM01258,POL00385,2020-02-19,Accident,9068.31,8562.33,Settled,Vehicle stolen from residential area,False,49
+CLM01259,POL02055,2023-01-02,Accident,70160.94,0.0,Under Review,Vehicle stolen from residential area,False,22
+CLM01260,POL00553,2021-07-01,Theft,32676.13,0.0,Rejected,Flood damage during heavy rainfall,False,18
+CLM01261,POL01813,2022-06-17,Fire,31395.97,0.0,Rejected,Fire damage in garage,False,23
+CLM01262,POL00489,2021-05-24,Accident,77525.81,92375.28,Settled,,False,42
+CLM01263,POL02272,2024-07-11,Theft,-1383.59,0.0,Approved,Front end collision on highway,False,51
+CLM01264,POL01558,2022-12-11,Fire,24291.1,14489.56,Settled,Flood damage during heavy rainfall,False,39
+CLM01265,POL01567,2022-12-25,Fire,68322.49,0.0,Pending,Windshield cracked by debris,False,30
+CLM01266,POL01557,2022-10-04,Fire,49268.68,44873.25,Settled,Rear end damage in parking lot,False,44
+CLM01267,POL02307,2020-11-25,Theft,51539.39,50834.53,Settled,Vandalism - scratches and dents,True,1
+CLM01268,POL02430,2020-01-07,Theft,59170.38,0.0,Approved,Vehicle stolen from residential area,False,55
+CLM01269,POL02506,2023-04-20,Natural Disaster,56618.63,0.0,Approved,Front end collision on highway,False,45
+CLM01270,POL00105,2023-05-05,Vandalism,59216.02,0.0,Rejected,Vandalism - scratches and dents,False,43
+CLM01271,POL00175,2022-11-18,Flood,51606.9,0.0,Under Review,Fire damage in garage,False,13
+CLM01272,POL00477,2022-07-05,Vandalism,61327.9,0.0,Under Review,Rear end damage in parking lot,False,34
+CLM01273,POL00467,2024-02-12,Accident,7223.26,0.0,Pending,Flood damage during heavy rainfall,False,57
+CLM01274,POL00444,2021-05-25,Natural Disaster,21007.16,0.0,Pending,Front end collision on highway,False,51
+CLM01275,POL01864,2020-07-05,Theft,70758.05,0.0,Pending,Rear end damage in parking lot,False,21
+CLM01276,POL02176,2024-02-22,Theft,71181.49,0.0,Pending,Vehicle stolen from residential area,False,30
+CLM01277,POL01857,2020-07-15,Accident,29088.97,27823.95,Settled,Fire damage in garage,False,1
+CLM01278,POL00313,2022-08-26,Theft,68337.58,0.0,Rejected,Rear end damage in parking lot,False,8
+CLM01279,POL02347,2023-09-18,Natural Disaster,1654.35,1639.23,Settled,Flood damage during heavy rainfall,False,10
+CLM01280,POL02270,2021-02-08,Theft,46871.32,0.0,Approved,Vandalism - scratches and dents,False,58
+CLM01281,POL01129,2020-03-18,Vandalism,55815.65,0.0,Pending,Hit and run incident,False,32
+CLM01282,POL00770,2024-10-30,Accident,41271.01,0.0,Under Review,Vehicle stolen from residential area,False,38
+CLM01283,POL00085,2022-04-08,Vandalism,0.0,0.0,Pending,Vehicle stolen from residential area,False,3
+CLM01284,POL00322,2020-04-19,Natural Disaster,51949.21,0.0,Approved,Vandalism - scratches and dents,False,40
+CLM01285,POL01218,2024-06-08,Fire,48394.25,0.0,Under Review,Hit and run incident,False,33
+CLM01286,POL01697,2022-07-12,Vandalism,41823.07,0.0,Pending,Hit and run incident,False,39
+CLM01287,POL00511,2023-12-26,Fire,78488.9,0.0,Pending,,False,41
+CLM01288,POL01203,2022-05-25,Theft,58260.25,0.0,Approved,Vehicle stolen from residential area,False,27
+CLM01289,POL01621,2022-11-18,Natural Disaster,56642.56,0.0,Pending,Windshield cracked by debris,False,28
+CLM01290,POL00073,2022-12-21,Vandalism,11142.7,0.0,Rejected,Vehicle stolen from residential area,False,13
+CLM01291,POL01429,2022-01-29,Theft,14263.2,11113.77,Settled,,False,52
+CLM01292,POL02082,2020-04-21,Flood,32560.27,0.0,Approved,,True,24
+CLM01293,POL02181,2023-03-24,Accident,21268.41,19271.98,Settled,Front end collision on highway,False,13
+CLM01294,POL02385,2023-08-05,Flood,71853.04,0.0,Rejected,Vehicle stolen from residential area,False,45
+CLM01295,POL01720,2020-02-23,Vandalism,0.0,0.0,Approved,Hit and run incident,False,43
+CLM01296,POL02772,2023-11-20,Natural Disaster,22135.58,0.0,Pending,Flood damage during heavy rainfall,False,8
+CLM01297,POL02393,2020-07-17,Vandalism,18408.25,0.0,Under Review,Rear end damage in parking lot,False,7
+CLM01298,POL01142,2021-06-03,Flood,5505.77,3681.01,Settled,Vandalism - scratches and dents,False,43
+CLM01299,POL00121,2024-05-26,Vandalism,71638.67,0.0,Approved,Vandalism - scratches and dents,False,50
+CLM01300,POL00033,2020-04-21,Fire,6367.4,0.0,Pending,Vehicle stolen from residential area,False,60
+CLM01301,POL00566,2022-06-07,Fire,20136.36,18741.18,Settled,Hit and run incident,False,45
+CLM01302,POL02749,2023-10-18,Flood,61765.16,52471.74,Settled,,False,0
+CLM01303,POL02462,2022-10-12,Theft,24850.47,0.0,Rejected,Rear end damage in parking lot,False,44
+CLM01304,POL02781,2024-10-22,Vandalism,74479.75,0.0,Approved,Fire damage in garage,False,22
+CLM01305,POL01883,2023-09-07,Accident,23641.2,0.0,Approved,Fire damage in garage,False,10
+CLM01306,POL00352,2023-09-01,Flood,12892.46,0.0,Pending,Vandalism - scratches and dents,False,58
+CLM01307,POL02775,2020-12-20,Theft,10482.34,0.0,Approved,Fire damage in garage,False,28
+CLM01308,POL02998,2022-03-03,Theft,79894.3,0.0,Rejected,Rear end damage in parking lot,False,9
+CLM01309,POL02490,2023-06-07,Theft,11507.75,7728.87,Settled,Hit and run incident,False,55
+CLM01310,POL01838,2024-09-24,Accident,73461.27,0.0,Pending,Hit and run incident,False,34
+CLM01311,POL02881,2022-02-15,Accident,56278.52,0.0,Under Review,,False,26
+CLM01312,POL00785,2023-12-16,Flood,39113.14,0.0,Under Review,Windshield cracked by debris,False,2
+CLM01313,POL02930,2022-02-11,Theft,46888.4,0.0,Pending,Rear end damage in parking lot,False,18
+CLM01314,POL00590,2023-03-28,Fire,71784.0,0.0,Approved,,False,32
+CLM01315,POL01846,2022-02-23,Fire,17594.11,0.0,Under Review,Windshield cracked by debris,False,25
+CLM01316,POL02596,2024-07-17,Vandalism,56705.41,0.0,Approved,Fire damage in garage,False,50
+CLM01317,POL01054,2024-06-06,Flood,67007.61,0.0,Approved,Vehicle stolen from residential area,False,15
+CLM01318,POL01680,2022-12-20,Flood,-3207.91,0.0,Under Review,Windshield cracked by debris,True,38
+CLM01319,POL00810,2023-05-24,Natural Disaster,64965.36,52249.6,Settled,Flood damage during heavy rainfall,False,57
+CLM01320,POL00673,2021-12-19,Vandalism,0.0,0.0,Rejected,Vandalism - scratches and dents,False,24
+CLM01321,POL02271,2022-06-03,Theft,1901.39,0.0,Rejected,,False,17
+CLM01322,POL00504,2020-07-25,Vandalism,32560.07,0.0,Pending,Vehicle stolen from residential area,False,6
+CLM01323,POL00509,2023-10-21,Fire,-2381.88,0.0,Pending,Flood damage during heavy rainfall,False,51
+CLM01324,POL01062,2020-10-30,Natural Disaster,32702.56,0.0,Pending,Flood damage during heavy rainfall,False,52
+CLM01325,POL01523,2020-12-25,Flood,14763.58,0.0,Under Review,Hit and run incident,False,3
+CLM01326,POL00978,2020-01-14,Accident,68939.29,0.0,Under Review,Front end collision on highway,False,26
+CLM01327,POL02078,2022-08-01,Theft,31979.89,0.0,Rejected,Vehicle stolen from residential area,False,14
+CLM01328,POL02991,2024-03-25,Accident,61241.98,0.0,Pending,Hit and run incident,False,0
+CLM01329,POL00850,2024-09-01,Fire,34761.69,0.0,Rejected,Vandalism - scratches and dents,False,36
+CLM01330,POL02651,2022-04-24,Vandalism,24389.33,0.0,Pending,Flood damage during heavy rainfall,False,48
+CLM01331,POL02330,2021-07-13,Natural Disaster,77489.87,0.0,Under Review,Vandalism - scratches and dents,False,51
+CLM01332,POL00366,2022-05-06,Fire,9798.77,0.0,Under Review,Vandalism - scratches and dents,False,44
+CLM01333,POL00947,2022-08-25,Natural Disaster,-2784.84,0.0,Under Review,,False,2
+CLM01334,POL00442,2022-07-19,Vandalism,10363.95,0.0,Approved,Windshield cracked by debris,False,0
+CLM01335,POL02443,2022-01-23,Theft,64353.12,0.0,Approved,Fire damage in garage,False,4
+CLM01336,POL01311,2021-06-29,Flood,62568.32,0.0,Pending,Vandalism - scratches and dents,False,15
+CLM01337,POL02500,2024-09-16,Vandalism,39780.67,0.0,Rejected,Vehicle stolen from residential area,False,47
+CLM01338,POL01712,2024-11-04,Natural Disaster,7929.62,5007.12,Settled,Flood damage during heavy rainfall,True,29
+CLM01339,POL02505,2020-06-06,Vandalism,66479.99,0.0,Approved,Vandalism - scratches and dents,False,5
+CLM01340,POL02256,2020-01-31,Fire,55049.82,0.0,Rejected,Windshield cracked by debris,False,11
+CLM01341,POL00557,2020-08-20,Accident,25397.21,0.0,Under Review,Vandalism - scratches and dents,False,47
+CLM01342,POL01802,2021-03-21,Accident,40538.29,0.0,Rejected,Windshield cracked by debris,False,0
+CLM01343,POL01877,2022-12-12,Natural Disaster,45704.59,0.0,Pending,,False,49
+CLM01344,POL00733,2024-12-19,Natural Disaster,-2052.24,0.0,Approved,Vandalism - scratches and dents,False,30
+CLM01345,POL00063,2021-12-17,Flood,43491.09,0.0,Pending,Vandalism - scratches and dents,False,4
+CLM01346,POL01559,2024-05-18,Flood,78160.95,0.0,Approved,Front end collision on highway,False,5
+CLM01347,POL02210,2023-04-03,Theft,59971.45,0.0,Rejected,Vandalism - scratches and dents,True,6
+CLM01348,POL01802,2021-06-01,Accident,30809.17,0.0,Under Review,Rear end damage in parking lot,False,27
+CLM01349,POL02924,2024-04-07,Flood,19013.8,15779.58,Settled,Rear end damage in parking lot,False,0
+CLM01350,POL02061,2024-11-05,Vandalism,72928.75,0.0,Rejected,Vehicle stolen from residential area,False,23
+CLM01351,POL02929,2024-02-24,Natural Disaster,15789.86,0.0,Rejected,Vehicle stolen from residential area,False,30
+CLM01352,POL00212,2024-06-26,Flood,15071.41,13276.71,Settled,,False,52
+CLM01353,POL01451,2021-04-18,Theft,0.0,0.0,Pending,Windshield cracked by debris,False,28
+CLM01354,POL01579,2022-11-11,Fire,809.38,0.0,Rejected,,False,30
+CLM01355,POL01250,2024-01-06,Natural Disaster,27656.7,21285.87,Settled,Rear end damage in parking lot,False,59
+CLM01356,POL02159,2022-04-29,Accident,24321.25,0.0,Under Review,Vehicle stolen from residential area,False,19
+CLM01357,POL00205,2023-03-09,Accident,76513.55,0.0,Rejected,Vandalism - scratches and dents,True,4
+CLM01358,POL01604,2021-07-10,Theft,72541.36,0.0,Rejected,Vandalism - scratches and dents,False,34
+CLM01359,POL01148,2022-08-16,Natural Disaster,48980.64,0.0,Pending,Fire damage in garage,False,0
+CLM01360,POL01730,2022-07-16,Flood,73121.1,0.0,Rejected,Vandalism - scratches and dents,False,34
+CLM01361,POL02102,2021-08-13,Accident,16270.76,0.0,Pending,Front end collision on highway,False,51
+CLM01362,POL02695,2021-11-14,Flood,32588.69,0.0,Under Review,Fire damage in garage,False,56
+CLM01363,POL02589,2021-05-17,Fire,53478.2,36568.04,Settled,Windshield cracked by debris,True,56
+CLM01364,POL01984,2022-08-29,Accident,36496.36,0.0,Under Review,Front end collision on highway,False,49
+CLM01365,POL00443,2021-01-18,Flood,48164.68,0.0,Approved,Hit and run incident,False,54
+CLM01366,POL01829,2020-08-15,Fire,39308.31,0.0,Under Review,Windshield cracked by debris,False,27
+CLM01367,POL00957,2024-04-09,Vandalism,54557.25,0.0,Under Review,Fire damage in garage,False,27
+CLM01368,POL02186,2022-12-03,Theft,42197.9,28253.41,Settled,Front end collision on highway,False,6
+CLM01369,POL00912,2022-03-30,Theft,39716.3,37871.06,Settled,,False,59
+CLM01370,POL02429,2024-11-25,Flood,76159.11,0.0,Pending,Front end collision on highway,False,31
+CLM01371,POL00263,2024-08-16,Accident,58745.89,0.0,Pending,,False,60
+CLM01372,POL00241,2022-04-21,Theft,15757.26,0.0,Pending,Hit and run incident,False,0
+CLM01373,POL01240,2022-07-01,Fire,8542.53,0.0,Under Review,Front end collision on highway,True,58
+CLM01374,POL01413,2021-03-08,Theft,30459.4,18965.07,Settled,Fire damage in garage,False,46
+CLM01375,POL00699,2023-04-23,Theft,10282.92,0.0,Under Review,Front end collision on highway,False,19
+CLM01376,POL00509,2020-06-19,Theft,16408.74,0.0,Pending,Rear end damage in parking lot,False,12
+CLM01377,POL01986,2021-10-22,Fire,31867.87,0.0,Approved,Front end collision on highway,False,56
+CLM01378,POL02694,2020-11-15,Accident,16036.39,0.0,Pending,,True,55
+CLM01379,POL02515,2020-08-17,Natural Disaster,-676.55,0.0,Rejected,Vehicle stolen from residential area,False,17
+CLM01380,POL00652,2023-06-10,Theft,78760.06,0.0,Pending,Vandalism - scratches and dents,False,0
+CLM01381,POL01680,2023-02-12,Fire,36609.91,0.0,Pending,Windshield cracked by debris,False,31
+CLM01382,POL01058,2021-05-31,Vandalism,52911.3,0.0,Rejected,Rear end damage in parking lot,False,3
+CLM01383,POL01596,2022-12-03,Natural Disaster,10203.25,10113.44,Settled,Front end collision on highway,False,31
+CLM01384,POL02544,2021-08-08,Fire,47642.56,0.0,Approved,Flood damage during heavy rainfall,False,18
+CLM01385,POL00700,2020-05-07,Accident,0.0,0.0,Under Review,Flood damage during heavy rainfall,True,0
+CLM01386,POL01765,2022-05-21,Theft,48526.64,0.0,Approved,Windshield cracked by debris,False,6
+CLM01387,POL00524,2021-02-03,Accident,50317.22,36252.4,Settled,Fire damage in garage,False,32
+CLM01388,POL00028,2020-07-13,Theft,10148.46,0.0,Pending,Hit and run incident,False,44
+CLM01389,POL01107,2023-11-12,Flood,36697.13,0.0,Rejected,Hit and run incident,False,29
+CLM01390,POL02004,2021-09-12,Flood,76903.47,0.0,Rejected,Rear end damage in parking lot,False,44
+CLM01391,POL02631,2023-10-17,Accident,79553.87,0.0,Rejected,Front end collision on highway,True,0
+CLM01392,POL02118,2020-07-28,Vandalism,54365.68,0.0,Under Review,Vandalism - scratches and dents,False,50
+CLM01393,POL00575,2023-06-29,Theft,-4775.23,0.0,Pending,Vehicle stolen from residential area,False,28
+CLM01394,POL01774,2020-10-21,Natural Disaster,31118.56,0.0,Approved,Fire damage in garage,False,47
+CLM01395,POL01287,2024-11-05,Flood,76858.64,0.0,Under Review,Vandalism - scratches and dents,False,20
+CLM01396,POL02098,2020-12-16,Vandalism,73918.46,59750.39,Settled,,False,13
+CLM01397,POL02798,2023-08-02,Fire,35086.84,0.0,Rejected,Flood damage during heavy rainfall,False,3
+CLM01398,POL00531,2024-05-10,Theft,55094.92,0.0,Pending,Front end collision on highway,False,21
+CLM01399,POL02875,2024-01-26,Vandalism,24463.61,0.0,Approved,Flood damage during heavy rainfall,True,1
+CLM01400,POL02659,2022-03-15,Natural Disaster,55407.35,0.0,Pending,Hit and run incident,False,40
+CLM01401,POL00682,2020-05-21,Vandalism,28549.6,0.0,Pending,Hit and run incident,False,37
+CLM01402,POL01262,2022-09-29,Natural Disaster,-2302.6,0.0,Approved,Fire damage in garage,False,14
+CLM01403,POL02368,2021-02-10,Vandalism,28502.17,0.0,Pending,Windshield cracked by debris,False,44
+CLM01404,POL00833,2023-10-11,Natural Disaster,18459.7,0.0,Pending,,False,53
+CLM01405,POL02636,2024-02-28,Vandalism,61632.8,0.0,Rejected,Flood damage during heavy rainfall,True,36
+CLM01406,POL00769,2021-02-16,Flood,7285.61,0.0,Under Review,Rear end damage in parking lot,False,0
+CLM01407,POL00543,2021-03-04,Natural Disaster,46775.47,0.0,Approved,Flood damage during heavy rainfall,False,20
+CLM01408,POL01378,2021-07-18,Natural Disaster,58706.46,0.0,Approved,Vehicle stolen from residential area,True,40
+CLM01409,POL00618,2021-12-29,Theft,64140.75,0.0,Rejected,Hit and run incident,False,23
+CLM01410,POL02693,2020-07-19,Natural Disaster,68959.17,0.0,Pending,Flood damage during heavy rainfall,False,28
+CLM01411,POL01016,2024-08-29,Vandalism,33701.09,0.0,Pending,Rear end damage in parking lot,False,37
+CLM01412,POL01276,2021-02-25,Fire,5544.64,0.0,Approved,Fire damage in garage,False,39
+CLM01413,POL00743,2020-01-17,Natural Disaster,64556.27,0.0,Under Review,Front end collision on highway,False,49
+CLM01414,POL02597,2022-11-02,Theft,75210.18,0.0,Pending,Hit and run incident,False,6
+CLM01415,POL02489,2021-09-06,Theft,1443.64,0.0,Rejected,Windshield cracked by debris,False,55
+CLM01416,POL00280,2022-05-25,Flood,29805.74,0.0,Rejected,Vandalism - scratches and dents,False,26
+CLM01417,POL01557,2024-05-04,Natural Disaster,34790.27,0.0,Rejected,Windshield cracked by debris,False,46
+CLM01418,POL01325,2021-06-02,Flood,75643.16,0.0,Under Review,Front end collision on highway,True,34
+CLM01419,POL01621,2023-06-15,Vandalism,68840.38,0.0,Under Review,Fire damage in garage,False,52
+CLM01420,POL00548,2023-05-07,Accident,37917.6,0.0,Under Review,Windshield cracked by debris,True,41
+CLM01421,POL00290,2022-07-19,Theft,22159.18,11114.97,Settled,Flood damage during heavy rainfall,False,0
+CLM01422,POL01036,2022-11-26,Vandalism,58046.34,0.0,Pending,Rear end damage in parking lot,False,36
+CLM01423,POL01292,2023-04-10,Fire,0.0,0.0,Rejected,Fire damage in garage,False,37
+CLM01424,POL01009,2022-07-10,Fire,10975.85,9895.12,Settled,,False,42
+CLM01425,POL01364,2021-12-14,Theft,18302.91,0.0,Approved,Vehicle stolen from residential area,True,29
+CLM01426,POL01917,2020-10-16,Accident,65617.71,0.0,Pending,Hit and run incident,False,44
+CLM01427,POL00777,2020-05-10,Accident,38615.88,0.0,Approved,Fire damage in garage,False,42
+CLM01428,POL02785,2023-01-20,Flood,65633.0,0.0,Pending,Fire damage in garage,False,2
+CLM01429,POL01678,2024-12-16,Fire,38445.6,0.0,Pending,Fire damage in garage,False,48
+CLM01430,POL01339,2022-03-01,Accident,63905.01,49672.54,Settled,,False,12
+CLM01431,POL02385,2024-05-23,Fire,61368.26,0.0,Under Review,Fire damage in garage,False,5
+CLM01432,POL01419,2022-04-07,Fire,8256.41,5856.93,Settled,Vehicle stolen from residential area,False,22
+CLM01433,POL00918,2021-12-19,Theft,12074.89,8190.42,Settled,Flood damage during heavy rainfall,False,52
+CLM01434,POL02846,2020-01-26,Fire,78047.52,40572.94,Settled,Flood damage during heavy rainfall,False,50
+CLM01435,POL01450,2021-04-12,Natural Disaster,60997.45,0.0,Rejected,Fire damage in garage,False,38
+CLM01436,POL00116,2022-10-21,Flood,65753.18,0.0,Pending,Fire damage in garage,False,17
+CLM01437,POL00507,2024-10-08,Accident,7470.31,0.0,Pending,Windshield cracked by debris,False,12
+CLM01438,POL01578,2020-08-07,Flood,79787.02,0.0,Under Review,Vandalism - scratches and dents,False,40
+CLM01439,POL00816,2020-04-03,Fire,69517.43,0.0,Under Review,Flood damage during heavy rainfall,True,25
+CLM01440,POL00681,2021-02-18,Natural Disaster,43719.04,0.0,Pending,Vehicle stolen from residential area,False,30
+CLM01441,POL02452,2020-07-01,Theft,49549.75,25423.58,Settled,Vandalism - scratches and dents,False,30
+CLM01442,POL00794,2023-07-06,Vandalism,50611.93,0.0,Approved,Rear end damage in parking lot,False,6
+CLM01443,POL01209,2020-06-14,Flood,-1855.66,0.0,Approved,Windshield cracked by debris,False,33
+CLM01444,POL01577,2023-08-28,Fire,29104.07,0.0,Pending,Fire damage in garage,False,40
+CLM01445,POL02084,2023-12-23,Vandalism,30528.09,15820.35,Settled,,False,20
+CLM01446,POL02684,2022-12-02,Vandalism,60341.96,0.0,Pending,Rear end damage in parking lot,False,57
+CLM01447,POL02431,2024-01-01,Natural Disaster,6798.15,0.0,Approved,Rear end damage in parking lot,False,25
+CLM01448,POL00195,2024-02-05,Vandalism,3299.08,0.0,Under Review,Vandalism - scratches and dents,False,46
+CLM01449,POL00986,2023-09-05,Theft,53179.08,0.0,Rejected,Flood damage during heavy rainfall,False,36
+CLM01450,POL00093,2024-12-28,Natural Disaster,38159.4,0.0,Approved,Hit and run incident,False,40
+CLM01451,POL02286,2022-01-20,Fire,67829.19,0.0,Pending,Rear end damage in parking lot,False,12
+CLM01452,POL00486,2024-08-14,Flood,23793.8,0.0,Pending,Fire damage in garage,False,29
+CLM01453,POL02231,2020-01-23,Vandalism,77993.84,0.0,Approved,Windshield cracked by debris,False,14
+CLM01454,POL02818,2023-03-10,Accident,60455.75,0.0,Approved,Hit and run incident,False,55
+CLM01455,POL02865,2021-08-31,Fire,10352.19,0.0,Approved,,False,32
+CLM01456,POL01607,2022-03-02,Theft,22291.81,0.0,Approved,Hit and run incident,False,49
+CLM01457,POL00925,2024-02-10,Fire,72766.45,0.0,Rejected,Vandalism - scratches and dents,False,60
+CLM01458,POL00865,2024-02-09,Theft,26541.76,0.0,Rejected,Flood damage during heavy rainfall,False,2
+CLM01459,POL02654,2023-01-26,Vandalism,63129.44,0.0,Rejected,Windshield cracked by debris,True,55
+CLM01460,POL00774,2020-11-25,Accident,29599.52,0.0,Approved,Vehicle stolen from residential area,False,34
+CLM01461,POL01647,2022-02-18,Theft,79970.71,0.0,Under Review,Flood damage during heavy rainfall,False,14
+CLM01462,POL02803,2021-05-12,Theft,4624.8,0.0,Under Review,Fire damage in garage,False,38
+CLM01463,POL01172,2021-09-18,Theft,51923.39,0.0,Rejected,Vehicle stolen from residential area,False,2
+CLM01464,POL02770,2022-07-10,Theft,45693.15,0.0,Rejected,Vandalism - scratches and dents,False,4
+CLM01465,POL01344,2023-09-17,Flood,37335.27,0.0,Under Review,Hit and run incident,False,20
+CLM01466,POL00278,2020-03-23,Flood,9053.11,0.0,Rejected,Rear end damage in parking lot,False,58
+CLM01467,POL00886,2022-11-16,Flood,61094.14,0.0,Approved,Front end collision on highway,False,55
+CLM01468,POL00443,2022-05-18,Theft,64254.65,0.0,Rejected,Flood damage during heavy rainfall,False,54
+CLM01469,POL01333,2023-03-29,Fire,42600.99,0.0,Approved,Front end collision on highway,True,4
+CLM01470,POL02327,2024-01-17,Fire,30502.31,19733.58,Settled,Windshield cracked by debris,False,33
+CLM01471,POL00122,2022-02-09,Accident,55281.64,0.0,Pending,Hit and run incident,False,9
+CLM01472,POL00210,2024-11-20,Natural Disaster,54819.47,0.0,Approved,Fire damage in garage,False,26
+CLM01473,POL01951,2023-06-20,Vandalism,51084.23,0.0,Rejected,Rear end damage in parking lot,False,45
+CLM01474,POL02046,2022-07-21,Theft,54880.23,39769.34,Settled,,False,0
+CLM01475,POL01038,2021-12-11,Natural Disaster,3168.99,2839.73,Settled,Rear end damage in parking lot,False,13
+CLM01476,POL01481,2023-07-22,Fire,32853.41,0.0,Approved,Fire damage in garage,False,11
+CLM01477,POL02726,2024-05-14,Vandalism,23341.35,0.0,Rejected,Fire damage in garage,False,26
+CLM01478,POL02427,2024-03-16,Natural Disaster,44987.67,0.0,Rejected,Flood damage during heavy rainfall,False,51
+CLM01479,POL00495,2023-06-17,Theft,45817.61,0.0,Under Review,Rear end damage in parking lot,False,57
+CLM01480,POL01323,2024-10-31,Fire,68987.04,0.0,Pending,Front end collision on highway,False,52
+CLM01481,POL02820,2021-12-15,Natural Disaster,31504.6,0.0,Rejected,Hit and run incident,False,34
+CLM01482,POL00951,2023-01-06,Natural Disaster,72371.66,0.0,Approved,Vehicle stolen from residential area,False,32
+CLM01483,POL02606,2024-12-08,Flood,64664.78,0.0,Pending,Front end collision on highway,False,26
+CLM01484,POL00444,2020-02-09,Accident,51248.35,0.0,Rejected,Fire damage in garage,False,15
+CLM01485,POL01913,2020-05-06,Fire,0.0,0.0,Under Review,Flood damage during heavy rainfall,False,32
+CLM01486,POL02836,2022-10-01,Fire,43070.67,0.0,Under Review,,False,16
+CLM01487,POL00211,2022-07-26,Vandalism,13668.31,11494.18,Settled,Rear end damage in parking lot,False,10
+CLM01488,POL01125,2021-02-16,Vandalism,65867.42,64178.18,Settled,,False,40
+CLM01489,POL00178,2024-08-26,Accident,54529.19,0.0,Under Review,Front end collision on highway,False,26
+CLM01490,POL01523,2021-06-08,Fire,0.0,0.0,Rejected,Fire damage in garage,False,24
+CLM01491,POL00369,2021-04-06,Fire,33532.37,0.0,Approved,Hit and run incident,False,36
+CLM01492,POL01859,2022-05-26,Fire,12271.62,0.0,Pending,Front end collision on highway,False,55
+CLM01493,POL01457,2024-06-09,Flood,49045.7,0.0,Rejected,Fire damage in garage,False,42
+CLM01494,POL02562,2021-10-20,Natural Disaster,21532.44,0.0,Approved,Vandalism - scratches and dents,False,57
+CLM01495,POL02122,2020-07-12,Fire,37348.73,0.0,Pending,Vehicle stolen from residential area,False,25
+CLM01496,POL02655,2021-02-10,Vandalism,62018.46,51755.09,Settled,Flood damage during heavy rainfall,False,18
+CLM01497,POL02103,2024-09-10,Natural Disaster,17921.83,0.0,Pending,Rear end damage in parking lot,True,16
+CLM01498,POL00068,2024-05-25,Flood,18881.54,0.0,Rejected,Front end collision on highway,False,39
+CLM01499,POL00794,2023-12-16,Natural Disaster,17993.47,0.0,Rejected,Rear end damage in parking lot,False,34
+CLM01500,POL00538,2022-10-28,Flood,12207.61,0.0,Approved,Vehicle stolen from residential area,True,47
+CLM01501,POL02346,2024-10-19,Fire,39457.23,0.0,Pending,Fire damage in garage,False,18
+CLM01502,POL02863,2024-10-08,Theft,51068.88,0.0,Pending,Rear end damage in parking lot,False,40
+CLM01503,POL00776,2024-09-01,Natural Disaster,49663.91,0.0,Rejected,Vehicle stolen from residential area,False,49
+CLM01504,POL02103,2022-10-15,Fire,75332.95,0.0,Approved,Flood damage during heavy rainfall,False,33
+CLM01505,POL00355,2024-04-09,Accident,52374.33,0.0,Approved,Front end collision on highway,False,6
+CLM01506,POL01813,2021-10-26,Flood,18854.29,0.0,Pending,Flood damage during heavy rainfall,False,1
+CLM01507,POL00665,2020-05-01,Accident,33728.63,0.0,Under Review,Windshield cracked by debris,False,49
+CLM01508,POL02273,2022-11-07,Fire,49639.04,0.0,Rejected,Windshield cracked by debris,False,19
+CLM01509,POL01211,2024-07-12,Natural Disaster,19176.84,0.0,Under Review,Vehicle stolen from residential area,False,14
+CLM01510,POL00901,2022-09-03,Fire,-3841.17,0.0,Under Review,Flood damage during heavy rainfall,False,18
+CLM01511,POL00958,2022-03-22,Vandalism,9271.13,0.0,Pending,Windshield cracked by debris,False,20
+CLM01512,POL02791,2023-07-08,Accident,14974.66,0.0,Under Review,Hit and run incident,False,32
+CLM01513,POL02329,2021-10-26,Accident,59060.97,0.0,Approved,Hit and run incident,False,2
+CLM01514,POL01805,2021-01-30,Natural Disaster,59635.7,0.0,Approved,Rear end damage in parking lot,False,49
+CLM01515,POL01222,2021-07-31,Fire,75218.34,0.0,Pending,Hit and run incident,False,6
+CLM01516,POL00168,2023-06-26,Fire,49103.72,0.0,Pending,Vandalism - scratches and dents,False,51
+CLM01517,POL00627,2022-10-08,Accident,48848.55,0.0,Under Review,,False,11
+CLM01518,POL02292,2021-07-11,Vandalism,24227.95,0.0,Rejected,Rear end damage in parking lot,False,17
+CLM01519,POL02825,2024-09-24,Natural Disaster,53626.09,0.0,Under Review,Hit and run incident,False,51
+CLM01520,POL02719,2020-03-17,Vandalism,965.73,0.0,Approved,,False,18
+CLM01521,POL02719,2022-11-07,Theft,27590.93,0.0,Pending,Hit and run incident,False,8
+CLM01522,POL00603,2022-04-26,Vandalism,68019.46,0.0,Approved,Vehicle stolen from residential area,False,19
+CLM01523,POL01474,2021-06-02,Flood,78916.34,0.0,Approved,Flood damage during heavy rainfall,False,54
+CLM01524,POL01037,2021-09-17,Theft,29711.03,28477.53,Settled,Vehicle stolen from residential area,False,44
+CLM01525,POL00572,2021-01-28,Theft,78129.7,0.0,Approved,Windshield cracked by debris,False,29
+CLM01526,POL01219,2021-03-18,Vandalism,71710.19,0.0,Pending,Vandalism - scratches and dents,True,10
+CLM01527,POL02525,2020-03-01,Vandalism,16978.93,0.0,Approved,Hit and run incident,True,12
+CLM01528,POL02631,2022-04-25,Flood,76827.58,62463.01,Settled,Rear end damage in parking lot,False,8
+CLM01529,POL00857,2022-04-16,Natural Disaster,0.0,0.0,Rejected,Vehicle stolen from residential area,False,19
+CLM01530,POL00579,2022-05-28,Theft,32098.61,0.0,Rejected,Vehicle stolen from residential area,False,7
+CLM01531,POL00368,2023-10-23,Flood,17138.42,0.0,Pending,Vandalism - scratches and dents,False,19
+CLM01532,POL02117,2021-08-21,Theft,38362.66,0.0,Approved,Rear end damage in parking lot,False,17
+CLM01533,POL00271,2024-03-17,Fire,19553.63,0.0,Pending,Vandalism - scratches and dents,False,1
+CLM01534,POL01930,2023-03-29,Accident,4646.15,0.0,Under Review,Hit and run incident,False,14
+CLM01535,POL02748,2020-07-05,Natural Disaster,4872.42,0.0,Approved,Hit and run incident,False,11
+CLM01536,POL02019,2022-07-30,Flood,31040.15,0.0,Pending,Windshield cracked by debris,False,23
+CLM01537,POL01286,2021-10-18,Accident,33950.93,31108.24,Settled,Hit and run incident,False,54
+CLM01538,POL00029,2021-04-15,Flood,36341.07,0.0,Rejected,Vehicle stolen from residential area,False,22
+CLM01539,POL01536,2020-08-25,Vandalism,15024.55,14781.4,Settled,Front end collision on highway,False,52
+CLM01540,POL01125,2024-07-15,Fire,45281.57,0.0,Approved,Hit and run incident,False,9
+CLM01541,POL00770,2020-12-24,Vandalism,28404.25,0.0,Approved,Windshield cracked by debris,False,55
+CLM01542,POL01527,2021-09-12,Accident,54777.7,0.0,Under Review,Rear end damage in parking lot,False,51
+CLM01543,POL02339,2020-09-02,Vandalism,7844.92,0.0,Pending,Fire damage in garage,False,58
+CLM01544,POL01911,2022-01-18,Flood,10393.14,0.0,Approved,Flood damage during heavy rainfall,False,4
+CLM01545,POL01468,2020-03-05,Fire,16977.69,0.0,Pending,Rear end damage in parking lot,False,0
+CLM01546,POL01580,2021-11-03,Flood,29591.52,0.0,Pending,Windshield cracked by debris,False,40
+CLM01547,POL01347,2022-03-19,Theft,8114.11,0.0,Rejected,Windshield cracked by debris,False,19
+CLM01548,POL00384,2021-06-08,Vandalism,75972.99,0.0,Pending,,False,6
+CLM01549,POL01203,2021-02-04,Natural Disaster,65877.91,0.0,Pending,Flood damage during heavy rainfall,True,13
+CLM01550,POL01677,2024-11-18,Vandalism,48650.3,0.0,Pending,Flood damage during heavy rainfall,True,53
+CLM01551,POL00812,2024-03-05,Theft,4277.92,0.0,Approved,Windshield cracked by debris,False,33
+CLM01552,POL02028,2020-09-01,Natural Disaster,22677.9,0.0,Pending,Flood damage during heavy rainfall,False,8
+CLM01553,POL01988,2024-09-26,Vandalism,40258.89,0.0,Rejected,Vandalism - scratches and dents,False,55
+CLM01554,POL00955,2021-06-23,Vandalism,72911.01,0.0,Approved,,False,35
+CLM01555,POL00947,2020-05-25,Flood,73636.96,0.0,Rejected,Hit and run incident,False,5
+CLM01556,POL01903,2024-01-11,Natural Disaster,39414.07,27455.67,Settled,Vandalism - scratches and dents,False,32
+CLM01557,POL01849,2022-04-26,Natural Disaster,38957.61,20549.67,Settled,Fire damage in garage,False,52
+CLM01558,POL00698,2024-05-14,Flood,20833.86,0.0,Rejected,Rear end damage in parking lot,False,47
+CLM01559,POL02048,2021-07-01,Theft,65727.03,49995.5,Settled,Hit and run incident,True,1
+CLM01560,POL02747,2021-09-18,Accident,28406.23,0.0,Rejected,Windshield cracked by debris,False,2
+CLM01561,POL02923,2022-05-23,Fire,71324.76,0.0,Pending,Vehicle stolen from residential area,False,0
+CLM01562,POL02576,2024-08-12,Flood,46172.7,0.0,Approved,Vandalism - scratches and dents,True,49
+CLM01563,POL01199,2024-03-22,Accident,18635.39,0.0,Approved,Windshield cracked by debris,False,17
+CLM01564,POL02773,2022-08-10,Natural Disaster,28356.78,0.0,Rejected,Windshield cracked by debris,False,58
+CLM01565,POL01445,2021-10-10,Vandalism,16797.8,0.0,Rejected,Hit and run incident,False,0
+CLM01566,POL01908,2021-04-11,Natural Disaster,79889.51,0.0,Under Review,Vandalism - scratches and dents,False,14
+CLM01567,POL02708,2022-05-24,Flood,76650.26,0.0,Under Review,Windshield cracked by debris,False,21
+CLM01568,POL02436,2023-01-07,Flood,77928.96,0.0,Rejected,Vandalism - scratches and dents,False,41
+CLM01569,POL00656,2024-04-10,Fire,15933.26,0.0,Rejected,Front end collision on highway,False,48
+CLM01570,POL02433,2023-10-03,Vandalism,15180.63,0.0,Pending,Windshield cracked by debris,False,55
+CLM01571,POL00800,2022-12-01,Flood,-3530.35,0.0,Under Review,Flood damage during heavy rainfall,False,9
+CLM01572,POL01439,2023-05-01,Accident,15891.76,0.0,Approved,Flood damage during heavy rainfall,False,0
+CLM01573,POL02758,2021-07-01,Accident,75689.82,0.0,Under Review,Front end collision on highway,False,10
+CLM01574,POL01324,2020-03-14,Accident,61741.87,0.0,Pending,Hit and run incident,False,18
+CLM01575,POL01073,2022-04-09,Natural Disaster,32226.09,0.0,Rejected,Flood damage during heavy rainfall,False,33
+CLM01576,POL01664,2023-12-20,Accident,7867.95,0.0,Pending,Fire damage in garage,False,43
+CLM01577,POL02383,2024-10-31,Flood,5027.23,0.0,Rejected,Windshield cracked by debris,False,11
+CLM01578,POL00050,2020-12-11,Natural Disaster,32810.73,0.0,Under Review,Flood damage during heavy rainfall,False,19
+CLM01579,POL01188,2020-07-17,Fire,76237.59,0.0,Rejected,,False,51
+CLM01580,POL02861,2022-08-31,Accident,12190.11,0.0,Rejected,Flood damage during heavy rainfall,False,7
+CLM01581,POL02729,2022-06-09,Vandalism,20985.44,0.0,Under Review,Hit and run incident,True,43
+CLM01582,POL02853,2021-05-20,Natural Disaster,23236.36,0.0,Approved,Flood damage during heavy rainfall,False,36
+CLM01583,POL01934,2023-03-08,Accident,47977.1,0.0,Approved,,False,34
+CLM01584,POL02407,2020-09-09,Accident,53793.99,40525.45,Settled,,False,15
+CLM01585,POL00097,2022-09-01,Vandalism,63684.68,0.0,Pending,Hit and run incident,False,7
+CLM01586,POL00680,2023-12-03,Flood,28787.87,0.0,Pending,Rear end damage in parking lot,False,7
+CLM01587,POL00940,2021-05-21,Flood,71935.88,0.0,Rejected,Vandalism - scratches and dents,False,6
+CLM01588,POL00761,2024-11-19,Fire,-4724.5,0.0,Under Review,Windshield cracked by debris,False,24
+CLM01589,POL01440,2023-07-23,Theft,38483.98,0.0,Approved,Flood damage during heavy rainfall,False,44
+CLM01590,POL01429,2022-01-09,Theft,0.0,0.0,Under Review,Front end collision on highway,False,17
+CLM01591,POL02869,2022-08-06,Accident,66973.28,0.0,Rejected,Flood damage during heavy rainfall,False,0
+CLM01592,POL00001,2022-04-09,Theft,74126.75,0.0,Under Review,Windshield cracked by debris,True,0
+CLM01593,POL01279,2020-11-04,Fire,34752.66,22896.23,Settled,Front end collision on highway,False,56
+CLM01594,POL02715,2023-09-03,Fire,37392.04,0.0,Under Review,Vehicle stolen from residential area,False,10
+CLM01595,POL01907,2023-09-16,Natural Disaster,35226.83,0.0,Pending,Vehicle stolen from residential area,False,35
+CLM01596,POL02094,2024-08-08,Fire,19902.93,15354.46,Settled,Fire damage in garage,False,7
+CLM01597,POL02313,2024-07-30,Vandalism,64727.81,0.0,Rejected,Vehicle stolen from residential area,True,44
+CLM01598,POL02586,2020-02-24,Fire,19291.87,0.0,Under Review,Hit and run incident,False,43
+CLM01599,POL02268,2020-09-22,Fire,52563.62,0.0,Pending,Front end collision on highway,False,18
+CLM01600,POL01406,2023-03-27,Fire,46766.07,0.0,Under Review,Vandalism - scratches and dents,False,48
+CLM01601,POL02302,2023-11-21,Flood,18298.93,0.0,Approved,Front end collision on highway,False,4
+CLM01602,POL01660,2023-01-13,Flood,70948.65,0.0,Approved,Vehicle stolen from residential area,False,54
+CLM01603,POL00638,2022-05-28,Theft,28807.91,0.0,Rejected,Fire damage in garage,False,24
+CLM01604,POL01629,2023-12-15,Theft,55180.56,0.0,Under Review,Flood damage during heavy rainfall,False,53
+CLM01605,POL02623,2024-07-23,Vandalism,46959.95,0.0,Under Review,Rear end damage in parking lot,False,26
+CLM01606,POL02855,2022-12-24,Fire,14555.12,8128.73,Settled,Flood damage during heavy rainfall,True,21
+CLM01607,POL00967,2021-01-05,Vandalism,3848.38,1928.83,Settled,Vandalism - scratches and dents,False,37
+CLM01608,POL02069,2022-01-28,Accident,5709.42,0.0,Under Review,,False,0
+CLM01609,POL00578,2022-06-25,Natural Disaster,39028.14,0.0,Under Review,Windshield cracked by debris,False,33
+CLM01610,POL00284,2024-02-14,Natural Disaster,47605.38,0.0,Rejected,Flood damage during heavy rainfall,False,36
+CLM01611,POL01804,2023-03-18,Flood,66242.99,50302.53,Settled,Flood damage during heavy rainfall,False,49
+CLM01612,POL00082,2022-08-13,Flood,17123.5,13672.69,Settled,Rear end damage in parking lot,False,49
+CLM01613,POL01489,2021-12-16,Natural Disaster,6903.01,0.0,Approved,Front end collision on highway,False,31
+CLM01614,POL00076,2020-08-27,Accident,44160.05,0.0,Pending,Rear end damage in parking lot,False,0
+CLM01615,POL01731,2020-03-02,Theft,74339.34,0.0,Under Review,Fire damage in garage,True,19
+CLM01616,POL01840,2024-11-10,Flood,65580.34,0.0,Under Review,Fire damage in garage,False,8
+CLM01617,POL00999,2021-03-04,Flood,44801.94,0.0,Under Review,Rear end damage in parking lot,False,6
+CLM01618,POL00746,2024-12-30,Fire,45993.23,0.0,Rejected,Rear end damage in parking lot,False,42
+CLM01619,POL00468,2020-06-29,Vandalism,14900.79,14803.62,Settled,Front end collision on highway,False,0
+CLM01620,POL02788,2020-05-14,Flood,68097.36,0.0,Rejected,Rear end damage in parking lot,False,19
+CLM01621,POL01601,2021-03-02,Vandalism,9957.73,0.0,Rejected,Vandalism - scratches and dents,False,57
+CLM01622,POL02308,2021-01-18,Natural Disaster,41124.68,0.0,Pending,Front end collision on highway,False,23
+CLM01623,POL00376,2021-11-14,Theft,46792.19,0.0,Approved,Vandalism - scratches and dents,False,40
+CLM01624,POL01865,2023-07-21,Fire,77426.03,75374.25,Settled,Front end collision on highway,False,0
+CLM01625,POL01855,2020-05-26,Vandalism,35917.62,0.0,Approved,Hit and run incident,False,13
+CLM01626,POL01486,2020-10-13,Vandalism,2472.98,0.0,Rejected,Flood damage during heavy rainfall,False,0
+CLM01627,POL00023,2020-12-05,Accident,79639.11,0.0,Under Review,Windshield cracked by debris,False,0
+CLM01628,POL02579,2022-02-06,Natural Disaster,77458.9,0.0,Rejected,,False,60
+CLM01629,POL01142,2024-02-13,Flood,30548.57,0.0,Under Review,,False,16
+CLM01630,POL01001,2021-11-29,Fire,76920.5,40301.23,Settled,Fire damage in garage,False,48
+CLM01631,POL00601,2023-03-08,Accident,73095.41,107097.96,Settled,Vehicle stolen from residential area,False,26
+CLM01632,POL01709,2020-05-04,Accident,13832.24,0.0,Pending,Vandalism - scratches and dents,False,47
+CLM01633,POL00288,2022-12-15,Fire,3321.82,0.0,Pending,Rear end damage in parking lot,False,17
+CLM01634,POL01421,2024-11-16,Natural Disaster,56512.62,0.0,Pending,Rear end damage in parking lot,False,8
+CLM01635,POL02107,2020-01-08,Vandalism,43876.72,0.0,Under Review,Windshield cracked by debris,False,51
+CLM01636,POL01225,2021-04-16,Accident,43808.6,0.0,Pending,Windshield cracked by debris,False,11
+CLM01637,POL02817,2024-01-19,Flood,55399.25,0.0,Approved,Hit and run incident,False,2
+CLM01638,POL02332,2020-03-05,Theft,51273.52,0.0,Under Review,Fire damage in garage,False,0
+CLM01639,POL01105,2020-07-27,Flood,803.14,0.0,Approved,Hit and run incident,False,29
+CLM01640,POL02619,2024-02-01,Flood,78759.04,0.0,Pending,Front end collision on highway,False,19
+CLM01641,POL01747,2022-03-06,Vandalism,49610.7,0.0,Rejected,Vehicle stolen from residential area,False,60
+CLM01642,POL00459,2020-07-10,Fire,75591.43,0.0,Under Review,Vandalism - scratches and dents,False,31
+CLM01643,POL02713,2020-06-08,Vandalism,-616.54,0.0,Pending,Windshield cracked by debris,False,58
+CLM01644,POL00897,2021-07-11,Accident,4109.35,0.0,Approved,Vandalism - scratches and dents,False,0
+CLM01645,POL00484,2022-12-28,Fire,78991.77,0.0,Rejected,Rear end damage in parking lot,False,12
+CLM01646,POL01516,2021-04-25,Flood,28435.54,0.0,Pending,Windshield cracked by debris,False,45
+CLM01647,POL02843,2021-03-10,Accident,42695.28,0.0,Under Review,Hit and run incident,False,59
+CLM01648,POL02955,2023-01-04,Flood,71992.23,0.0,Under Review,,False,30
+CLM01649,POL00247,2023-02-18,Flood,59523.85,52387.42,Settled,Vehicle stolen from residential area,False,59
+CLM01650,POL00242,2021-12-03,Fire,16030.09,0.0,Rejected,,False,10
+CLM01651,POL02022,2024-01-10,Flood,38064.08,0.0,Rejected,Rear end damage in parking lot,False,47
+CLM01652,POL00911,2022-04-21,Accident,5128.3,0.0,Approved,Front end collision on highway,False,10
+CLM01653,POL02159,2021-01-17,Vandalism,1846.13,0.0,Pending,Front end collision on highway,False,5
+CLM01654,POL02183,2023-01-23,Flood,0.0,0.0,Approved,Vehicle stolen from residential area,False,48
+CLM01655,POL00109,2022-12-26,Natural Disaster,5889.57,0.0,Under Review,Flood damage during heavy rainfall,False,12
+CLM01656,POL01730,2024-12-22,Flood,46229.81,0.0,Approved,Rear end damage in parking lot,False,53
+CLM01657,POL01487,2023-07-05,Theft,25936.43,0.0,Under Review,Windshield cracked by debris,False,54
+CLM01658,POL01026,2024-10-12,Vandalism,31081.38,0.0,Approved,Fire damage in garage,False,58
+CLM01659,POL02318,2022-02-21,Natural Disaster,18911.94,0.0,Approved,Windshield cracked by debris,False,12
+CLM01660,POL01446,2022-03-09,Theft,40405.8,0.0,Rejected,,True,54
+CLM01661,POL01274,2024-08-07,Natural Disaster,58872.14,0.0,Approved,Windshield cracked by debris,False,59
+CLM01662,POL01329,2020-07-29,Accident,38697.62,0.0,Approved,Rear end damage in parking lot,False,23
+CLM01663,POL02157,2020-07-21,Natural Disaster,5507.18,0.0,Rejected,Vehicle stolen from residential area,False,24
+CLM01664,POL01533,2021-12-08,Accident,25915.76,0.0,Pending,Rear end damage in parking lot,False,22
+CLM01665,POL00923,2024-08-19,Vandalism,11770.43,0.0,Pending,Front end collision on highway,False,60
+CLM01666,POL00344,2022-04-02,Flood,32243.76,0.0,Under Review,Front end collision on highway,False,5
+CLM01667,POL01719,2021-08-03,Natural Disaster,65738.57,0.0,Pending,Vandalism - scratches and dents,False,40
+CLM01668,POL01473,2022-10-26,Natural Disaster,42114.58,0.0,Under Review,Flood damage during heavy rainfall,False,9
+CLM01669,POL02759,2020-09-17,Flood,16847.49,0.0,Under Review,Flood damage during heavy rainfall,False,40
+CLM01670,POL01486,2020-05-20,Fire,0.0,0.0,Under Review,Vehicle stolen from residential area,True,25
+CLM01671,POL00106,2024-05-01,Fire,23135.17,11784.93,Settled,Fire damage in garage,False,0
+CLM01672,POL01777,2022-12-15,Fire,24947.27,16861.15,Settled,Rear end damage in parking lot,False,21
+CLM01673,POL00893,2021-06-14,Fire,40584.35,0.0,Under Review,Front end collision on highway,False,10
+CLM01674,POL00613,2021-10-24,Accident,50848.68,0.0,Pending,Vandalism - scratches and dents,True,19
+CLM01675,POL02708,2024-05-02,Vandalism,7595.21,0.0,Approved,,False,0
+CLM01676,POL00056,2021-11-30,Fire,52635.57,0.0,Rejected,Flood damage during heavy rainfall,False,0
+CLM01677,POL00804,2020-06-25,Theft,38302.04,0.0,Under Review,Front end collision on highway,False,18
+CLM01678,POL01925,2020-12-12,Theft,7463.38,0.0,Rejected,Front end collision on highway,False,0
+CLM01679,POL02054,2024-07-06,Theft,18365.41,0.0,Under Review,Rear end damage in parking lot,False,9
+CLM01680,POL02392,2021-04-18,Vandalism,45557.89,0.0,Rejected,Windshield cracked by debris,False,19
+CLM01681,POL00158,2024-01-01,Flood,65170.98,0.0,Approved,Vehicle stolen from residential area,False,56
+CLM01682,POL02976,2020-06-08,Theft,16531.54,0.0,Approved,Front end collision on highway,False,30
+CLM01683,POL02052,2022-09-04,Fire,27335.36,0.0,Rejected,Vehicle stolen from residential area,False,39
+CLM01684,POL00778,2020-07-13,Theft,18081.54,0.0,Approved,Flood damage during heavy rainfall,False,48
+CLM01685,POL00035,2021-08-05,Fire,74166.43,0.0,Under Review,Hit and run incident,False,0
+CLM01686,POL00597,2020-01-07,Theft,40493.96,22307.41,Settled,Flood damage during heavy rainfall,False,4
+CLM01687,POL00476,2020-02-21,Flood,67966.0,0.0,Rejected,Hit and run incident,False,33
+CLM01688,POL00775,2021-03-19,Flood,13979.54,0.0,Approved,,True,11
+CLM01689,POL00105,2022-03-26,Natural Disaster,13836.19,0.0,Rejected,Vehicle stolen from residential area,False,36
+CLM01690,POL01225,2022-05-27,Fire,57398.65,0.0,Under Review,Front end collision on highway,False,26
+CLM01691,POL00752,2021-07-19,Flood,17526.02,14548.53,Settled,Front end collision on highway,False,1
+CLM01692,POL01499,2022-09-23,Vandalism,57179.57,0.0,Under Review,Vandalism - scratches and dents,False,11
+CLM01693,POL00767,2023-11-08,Accident,14434.89,0.0,Rejected,Rear end damage in parking lot,False,22
+CLM01694,POL01942,2023-05-16,Fire,988.42,0.0,Approved,Front end collision on highway,False,8
+CLM01695,POL02119,2020-04-17,Vandalism,41557.85,0.0,Under Review,Vandalism - scratches and dents,False,10
+CLM01696,POL01569,2023-05-22,Flood,40635.94,23613.47,Settled,Fire damage in garage,False,16
+CLM01697,POL01031,2023-12-06,Vandalism,7622.91,5511.65,Settled,,False,54
+CLM01698,POL02852,2021-08-03,Vandalism,35593.72,0.0,Rejected,Windshield cracked by debris,False,59
+CLM01699,POL02896,2020-11-27,Fire,0.0,0.0,Rejected,Vandalism - scratches and dents,False,11
+CLM01700,POL00120,2020-12-30,Accident,60843.7,0.0,Rejected,Rear end damage in parking lot,False,41
+CLM01701,POL02536,2022-05-31,Accident,14588.67,0.0,Approved,Hit and run incident,False,19
+CLM01702,POL01682,2024-09-12,Accident,60802.22,0.0,Rejected,,False,19
+CLM01703,POL02169,2021-05-11,Flood,53496.25,33747.39,Settled,Rear end damage in parking lot,False,8
+CLM01704,POL01348,2022-02-24,Natural Disaster,16509.43,0.0,Rejected,Hit and run incident,False,28
+CLM01705,POL01019,2022-02-20,Theft,1623.39,0.0,Pending,Vehicle stolen from residential area,False,11
+CLM01706,POL02298,2020-07-03,Flood,51717.07,0.0,Approved,Hit and run incident,False,0
+CLM01707,POL02827,2023-08-02,Fire,60740.54,0.0,Approved,Rear end damage in parking lot,False,44
+CLM01708,POL02079,2020-04-09,Natural Disaster,76028.95,0.0,Approved,,False,28
+CLM01709,POL01900,2020-02-25,Natural Disaster,71444.73,0.0,Pending,Hit and run incident,False,48
+CLM01710,POL01979,2024-04-07,Flood,26329.93,0.0,Pending,Fire damage in garage,False,53
+CLM01711,POL02863,2021-03-19,Vandalism,7825.62,0.0,Approved,,False,36
+CLM01712,POL02986,2023-01-31,Theft,41197.61,0.0,Approved,Rear end damage in parking lot,False,51
+CLM01713,POL00547,2021-04-24,Fire,7381.8,5663.57,Settled,Fire damage in garage,False,0
+CLM01714,POL02529,2024-01-06,Natural Disaster,11539.02,0.0,Rejected,Hit and run incident,False,0
+CLM01715,POL01676,2023-02-05,Accident,31145.3,30207.23,Settled,Flood damage during heavy rainfall,False,43
+CLM01716,POL00533,2024-09-10,Natural Disaster,0.0,0.0,Under Review,Hit and run incident,False,45
+CLM01717,POL02096,2020-09-18,Fire,45537.78,0.0,Rejected,Windshield cracked by debris,True,26
+CLM01718,POL02521,2020-08-16,Natural Disaster,29682.99,18720.48,Settled,Front end collision on highway,False,48
+CLM01719,POL01200,2022-11-09,Theft,23607.88,0.0,Approved,Flood damage during heavy rainfall,False,0
+CLM01720,POL02301,2024-07-24,Theft,30255.15,0.0,Approved,Vehicle stolen from residential area,True,44
+CLM01721,POL02934,2023-12-19,Natural Disaster,47918.28,0.0,Rejected,Front end collision on highway,False,20
+CLM01722,POL01980,2020-11-20,Fire,75124.44,0.0,Approved,Vehicle stolen from residential area,False,21
+CLM01723,POL01208,2022-03-19,Flood,46732.26,53420.12,Settled,Hit and run incident,False,55
+CLM01724,POL00835,2022-11-14,Fire,37893.86,24526.26,Settled,Rear end damage in parking lot,False,53
+CLM01725,POL00025,2020-04-09,Accident,37929.1,0.0,Rejected,,False,23
+CLM01726,POL02644,2021-01-14,Natural Disaster,9830.19,0.0,Under Review,Hit and run incident,False,47
+CLM01727,POL01821,2021-07-21,Fire,0.0,0.0,Approved,,False,0
+CLM01728,POL02174,2022-09-05,Flood,26107.58,0.0,Rejected,Hit and run incident,False,23
+CLM01729,POL01580,2024-02-20,Fire,30601.4,16049.05,Settled,Fire damage in garage,False,25
+CLM01730,POL00775,2024-02-20,Theft,3179.65,0.0,Pending,Flood damage during heavy rainfall,False,59
+CLM01731,POL00732,2021-12-12,Natural Disaster,63434.85,53834.88,Settled,Rear end damage in parking lot,False,30
+CLM01732,POL02812,2021-02-16,Accident,-3602.96,0.0,Approved,Vehicle stolen from residential area,False,49
+CLM01733,POL01793,2022-01-18,Accident,18786.01,0.0,Rejected,Rear end damage in parking lot,False,0
+CLM01734,POL02494,2024-10-18,Natural Disaster,5113.95,0.0,Under Review,Rear end damage in parking lot,False,5
+CLM01735,POL01803,2022-05-07,Natural Disaster,79637.96,0.0,Under Review,Hit and run incident,False,18
+CLM01736,POL00620,2024-01-16,Accident,2343.46,0.0,Pending,Vandalism - scratches and dents,False,0
+CLM01737,POL02322,2022-03-30,Fire,16399.25,0.0,Rejected,Flood damage during heavy rainfall,False,53
+CLM01738,POL02397,2020-04-28,Vandalism,0.0,0.0,Under Review,Front end collision on highway,False,32
+CLM01739,POL01068,2022-12-22,Vandalism,50337.71,0.0,Rejected,Rear end damage in parking lot,False,26
+CLM01740,POL00710,2022-10-31,Natural Disaster,56322.07,0.0,Rejected,Vandalism - scratches and dents,False,37
+CLM01741,POL02565,2020-01-03,Natural Disaster,37510.67,33522.35,Settled,Fire damage in garage,False,9
+CLM01742,POL01374,2020-03-09,Theft,48097.23,0.0,Rejected,Hit and run incident,False,21
+CLM01743,POL01179,2020-08-22,Accident,34625.37,0.0,Approved,Vandalism - scratches and dents,False,11
+CLM01744,POL01098,2020-06-14,Natural Disaster,58508.84,0.0,Rejected,Rear end damage in parking lot,False,39
+CLM01745,POL00289,2021-06-18,Vandalism,52746.89,0.0,Rejected,,False,50
+CLM01746,POL01152,2020-05-03,Flood,48534.76,0.0,Rejected,Fire damage in garage,True,47
+CLM01747,POL00875,2021-03-04,Natural Disaster,61680.08,0.0,Rejected,Vandalism - scratches and dents,False,30
+CLM01748,POL02540,2022-01-05,Accident,29578.1,0.0,Pending,Vehicle stolen from residential area,False,9
+CLM01749,POL00452,2023-04-08,Accident,17543.49,0.0,Approved,Rear end damage in parking lot,False,38
+CLM01750,POL00862,2020-06-27,Accident,67512.21,34975.57,Settled,Front end collision on highway,False,59
+CLM01751,POL00104,2023-04-09,Fire,58504.24,0.0,Under Review,Front end collision on highway,False,12
+CLM01752,POL00437,2021-01-25,Theft,61122.07,0.0,Rejected,Rear end damage in parking lot,False,23
+CLM01753,POL02990,2021-01-22,Vandalism,58042.57,0.0,Under Review,Rear end damage in parking lot,False,11
+CLM01754,POL01478,2021-11-11,Flood,74729.83,0.0,Pending,Fire damage in garage,True,57
+CLM01755,POL01244,2024-02-10,Fire,21658.81,0.0,Under Review,Fire damage in garage,False,35
+CLM01756,POL01026,2021-10-28,Accident,12757.44,0.0,Approved,Vandalism - scratches and dents,False,17
+CLM01757,POL02088,2023-06-07,Accident,66918.12,0.0,Approved,Fire damage in garage,False,0
+CLM01758,POL02414,2020-08-29,Natural Disaster,14295.18,0.0,Under Review,Flood damage during heavy rainfall,False,3
+CLM01759,POL01467,2020-04-18,Theft,6196.79,3627.57,Settled,,False,43
+CLM01760,POL02017,2022-01-22,Natural Disaster,53461.29,0.0,Rejected,Vehicle stolen from residential area,False,6
+CLM01761,POL02266,2020-05-02,Vandalism,76219.51,0.0,Approved,,False,57
+CLM01762,POL01289,2023-12-09,Theft,62462.61,0.0,Rejected,Rear end damage in parking lot,False,30
+CLM01763,POL00382,2022-09-27,Theft,79489.0,0.0,Pending,,False,18
+CLM01764,POL02460,2020-09-25,Accident,37193.34,0.0,Rejected,Flood damage during heavy rainfall,False,33
+CLM01765,POL02450,2023-05-08,Theft,43147.89,0.0,Pending,Vehicle stolen from residential area,False,0
+CLM01766,POL02524,2020-04-03,Accident,19759.9,0.0,Pending,Front end collision on highway,False,25
+CLM01767,POL00146,2022-11-09,Natural Disaster,14345.8,0.0,Under Review,Fire damage in garage,False,31
+CLM01768,POL02092,2020-07-21,Vandalism,25652.96,0.0,Pending,Vandalism - scratches and dents,False,2
+CLM01769,POL00226,2020-05-05,Flood,4944.34,0.0,Approved,,False,18
+CLM01770,POL00788,2023-02-02,Fire,47551.82,0.0,Approved,Windshield cracked by debris,False,3
+CLM01771,POL00400,2021-03-06,Fire,71709.41,0.0,Under Review,Vandalism - scratches and dents,False,36
+CLM01772,POL00080,2022-02-16,Accident,53008.32,0.0,Rejected,Front end collision on highway,False,53
+CLM01773,POL00646,2023-04-30,Theft,24229.58,0.0,Approved,Vandalism - scratches and dents,False,1
+CLM01774,POL01554,2024-03-01,Flood,49754.01,0.0,Under Review,Flood damage during heavy rainfall,False,54
+CLM01775,POL00652,2022-08-31,Natural Disaster,10514.15,0.0,Pending,,False,33
+CLM01776,POL02882,2020-01-29,Theft,23149.26,0.0,Approved,Hit and run incident,False,15
+CLM01777,POL01537,2022-09-07,Fire,68613.51,36207.56,Settled,,False,34
+CLM01778,POL02016,2021-06-01,Theft,15115.42,0.0,Pending,Vandalism - scratches and dents,False,34
+CLM01779,POL00304,2024-07-02,Natural Disaster,74062.49,0.0,Approved,,False,32
+CLM01780,POL01054,2022-06-18,Flood,11999.42,0.0,Under Review,Front end collision on highway,False,55
+CLM01781,POL01476,2023-02-23,Vandalism,31641.08,0.0,Under Review,Vandalism - scratches and dents,False,3
+CLM01782,POL00626,2024-07-31,Accident,21637.16,0.0,Rejected,Fire damage in garage,False,36
+CLM01783,POL02316,2022-03-08,Accident,33945.33,0.0,Under Review,Rear end damage in parking lot,False,23
+CLM01784,POL01888,2023-02-09,Accident,17510.79,0.0,Under Review,Fire damage in garage,False,3
+CLM01785,POL00037,2023-02-03,Vandalism,69683.95,35759.07,Settled,Vehicle stolen from residential area,False,41
+CLM01786,POL01819,2023-02-12,Natural Disaster,26682.57,0.0,Approved,Vandalism - scratches and dents,False,37
+CLM01787,POL01592,2023-11-07,Flood,27627.11,0.0,Under Review,Windshield cracked by debris,False,10
+CLM01788,POL00760,2023-06-08,Fire,48060.12,0.0,Under Review,Front end collision on highway,False,32
+CLM01789,POL00315,2020-03-05,Fire,11584.39,0.0,Under Review,,False,14
+CLM01790,POL02252,2023-10-03,Flood,5839.15,0.0,Rejected,Hit and run incident,False,4
+CLM01791,POL02904,2023-12-14,Theft,23918.5,0.0,Under Review,,False,4
+CLM01792,POL01154,2024-04-18,Flood,45222.16,0.0,Rejected,,False,56
+CLM01793,POL01317,2024-01-28,Fire,71141.52,0.0,Pending,Rear end damage in parking lot,False,12
+CLM01794,POL02583,2020-12-27,Natural Disaster,34286.28,0.0,Approved,Fire damage in garage,False,50
+CLM01795,POL01387,2020-05-08,Theft,17944.41,0.0,Approved,Vandalism - scratches and dents,False,26
+CLM01796,POL02358,2021-12-03,Natural Disaster,72119.48,0.0,Under Review,Windshield cracked by debris,False,15
+CLM01797,POL01180,2022-01-18,Fire,63666.29,0.0,Rejected,Rear end damage in parking lot,False,40
+CLM01798,POL01124,2022-09-11,Accident,-2882.18,0.0,Rejected,,False,33
+CLM01799,POL01828,2023-12-21,Fire,73896.22,39058.9,Settled,Flood damage during heavy rainfall,False,46
+CLM01800,POL00238,2021-12-21,Theft,76406.77,0.0,Approved,Rear end damage in parking lot,True,0
+CLM01801,POL00433,2024-04-05,Vandalism,34211.12,0.0,Rejected,Hit and run incident,False,22
+CLM01802,POL02339,2023-07-06,Natural Disaster,69337.04,0.0,Rejected,Windshield cracked by debris,False,25
+CLM01803,POL01926,2021-10-28,Theft,78652.73,0.0,Pending,Rear end damage in parking lot,True,23
+CLM01804,POL02588,2020-03-25,Flood,12381.21,0.0,Approved,Vehicle stolen from residential area,False,29
+CLM01805,POL00858,2020-12-11,Accident,31822.65,0.0,Approved,Rear end damage in parking lot,False,47
+CLM01806,POL01646,2020-02-04,Theft,17619.61,0.0,Pending,Front end collision on highway,False,9
+CLM01807,POL02759,2024-08-09,Accident,47790.9,0.0,Approved,Hit and run incident,False,2
+CLM01808,POL00313,2024-10-04,Theft,6121.38,3962.2,Settled,Front end collision on highway,False,30
+CLM01809,POL01574,2022-02-27,Accident,7420.05,0.0,Approved,Flood damage during heavy rainfall,False,34
+CLM01810,POL02869,2023-03-13,Accident,4719.56,4144.22,Settled,Vandalism - scratches and dents,False,40
+CLM01811,POL01240,2024-04-12,Fire,27733.38,0.0,Rejected,Rear end damage in parking lot,False,0
+CLM01812,POL01917,2022-04-14,Natural Disaster,51271.54,0.0,Pending,Vehicle stolen from residential area,True,27
+CLM01813,POL02767,2023-07-25,Accident,29668.02,0.0,Under Review,,False,56
+CLM01814,POL00912,2022-12-14,Natural Disaster,40619.53,0.0,Approved,Rear end damage in parking lot,False,51
+CLM01815,POL01600,2020-09-30,Natural Disaster,19695.15,0.0,Under Review,Hit and run incident,False,9
+CLM01816,POL00944,2024-08-20,Natural Disaster,68545.83,51109.2,Settled,Vehicle stolen from residential area,True,41
+CLM01817,POL02501,2024-07-04,Theft,32685.8,0.0,Pending,Windshield cracked by debris,False,51
+CLM01818,POL00736,2023-07-17,Vandalism,1724.14,0.0,Pending,Vehicle stolen from residential area,True,48
+CLM01819,POL00727,2020-09-23,Fire,24484.22,0.0,Under Review,Fire damage in garage,False,33
+CLM01820,POL02608,2024-03-27,Theft,4485.84,0.0,Approved,Front end collision on highway,False,9
+CLM01821,POL02594,2022-07-24,Vandalism,32447.63,0.0,Approved,Front end collision on highway,False,41
+CLM01822,POL00074,2023-09-13,Flood,49037.36,0.0,Rejected,Flood damage during heavy rainfall,False,43
+CLM01823,POL01090,2023-07-30,Vandalism,0.0,0.0,Rejected,,False,0
+CLM01824,POL02634,2024-06-15,Theft,57471.77,0.0,Pending,Front end collision on highway,False,45
+CLM01825,POL01839,2020-12-05,Vandalism,14829.41,0.0,Approved,Vehicle stolen from residential area,False,57
+CLM01826,POL01324,2024-10-21,Flood,13397.42,0.0,Pending,,False,37
+CLM01827,POL00864,2023-01-10,Natural Disaster,17370.22,0.0,Pending,Hit and run incident,False,14
+CLM01828,POL01280,2023-04-18,Theft,38767.69,0.0,Approved,Rear end damage in parking lot,False,56
+CLM01829,POL00301,2023-05-09,Fire,24361.88,0.0,Under Review,Vehicle stolen from residential area,False,40
+CLM01830,POL01386,2023-10-15,Theft,-3391.23,0.0,Pending,Windshield cracked by debris,False,50
+CLM01831,POL00846,2023-11-18,Flood,59755.36,0.0,Pending,,False,48
+CLM01832,POL01304,2024-09-13,Natural Disaster,22948.25,0.0,Rejected,Fire damage in garage,False,29
+CLM01833,POL02723,2023-08-31,Vandalism,2619.42,0.0,Pending,Fire damage in garage,False,53
+CLM01834,POL01240,2021-05-18,Vandalism,8906.02,0.0,Approved,Rear end damage in parking lot,False,17
+CLM01835,POL02525,2021-07-14,Vandalism,3503.11,0.0,Rejected,Vehicle stolen from residential area,False,38
+CLM01836,POL02594,2021-01-27,Theft,50559.78,0.0,Pending,Vandalism - scratches and dents,False,40
+CLM01837,POL02315,2023-02-18,Accident,46975.23,0.0,Under Review,Vandalism - scratches and dents,False,56
+CLM01838,POL02462,2021-05-22,Flood,30069.58,18542.4,Settled,Rear end damage in parking lot,False,52
+CLM01839,POL00644,2023-10-07,Natural Disaster,36882.27,0.0,Pending,,False,50
+CLM01840,POL02823,2021-08-30,Theft,72370.14,0.0,Pending,Vehicle stolen from residential area,False,19
+CLM01841,POL01518,2023-02-05,Natural Disaster,26715.68,19756.18,Settled,Vehicle stolen from residential area,False,0
+CLM01842,POL01824,2021-10-04,Theft,54898.43,0.0,Approved,Windshield cracked by debris,False,20
+CLM01843,POL01448,2022-09-28,Natural Disaster,56440.05,0.0,Pending,,True,42
+CLM01844,POL02136,2020-12-25,Flood,6472.01,0.0,Under Review,Rear end damage in parking lot,False,8
+CLM01845,POL01835,2021-08-26,Natural Disaster,73748.48,65936.05,Settled,Rear end damage in parking lot,False,47
+CLM01846,POL00721,2024-06-14,Vandalism,41660.64,0.0,Pending,Hit and run incident,False,0
+CLM01847,POL01761,2023-03-31,Flood,73888.44,0.0,Rejected,,False,56
+CLM01848,POL00195,2020-02-28,Flood,16045.12,0.0,Under Review,Fire damage in garage,False,25
+CLM01849,POL01998,2024-09-06,Fire,0.0,0.0,Settled,Flood damage during heavy rainfall,False,34
+CLM01850,POL01597,2020-05-21,Theft,10583.1,0.0,Approved,Windshield cracked by debris,False,60
+CLM01851,POL02682,2021-07-21,Flood,73701.23,53945.29,Settled,Vehicle stolen from residential area,False,28
+CLM01852,POL00324,2020-03-05,Flood,52903.21,0.0,Approved,Front end collision on highway,False,40
+CLM01853,POL01992,2022-07-11,Natural Disaster,46767.73,0.0,Under Review,Front end collision on highway,False,8
+CLM01854,POL00029,2023-12-28,Accident,16758.23,10714.03,Settled,,False,58
+CLM01855,POL01517,2023-09-28,Theft,47076.1,0.0,Under Review,Vehicle stolen from residential area,False,37
+CLM01856,POL02192,2021-12-03,Vandalism,42792.17,0.0,Approved,Vehicle stolen from residential area,False,17
+CLM01857,POL00879,2020-07-14,Flood,69554.22,47513.21,Settled,Fire damage in garage,False,32
+CLM01858,POL02029,2023-03-13,Flood,70856.34,0.0,Under Review,Vandalism - scratches and dents,True,28
+CLM01859,POL01066,2022-10-18,Accident,65612.48,0.0,Approved,Windshield cracked by debris,False,14
+CLM01860,POL00382,2022-01-26,Theft,8766.11,10770.53,Settled,Windshield cracked by debris,False,21
+CLM01861,POL00846,2021-03-07,Natural Disaster,45007.45,0.0,Pending,Vehicle stolen from residential area,False,5
+CLM01862,POL00631,2021-03-04,Flood,68045.67,0.0,Rejected,,True,22
+CLM01863,POL02919,2022-07-21,Accident,58684.12,0.0,Pending,Windshield cracked by debris,False,34
+CLM01864,POL00180,2021-09-24,Fire,6824.21,0.0,Rejected,Rear end damage in parking lot,False,36
+CLM01865,POL01581,2024-12-04,Vandalism,39473.74,0.0,Approved,Rear end damage in parking lot,False,43
+CLM01866,POL01193,2022-10-24,Fire,9056.3,0.0,Rejected,Vandalism - scratches and dents,False,20
+CLM01867,POL01433,2021-01-14,Fire,49058.9,0.0,Under Review,Flood damage during heavy rainfall,True,29
+CLM01868,POL01954,2023-01-02,Theft,26160.34,22650.46,Settled,Flood damage during heavy rainfall,False,44
+CLM01869,POL00909,2022-05-07,Vandalism,24471.99,0.0,Under Review,Flood damage during heavy rainfall,False,45
+CLM01870,POL02920,2024-06-22,Theft,76064.37,52580.45,Settled,,False,28
+CLM01871,POL00229,2023-08-31,Vandalism,12998.22,0.0,Pending,Windshield cracked by debris,False,7
+CLM01872,POL01120,2021-08-22,Accident,-4339.55,0.0,Approved,Windshield cracked by debris,False,22
+CLM01873,POL02394,2021-05-03,Vandalism,34794.08,0.0,Rejected,Front end collision on highway,False,33
+CLM01874,POL01196,2024-11-17,Fire,46798.03,0.0,Pending,Fire damage in garage,False,40
+CLM01875,POL00824,2022-12-28,Fire,23261.85,0.0,Rejected,Flood damage during heavy rainfall,False,57
+CLM01876,POL02928,2020-02-10,Natural Disaster,41729.69,0.0,Pending,Rear end damage in parking lot,False,22
+CLM01877,POL00871,2020-04-26,Theft,60830.63,0.0,Approved,Windshield cracked by debris,False,22
+CLM01878,POL01219,2022-03-02,Natural Disaster,22460.82,0.0,Rejected,Windshield cracked by debris,False,49
+CLM01879,POL01510,2021-02-02,Natural Disaster,12883.68,0.0,Approved,Flood damage during heavy rainfall,False,30
+CLM01880,POL00088,2020-06-18,Accident,37556.76,25347.87,Settled,Flood damage during heavy rainfall,False,24
+CLM01881,POL00582,2024-01-17,Vandalism,66477.44,64228.9,Settled,Vandalism - scratches and dents,False,5
+CLM01882,POL01906,2024-04-26,Theft,74780.29,0.0,Under Review,Vehicle stolen from residential area,True,52
+CLM01883,POL00498,2022-10-26,Fire,46194.26,0.0,Under Review,Hit and run incident,False,14
+CLM01884,POL02767,2023-05-11,Fire,1101.14,0.0,Rejected,Fire damage in garage,False,45
+CLM01885,POL00032,2021-02-01,Flood,59781.72,0.0,Pending,Rear end damage in parking lot,True,23
+CLM01886,POL00859,2023-11-17,Theft,69486.18,0.0,Pending,Windshield cracked by debris,False,32
+CLM01887,POL00055,2024-10-16,Flood,3492.68,0.0,Under Review,Vandalism - scratches and dents,False,40
+CLM01888,POL00398,2024-05-01,Flood,0.0,0.0,Approved,Windshield cracked by debris,False,25
+CLM01889,POL01986,2021-10-17,Fire,13787.62,0.0,Pending,Fire damage in garage,False,48
+CLM01890,POL02341,2020-11-01,Fire,30621.06,0.0,Approved,,False,2
+CLM01891,POL01644,2022-04-04,Theft,51946.28,0.0,Under Review,Rear end damage in parking lot,True,7
+CLM01892,POL02343,2020-04-12,Flood,73257.81,0.0,Under Review,Vehicle stolen from residential area,False,0
+CLM01893,POL01190,2023-05-19,Vandalism,29294.17,0.0,Under Review,Vandalism - scratches and dents,False,28
+CLM01894,POL01048,2024-12-25,Natural Disaster,57178.21,0.0,Pending,Flood damage during heavy rainfall,False,14
+CLM01895,POL00107,2024-08-17,Vandalism,65916.92,0.0,Approved,Rear end damage in parking lot,False,26
+CLM01896,POL02598,2022-06-04,Theft,19832.1,16893.5,Settled,Windshield cracked by debris,False,33
+CLM01897,POL02161,2024-05-15,Vandalism,45578.89,0.0,Under Review,Windshield cracked by debris,False,12
+CLM01898,POL00376,2020-04-06,Accident,5036.76,3971.35,Settled,Fire damage in garage,False,36
+CLM01899,POL02892,2021-05-02,Fire,22511.25,0.0,Pending,Vandalism - scratches and dents,False,58
+CLM01900,POL02848,2020-03-30,Flood,7005.86,0.0,Rejected,,False,0
+CLM01901,POL00161,2024-02-13,Theft,58114.57,0.0,Approved,Flood damage during heavy rainfall,False,41
+CLM01902,POL01694,2020-10-13,Fire,30803.55,0.0,Under Review,Front end collision on highway,False,5
+CLM01903,POL01583,2022-12-31,Natural Disaster,73284.23,0.0,Pending,Windshield cracked by debris,True,18
+CLM01904,POL02939,2022-04-13,Theft,75726.83,0.0,Approved,Vehicle stolen from residential area,False,51
+CLM01905,POL02174,2023-03-27,Natural Disaster,41931.49,0.0,Pending,Windshield cracked by debris,True,7
+CLM01906,POL02337,2021-11-21,Theft,17064.75,0.0,Under Review,Hit and run incident,False,7
+CLM01907,POL00504,2020-06-18,Accident,0.0,0.0,Under Review,Front end collision on highway,False,23
+CLM01908,POL00285,2022-06-24,Accident,22472.07,0.0,Pending,Vehicle stolen from residential area,False,0
+CLM01909,POL00832,2024-11-07,Fire,73786.67,0.0,Approved,Rear end damage in parking lot,False,53
+CLM01910,POL00807,2023-05-29,Theft,23310.44,0.0,Rejected,Flood damage during heavy rainfall,True,24
+CLM01911,POL01007,2022-03-07,Accident,76755.44,0.0,Rejected,Rear end damage in parking lot,False,18
+CLM01912,POL01356,2024-10-17,Fire,18973.58,0.0,Approved,Flood damage during heavy rainfall,False,0
+CLM01913,POL02753,2022-11-27,Accident,33150.5,0.0,Approved,Front end collision on highway,False,44
+CLM01914,POL01366,2022-06-29,Natural Disaster,77557.9,0.0,Approved,,True,0
+CLM01915,POL01097,2024-02-05,Accident,62939.58,0.0,Approved,Vehicle stolen from residential area,False,30
+CLM01916,POL02154,2022-12-20,Theft,6332.67,0.0,Approved,Vandalism - scratches and dents,False,35
+CLM01917,POL01300,2021-12-24,Fire,0.0,0.0,Rejected,Vandalism - scratches and dents,True,40
+CLM01918,POL00294,2023-05-08,Accident,60730.0,0.0,Rejected,Vandalism - scratches and dents,False,21
+CLM01919,POL00279,2023-09-30,Natural Disaster,32394.32,0.0,Rejected,,False,5
+CLM01920,POL01340,2020-08-23,Flood,63637.3,0.0,Rejected,Windshield cracked by debris,False,31
+CLM01921,POL01976,2021-03-14,Accident,78833.44,0.0,Rejected,Flood damage during heavy rainfall,False,11
+CLM01922,POL00657,2023-02-04,Theft,47514.44,32824.21,Settled,Windshield cracked by debris,False,51
+CLM01923,POL00957,2023-01-14,Theft,23785.73,0.0,Pending,Vehicle stolen from residential area,False,11
+CLM01924,POL02245,2022-06-15,Flood,66709.25,0.0,Pending,Hit and run incident,False,28
+CLM01925,POL00669,2024-09-22,Fire,38785.49,0.0,Under Review,Flood damage during heavy rainfall,False,55
+CLM01926,POL02468,2021-07-22,Vandalism,29154.0,0.0,Pending,Rear end damage in parking lot,False,57
+CLM01927,POL00871,2022-04-17,Accident,59556.19,0.0,Rejected,Hit and run incident,False,0
+CLM01928,POL02453,2023-07-09,Natural Disaster,72841.69,0.0,Rejected,Fire damage in garage,False,45
+CLM01929,POL00197,2020-10-04,Theft,8300.4,0.0,Pending,Fire damage in garage,False,17
+CLM01930,POL00743,2023-04-11,Natural Disaster,49165.67,39279.13,Settled,Front end collision on highway,False,23
+CLM01931,POL00851,2020-06-21,Theft,66029.08,0.0,Pending,Flood damage during heavy rainfall,False,15
+CLM01932,POL01031,2021-11-16,Flood,56631.93,39078.79,Settled,Front end collision on highway,False,28
+CLM01933,POL00278,2020-12-24,Flood,42855.09,0.0,Approved,Vehicle stolen from residential area,False,45
+CLM01934,POL02243,2021-01-30,Natural Disaster,26124.7,23091.81,Settled,Rear end damage in parking lot,False,60
+CLM01935,POL02249,2021-10-27,Fire,6376.39,0.0,Approved,,True,0
+CLM01936,POL01590,2022-11-21,Accident,62518.75,0.0,Under Review,Vehicle stolen from residential area,False,28
+CLM01937,POL00775,2023-12-30,Fire,18237.05,0.0,Pending,Windshield cracked by debris,False,9
+CLM01938,POL00680,2024-11-01,Flood,31639.09,0.0,Approved,Windshield cracked by debris,False,20
+CLM01939,POL01194,2023-08-25,Accident,42196.18,0.0,Approved,Hit and run incident,False,38
+CLM01940,POL02595,2024-11-12,Theft,46179.78,45936.46,Settled,Front end collision on highway,False,1
+CLM01941,POL00409,2023-12-29,Natural Disaster,49373.59,0.0,Under Review,Front end collision on highway,False,14
+CLM01942,POL00657,2020-07-22,Flood,5027.09,0.0,Pending,Front end collision on highway,False,50
+CLM01943,POL02418,2021-03-29,Fire,28698.16,0.0,Rejected,Vandalism - scratches and dents,False,44
+CLM01944,POL02503,2022-01-08,Accident,25401.43,0.0,Pending,Windshield cracked by debris,False,5
+CLM01945,POL00379,2020-07-15,Flood,76395.18,0.0,Under Review,Flood damage during heavy rainfall,False,10
+CLM01946,POL00789,2020-09-03,Natural Disaster,39638.88,29366.24,Settled,Flood damage during heavy rainfall,False,15
+CLM01947,POL02931,2020-10-22,Flood,52954.37,0.0,Approved,,False,59
+CLM01948,POL01829,2023-03-20,Flood,43565.86,0.0,Rejected,Vehicle stolen from residential area,False,31
+CLM01949,POL01651,2022-10-16,Natural Disaster,62347.72,47397.61,Settled,Rear end damage in parking lot,False,25
+CLM01950,POL01016,2021-09-10,Vandalism,26214.88,0.0,Approved,Hit and run incident,False,2
+CLM01951,POL02711,2023-10-23,Accident,648.29,0.0,Pending,Hit and run incident,False,31
+CLM01952,POL02550,2024-01-07,Flood,70728.81,0.0,Approved,Vandalism - scratches and dents,False,55
+CLM01953,POL02935,2020-07-16,Accident,42744.68,0.0,Rejected,Flood damage during heavy rainfall,False,59
+CLM01954,POL01900,2022-12-19,Theft,37945.88,0.0,Under Review,Fire damage in garage,False,19
+CLM01955,POL02339,2020-08-31,Flood,0.0,0.0,Settled,Vandalism - scratches and dents,False,54
+CLM01956,POL01033,2021-09-27,Natural Disaster,31318.56,0.0,Approved,Rear end damage in parking lot,False,34
+CLM01957,POL00744,2022-06-10,Theft,17446.12,0.0,Under Review,Front end collision on highway,False,2
+CLM01958,POL00435,2023-01-01,Theft,36294.14,0.0,Approved,Flood damage during heavy rainfall,False,26
+CLM01959,POL00786,2021-06-09,Flood,53460.08,0.0,Under Review,Vehicle stolen from residential area,False,36
+CLM01960,POL02162,2024-03-25,Natural Disaster,60756.16,49409.55,Settled,Hit and run incident,False,48
+CLM01961,POL01687,2024-04-02,Theft,68348.46,0.0,Approved,Hit and run incident,False,32
+CLM01962,POL00275,2024-10-20,Flood,45839.46,28482.03,Settled,Rear end damage in parking lot,False,54
+CLM01963,POL02145,2023-10-07,Theft,43604.94,0.0,Pending,Front end collision on highway,False,25
+CLM01964,POL00780,2021-12-05,Theft,1856.74,954.05,Settled,,False,4
+CLM01965,POL00452,2020-04-24,Flood,12363.93,0.0,Pending,Vehicle stolen from residential area,False,1
+CLM01966,POL02261,2022-11-22,Fire,-4663.16,0.0,Pending,Flood damage during heavy rainfall,False,59
+CLM01967,POL00018,2022-05-21,Vandalism,20261.3,19214.01,Settled,Windshield cracked by debris,False,10
+CLM01968,POL01270,2022-12-13,Flood,16365.2,0.0,Pending,Windshield cracked by debris,False,32
+CLM01969,POL00194,2020-05-30,Natural Disaster,16850.39,0.0,Pending,Front end collision on highway,False,21
+CLM01970,POL00967,2022-11-08,Accident,54200.09,0.0,Approved,Rear end damage in parking lot,False,19
+CLM01971,POL02057,2024-08-27,Flood,23061.42,0.0,Under Review,Rear end damage in parking lot,False,1
+CLM01972,POL00186,2021-04-24,Natural Disaster,790.03,0.0,Under Review,,False,38
+CLM01973,POL01232,2024-10-04,Theft,71439.72,0.0,Approved,Front end collision on highway,False,35
+CLM01974,POL02510,2020-09-11,Fire,67364.95,39986.11,Settled,Hit and run incident,False,5
+CLM01975,POL00647,2024-09-12,Accident,0.0,0.0,Under Review,,False,8
+CLM01976,POL01878,2020-03-31,Accident,79635.88,0.0,Approved,Hit and run incident,False,21
+CLM01977,POL01908,2022-07-28,Theft,13290.6,0.0,Approved,Front end collision on highway,False,7
+CLM01978,POL02609,2022-11-04,Flood,23572.29,0.0,Pending,Vandalism - scratches and dents,False,55
+CLM01979,POL00306,2023-04-26,Vandalism,57718.73,0.0,Rejected,Vehicle stolen from residential area,False,41
+CLM01980,POL02937,2023-03-02,Theft,78721.1,0.0,Pending,Windshield cracked by debris,False,13
+CLM01981,POL01790,2024-08-06,Natural Disaster,50851.57,0.0,Rejected,Front end collision on highway,False,10
+CLM01982,POL01966,2023-12-03,Theft,64759.16,0.0,Rejected,Flood damage during heavy rainfall,False,3
+CLM01983,POL02176,2020-02-23,Natural Disaster,16570.45,0.0,Under Review,Front end collision on highway,False,21
+CLM01984,POL01532,2020-10-30,Natural Disaster,63526.38,0.0,Approved,Front end collision on highway,False,34
+CLM01985,POL01889,2020-08-07,Natural Disaster,23287.28,0.0,Rejected,Flood damage during heavy rainfall,False,24
+CLM01986,POL01392,2020-03-02,Flood,2503.56,0.0,Rejected,,False,0
+CLM01987,POL00664,2024-07-20,Fire,22671.1,16991.65,Settled,Flood damage during heavy rainfall,False,10
+CLM01988,POL02625,2024-07-07,Accident,8813.13,0.0,Pending,Front end collision on highway,False,51
+CLM01989,POL00249,2022-11-16,Flood,79885.71,0.0,Approved,Flood damage during heavy rainfall,False,58
+CLM01990,POL01801,2020-01-12,Theft,78921.52,68770.45,Settled,Rear end damage in parking lot,False,10
+CLM01991,POL01612,2023-07-26,Fire,4290.92,3528.85,Settled,Hit and run incident,False,42
+CLM01992,POL01109,2023-12-18,Vandalism,16746.37,0.0,Pending,,False,44
+CLM01993,POL00107,2021-08-14,Natural Disaster,76381.59,0.0,Pending,Vehicle stolen from residential area,False,4
+CLM01994,POL01914,2023-01-30,Accident,49500.46,0.0,Approved,Fire damage in garage,False,5
+CLM01995,POL01992,2022-06-30,Accident,34291.99,0.0,Under Review,Vandalism - scratches and dents,False,36
+CLM01996,POL00967,2022-02-15,Fire,0.0,0.0,Approved,,False,54
+CLM01997,POL02708,2020-11-26,Natural Disaster,0.0,0.0,Rejected,Rear end damage in parking lot,False,13
+CLM01998,POL01732,2020-06-17,Accident,75352.53,68661.87,Settled,Hit and run incident,False,0
+CLM01999,POL02179,2022-06-20,Fire,30804.11,0.0,Rejected,Vehicle stolen from residential area,False,19
+CLM02000,POL01800,2022-12-13,Fire,33520.37,0.0,Pending,,False,42

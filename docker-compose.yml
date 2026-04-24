@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15
+    container_name: carinsurance_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: CIpass2024@@
+      POSTGRES_DB: carinsurance_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  web:
+    build: .
+    container_name: carinsurance_api
+    depends_on:
+      - db
+    environment:
+      DB_USER: postgres
+      DB_PASSWORD: CIpass2024@@
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: carinsurance_db
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/project
+
+volumes:
+  postgres_data:

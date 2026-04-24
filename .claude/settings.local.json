@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/sahana/Downloads/Supply-chain-datamigration-Platform-main/kubernetes/**)",
+      "Read(//Users/sahana/Downloads/Supply-chain-datamigration-Platform-main/Notebooks/**)",
+      "Bash(curl -s http://localhost:5000/migration/health)",
+      "Bash(python3 -m json.tool)"
+    ]
+  }
+}
