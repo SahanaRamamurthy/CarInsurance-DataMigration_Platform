@@ -1,6 +1,6 @@
 # Car Insurance Data Migration Platform
 
-An end-to-end data engineering project that simulates a real-world insurance data migration — from raw messy CSVs through a full ETL pipeline into a PostgreSQL database, exposed via a Flask REST API and visualized in an interactive analytics dashboard.
+An end-to-end data engineering project that simulates a real-world insurance data migration - from raw messy CSVs through a full ETL pipeline into a PostgreSQL database, exposed via a Flask REST API and visualized in an interactive analytics dashboard.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask)
@@ -12,7 +12,7 @@ An end-to-end data engineering project that simulates a real-world insurance dat
 
 ## Project Journey
 
-### Phase 1 — Data Generation (`generate_data.py`)
+### Phase 1 - Data Generation (`generate_data.py`)
 
 The first step was creating realistic synthetic data to simulate a real insurance company's database before migration.
 
@@ -26,7 +26,7 @@ Generated **5 raw CSV files** with intentional data quality issues:
 | `claims_raw.csv` | 2,050 | Claim amounts, types, fraud flags |
 | `payments_raw.csv` | 3,500 | Payment history, late fees, methods |
 
-The raw data was intentionally dirty — mixed date formats, inconsistent casing, currency strings, missing values, and duplicate rows — to simulate what a real migration looks like.
+The raw data was intentionally dirty - mixed date formats, inconsistent casing, currency strings, missing values, and duplicate rows - to simulate what a real migration looks like.
 
 ```bash
 python generate_data.py
@@ -34,7 +34,7 @@ python generate_data.py
 
 ---
 
-### Phase 2 — Data Cleaning / ETL (`process_data.py`)
+### Phase 2 - Data Cleaning / ETL (`process_data.py`)
 
 Once the raw data was generated, it had to be cleaned before loading into the database.
 
@@ -47,7 +47,7 @@ Once the raw data was generated, it had to be cleaned before loading into the da
 | Currency strings | `$68,642.11` vs `16600.15` | Stripped `$` and `,` |
 | Boolean inconsistency | `Yes`, `TRUE`, `1` | Standardized to Python bool |
 | Fuel type casing | `Diesel`, `DIESEL`, `diesel` | Title-cased |
-| Duplicate rows | — | Removed with `drop_duplicates()` |
+| Duplicate rows | - | Removed with `drop_duplicates()` |
 | Missing values | Phone 24%, credit score 8% | Filled or flagged |
 
 **Raw vs Processed row counts after cleaning:**
@@ -66,7 +66,7 @@ python process_data.py
 
 ---
 
-### Phase 3 — Database Design (`models/`)
+### Phase 3 - Database Design (`models/`)
 
 Designed a relational PostgreSQL schema using **SQLAlchemy ORM** with proper foreign key constraints.
 
@@ -80,17 +80,17 @@ policyholders
 
 Each table has its own SQLAlchemy model in the `models/` folder:
 
-- `models/policyholder.py` — customer details, credit score, demographics
-- `models/vehicle.py` — make, model, year, value, fuel type
-- `models/policy.py` — coverage type, premium, deductible, active status
-- `models/claim.py` — claim amount, type, fraud flag, status
-- `models/payment.py` — payment date, amount, late fee, method
+- `models/policyholder.py` - customer details, credit score, demographics
+- `models/vehicle.py` - make, model, year, value, fuel type
+- `models/policy.py` - coverage type, premium, deductible, active status
+- `models/claim.py` - claim amount, type, fraud flag, status
+- `models/payment.py` - payment date, amount, late fee, method
 
 ---
 
-### Phase 4 — Data Loading (`load_data.py`)
+### Phase 4 - Data Loading (`load_data.py`)
 
-Loaded all 5 cleaned CSVs into PostgreSQL while respecting foreign key constraints — parent tables loaded before child tables.
+Loaded all 5 cleaned CSVs into PostgreSQL while respecting foreign key constraints - parent tables loaded before child tables.
 
 ```bash
 python load_data.py
@@ -98,7 +98,7 @@ python load_data.py
 
 ---
 
-### Phase 5 — Containerization (`Dockerfile`, `docker-compose.yml`)
+### Phase 5 - Containerization (`Dockerfile`, `docker-compose.yml`)
 
 Containerized the full stack with Docker so the project runs consistently on any machine.
 
@@ -112,7 +112,7 @@ docker compose up --build
 
 ---
 
-### Phase 5.5 — Dashboard Preview
+### Phase 5.5 - Dashboard Preview
 
 **Dashboard Overview**
 ![Dashboard Overview](assets/dashboard-overview.png)
@@ -134,7 +134,7 @@ docker compose up --build
 
 ---
 
-### Phase 6 — REST API (`app/routes.py`)
+### Phase 6 - REST API (`app/routes.py`)
 
 Built a Flask REST API with 10 endpoints to query the migrated data:
 
@@ -153,22 +153,22 @@ Built a Flask REST API with 10 endpoints to query the migrated data:
 
 ---
 
-### Phase 7 — Analytics Dashboard (`dashboard.html`)
+### Phase 7 - Analytics Dashboard (`dashboard.html`)
 
-Built an interactive analytics dashboard served directly by Flask — no separate frontend server needed.
+Built an interactive analytics dashboard served directly by Flask - no separate frontend server needed.
 
 **Features:**
 - Dark / Light theme toggle
 - Sidebar navigation covering all API endpoints
-- KPI cards — total policyholders, policies, claims, avg premium, avg credit score
+- KPI cards - total policyholders, policies, claims, avg premium, avg credit score
 - Claims by Type bar chart (total vs fraud)
 - Fraud vs Legitimate donut chart
 - Portfolio Risk Indicators with progress bars
 - High Risk Policyholders table + chart by state
 - Fraud Claims table with status badges
 - Late Payments table with late fees
-- Vehicle Lookup — search any vehicle by ID
-- Migration Health — live row counts and system status
+- Vehicle Lookup - search any vehicle by ID
+- Migration Health - live row counts and system status
 
 ```
 http://localhost:5000/dashboard
@@ -176,15 +176,15 @@ http://localhost:5000/dashboard
 
 ---
 
-### Phase 8 — Kubernetes (`kubernetes/`)
+### Phase 8 - Kubernetes (`kubernetes/`)
 
 Wrote production-ready Kubernetes manifests for deploying to any K8s cluster:
 
-- `namespace.yaml` — isolated `carinsurance` namespace
-- `postgres-deployment.yaml` + PersistentVolumeClaim — stateful DB
-- `postgres-service.yaml` — ClusterIP service for internal DB access
-- `flask-deployment.yaml` — 2 replicas of the Flask API
-- `flask-service.yaml` — LoadBalancer exposing port 80
+- `namespace.yaml` - isolated `carinsurance` namespace
+- `postgres-deployment.yaml` + PersistentVolumeClaim - stateful DB
+- `postgres-service.yaml` - ClusterIP service for internal DB access
+- `flask-deployment.yaml` - 2 replicas of the Flask API
+- `flask-service.yaml` - LoadBalancer exposing port 80
 
 ```bash
 kubectl apply -f kubernetes/
@@ -192,12 +192,12 @@ kubectl apply -f kubernetes/
 
 ---
 
-### Phase 9 — Data Profiling Notebooks (`Notebooks/`)
+### Phase 9 - Data Profiling Notebooks (`Notebooks/`)
 
 Documented the data quality investigation and DB verification in Jupyter notebooks:
 
-- **`data_profiling.ipynb`** — EDA on raw CSVs: missing values, distributions, inconsistencies
-- **`PostgreSQL_data_load.ipynb`** — DB verification: row counts, sample queries, fraud by type, high-risk by state
+- **`data_profiling.ipynb`** - EDA on raw CSVs: missing values, distributions, inconsistencies
+- **`PostgreSQL_data_load.ipynb`** - DB verification: row counts, sample queries, fraud by type, high-risk by state
 
 ---
 
@@ -267,12 +267,12 @@ CarInsurance-DataMigration-Platform/
 │   ├── data_profiling.ipynb
 │   └── PostgreSQL_data_load.ipynb
 │
-├── generate_data.py                # Phase 1 — generate raw data
-├── process_data.py                 # Phase 2 — ETL cleaning
-├── load_data.py                    # Phase 4 — load into PostgreSQL
-├── dashboard.html                  # Phase 7 — analytics dashboard
+├── generate_data.py                # Phase 1 - generate raw data
+├── process_data.py                 # Phase 2 - ETL cleaning
+├── load_data.py                    # Phase 4 - load into PostgreSQL
+├── dashboard.html                  # Phase 7 - analytics dashboard
 ├── app.py                          # Flask entry point
-├── docker-compose.yml              # Phase 5 — containerization
+├── docker-compose.yml              # Phase 5 - containerization
 ├── Dockerfile
 ├── Procfile                        # Render deployment
 ├── render.yaml                     # Render infrastructure config
@@ -285,9 +285,9 @@ CarInsurance-DataMigration-Platform/
 
 | Variable | Description | Default |
 |---|---|---|
-| `DATABASE_URL` | Full PostgreSQL connection string (Render/Railway) | — |
+| `DATABASE_URL` | Full PostgreSQL connection string (Render/Railway) | - |
 | `DB_USER` | Database username | `postgres` |
-| `DB_PASSWORD` | Database password | — |
+| `DB_PASSWORD` | Database password | - |
 | `DB_HOST` | Database host | `localhost` |
 | `DB_PORT` | Database port | `5432` |
 | `DB_NAME` | Database name | `carinsurance_db` |
