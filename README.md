@@ -112,6 +112,28 @@ docker compose up --build
 
 ---
 
+### Phase 5.5 — Dashboard Preview
+
+**Dashboard Overview**
+![Dashboard Overview](assets/dashboard-overview.png)
+
+**High Risk Policyholders**
+![High Risk Policyholders](assets/high-risk-policyholders.png)
+
+**Fraud Claims**
+![Fraud Claims](assets/fraud-claims.png)
+
+**Claims Summary**
+![Claims Summary](assets/claims-summary.png)
+
+**Late Payments**
+![Late Payments](assets/late-payments.png)
+
+**Migration Health**
+![Migration Health](assets/migration-health.png)
+
+---
+
 ### Phase 6 — REST API (`app/routes.py`)
 
 Built a Flask REST API with 10 endpoints to query the migrated data:
