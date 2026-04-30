@@ -135,7 +135,6 @@
     .kpi-card.red::before    { background:linear-gradient(90deg,#fc8181,#e53e3e); }
     .kpi-card.yellow::before { background:linear-gradient(90deg,#f6e05e,#d69e2e); }
     .kpi-card.purple::before { background:linear-gradient(90deg,#b794f4,#805ad5); }
-    .kpi-icon  { font-size:22px; margin-bottom:10px; display:block; }
     .kpi-value { font-size:26px; font-weight:800; color:var(--text); line-height:1; }
     .kpi-label { font-size:11px; color:var(--text3); margin-top:5px; }
     .kpi-sub   { font-size:10px; color:var(--text4); margin-top:3px; }
@@ -210,7 +209,6 @@
 <!-- SIDEBAR -->
 <div class="sidebar">
   <div class="sidebar-logo">
-    <div class="logo-icon">🛡️</div>
     <div>
       <div class="logo-text">CarInsure</div>
       <div class="logo-sub">Analytics Platform</div>
@@ -219,43 +217,43 @@
   <nav class="nav">
     <div class="nav-label">Overview</div>
     <div class="nav-item active" onclick="showSection('overview')">
-      <span class="icon">📊</span> Dashboard <div class="status-dot"></div>
+      Dashboard <div class="status-dot"></div>
     </div>
     <div class="nav-item" onclick="showSection('summary')">
-      <span class="icon">📋</span> Summary
+      Summary
     </div>
 
     <div class="nav-label">Policyholders</div>
     <div class="nav-item" onclick="showSection('highrisk')">
-      <span class="icon">⚠️</span> High Risk
+      High Risk
     </div>
 
     <div class="nav-label">Claims</div>
     <div class="nav-item" onclick="showSection('fraud')">
-      <span class="icon">🚨</span> Fraud Claims
+      Fraud Claims
     </div>
     <div class="nav-item" onclick="showSection('claimssummary')">
-      <span class="icon">📈</span> Claims Summary
+      Claims Summary
     </div>
 
     <div class="nav-label">Policies</div>
     <div class="nav-item" onclick="showSection('expiring')">
-      <span class="icon">⏰</span> Expiring Soon
+      Expiring Soon
     </div>
 
     <div class="nav-label">Payments</div>
     <div class="nav-item" onclick="showSection('latepayments')">
-      <span class="icon">💸</span> Late Payments
+      Late Payments
     </div>
 
     <div class="nav-label">Vehicles</div>
     <div class="nav-item" onclick="showSection('vehicles')">
-      <span class="icon">🚗</span> Vehicle Lookup
+      Vehicle Lookup
     </div>
 
     <div class="nav-label">System</div>
     <div class="nav-item" onclick="showSection('health')">
-      <span class="icon">❤️</span> Migration Health
+      Migration Health
     </div>
   </nav>
 
@@ -480,7 +478,8 @@ function showSection(name) {
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   document.getElementById('section-' + name).classList.add('active');
   document.querySelectorAll('.nav-item').forEach(n => {
-    if(n.getAttribute('onclick') && n.getAttribute('onclick').includes(name)) n.classList.add('active');
+    const oc = n.getAttribute('onclick') || '';
+    if(oc === `showSection('${name}')`) n.classList.add('active');
   });
   document.getElementById('pageTitle').textContent    = pages[name].title;
   document.getElementById('pageSubtitle').textContent = pages[name].subtitle;
@@ -539,14 +538,13 @@ async function loadOverview() {
   const [h, cs] = await Promise.all([get('/migration/health'), get('/claims/summary')]);
 
   document.getElementById('kpiGrid').innerHTML = [
-    { icon:'👥', label:'Policyholders', value: h.total_policyholders.toLocaleString(), sub:'Total customers', color:'blue' },
-    { icon:'📋', label:'Total Policies', value: h.total_policies.toLocaleString(), sub:'All coverage types', color:'green' },
-    { icon:'🚨', label:'Fraud Claims', value: h.fraud_claims_count.toLocaleString(), sub:`of ${h.total_claims} claims`, color:'red' },
-    { icon:'💰', label:'Avg Premium', value:`$${h.avg_premium_usd.toLocaleString()}`, sub:'Per policy/year', color:'yellow' },
-    { icon:'📊', label:'Avg Credit Score', value: h.avg_credit_score, sub:'Portfolio average', color:'purple' },
+    { label:'Policyholders', value: h.total_policyholders.toLocaleString(), sub:'Total customers', color:'blue' },
+    { label:'Total Policies', value: h.total_policies.toLocaleString(), sub:'All coverage types', color:'green' },
+    { label:'Fraud Claims', value: h.fraud_claims_count.toLocaleString(), sub:`of ${h.total_claims} claims`, color:'red' },
+    { label:'Avg Premium', value:`$${h.avg_premium_usd.toLocaleString()}`, sub:'Per policy/year', color:'yellow' },
+    { label:'Avg Credit Score', value: h.avg_credit_score, sub:'Portfolio average', color:'purple' },
   ].map(c=>`
     <div class="kpi-card ${c.color}">
-      <span class="kpi-icon">${c.icon}</span>
       <div class="kpi-value">${c.value}</div>
       <div class="kpi-label">${c.label}</div>
       <div class="kpi-sub">${c.sub}</div>
@@ -747,14 +745,13 @@ async function searchVehicle() {
 async function loadHealth() {
   const h = await get('/migration/health');
   document.getElementById('healthKpis').innerHTML = [
-    { icon:'👥', label:'Policyholders', value:h.total_policyholders.toLocaleString(), color:'blue' },
-    { icon:'🚗', label:'Vehicles',       value:h.total_vehicles.toLocaleString(),      color:'green' },
-    { icon:'📋', label:'Policies',       value:h.total_policies.toLocaleString(),       color:'purple' },
-    { icon:'📝', label:'Claims',         value:h.total_claims.toLocaleString(),         color:'yellow' },
-    { icon:'💳', label:'Payments',       value:h.total_payments.toLocaleString(),       color:'red' },
+    { label:'Policyholders', value:h.total_policyholders.toLocaleString(), color:'blue' },
+    { label:'Vehicles',       value:h.total_vehicles.toLocaleString(),      color:'green' },
+    { label:'Policies',       value:h.total_policies.toLocaleString(),       color:'purple' },
+    { label:'Claims',         value:h.total_claims.toLocaleString(),         color:'yellow' },
+    { label:'Payments',       value:h.total_payments.toLocaleString(),       color:'red' },
   ].map(c=>`
     <div class="kpi-card ${c.color}">
-      <span class="kpi-icon">${c.icon}</span>
       <div class="kpi-value">${c.value}</div>
       <div class="kpi-label">${c.label}</div>
     </div>`).join('');
