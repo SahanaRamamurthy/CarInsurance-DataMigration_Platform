@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VInsure Car — Login</title>
+  <style>
+    :root {
+      --bg:     #0f1117;
+      --card:   #13151f;
+      --border: #2d3748;
+      --text:   #e2e8f0;
+      --text2:  #a0aec0;
+      --text3:  #718096;
+      --input:  #1a1f2e;
+      --error:  #fc8181;
+    }
+    [data-theme="light"] {
+      --bg:     #f0f4f8;
+      --card:   #ffffff;
+      --border: #e2e8f0;
+      --text:   #1a202c;
+      --text2:  #4a5568;
+      --text3:  #718096;
+      --input:  #f7fafc;
+      --error:  #e53e3e;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family:'Segoe UI',sans-serif;
+      background:var(--bg); color:var(--text);
+      min-height:100vh; display:flex; align-items:center; justify-content:center;
+      transition:background .25s;
+    }
+    .login-box {
+      background:var(--card); border:1px solid var(--border);
+      border-radius:16px; padding:40px; width:100%; max-width:400px;
+      box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    }
+    .brand { text-align:center; margin-bottom:32px; }
+    .brand-name { font-size:24px; font-weight:800; color:var(--text); }
+    .brand-sub  { font-size:13px; color:var(--text3); margin-top:4px; }
+    .brand-bar  {
+      width:48px; height:4px; border-radius:2px;
+      background:linear-gradient(90deg,#667eea,#764ba2);
+      margin:12px auto 0;
+    }
+    .form-group { margin-bottom:18px; }
+    label { font-size:12px; font-weight:600; color:var(--text2); text-transform:uppercase;
+            letter-spacing:.6px; display:block; margin-bottom:6px; }
+    input {
+      width:100%; background:var(--input); border:1px solid var(--border);
+      border-radius:8px; padding:11px 14px; color:var(--text); font-size:14px;
+      outline:none; transition:border-color .2s;
+    }
+    input:focus { border-color:#667eea; }
+    .btn-login {
+      width:100%; padding:12px; border:none; border-radius:8px; cursor:pointer;
+      background:linear-gradient(135deg,#667eea,#764ba2);
+      color:#fff; font-size:15px; font-weight:600; margin-top:8px;
+      transition:opacity .2s;
+    }
+    .btn-login:hover { opacity:.9; }
+    .error-msg {
+      background:#2d1515; border:1px solid #fc8181; color:var(--error);
+      border-radius:8px; padding:10px 14px; font-size:13px;
+      margin-bottom:16px; display:none;
+    }
+    .hint-box {
+      background:var(--input); border:1px solid var(--border); border-radius:8px;
+      padding:14px; margin-top:24px; font-size:12px; color:var(--text3);
+    }
+    .hint-box strong { color:var(--text2); display:block; margin-bottom:8px; }
+    .hint-row { display:flex; justify-content:space-between; padding:4px 0; }
+    .role-badge {
+      display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;
+    }
+    .role-super { background:#1e1530; color:#b794f4; }
+    .role-admin { background:#151d2d; color:#76e4f7; }
+    .theme-btn {
+      position:fixed; top:16px; right:16px;
+      background:var(--card); border:1px solid var(--border); border-radius:8px;
+      padding:7px 12px; color:var(--text2); font-size:12px; cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+
+<button class="theme-btn" onclick="toggleTheme()" id="themeBtn">🌙 Dark</button>
+
+<div class="login-box">
+  <div class="brand">
+    <img src="/assets/vinsure-car-logo.png" alt="VInsure Car" style="width:100px;margin-bottom:8px"/>
+    <div class="brand-name">VInsure Car</div>
+    <div class="brand-sub">Analytics Platform</div>
+    <div class="brand-bar"></div>
+  </div>
+
+  <div class="error-msg" id="errorMsg"></div>
+
+  <form id="loginForm">
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" id="username" placeholder="Enter your username" autocomplete="username"/>
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Enter your password" autocomplete="current-password"
+             onkeydown="if(event.key==='Enter') doLogin()"/>
+    </div>
+    <button type="button" class="btn-login" onclick="doLogin()">Sign In</button>
+  </form>
+
+  <div class="hint-box">
+    <strong>Demo Credentials</strong>
+    <div class="hint-row">
+      <span>superadmin / Admin@123</span>
+      <span class="role-badge role-super">Super Admin</span>
+    </div>
+    <div class="hint-row">
+      <span>admin / Staff@123</span>
+      <span class="role-badge role-admin">Admin</span>
+    </div>
+  </div>
+</div>
+
+<script>
+  let isDark = false;
+  function toggleTheme() {
+    isDark = !isDark;
+    document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+    document.getElementById('themeBtn').textContent = isDark ? '☀️ Light' : '🌙 Dark';
+  }
+
+  async function doLogin() {
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
+    const errEl = document.getElementById('errorMsg');
+    errEl.style.display = 'none';
+
+    if (!username || !password) {
+      errEl.textContent = 'Please enter both username and password.';
+      errEl.style.display = 'block';
+      return;
+    }
+
+    const res = await fetch('/auth/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username, password })
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      window.location.href = '/dashboard';
+    } else {
+      errEl.textContent = data.error || 'Invalid credentials.';
+      errEl.style.display = 'block';
+    }
+  }
+</script>
+</body>
+</html>
