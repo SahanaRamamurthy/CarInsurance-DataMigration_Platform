@@ -196,6 +196,22 @@
     .vehicle-field-label { font-size:11px; color:var(--text3); text-transform:uppercase; margin-bottom:4px; }
     .vehicle-field-value { font-size:15px; font-weight:600; color:var(--text); }
 
+    .table-search-box { display:flex; align-items:center; gap:12px; margin-bottom:14px; }
+    .table-search-input {
+      flex:1; background:var(--input-bg); border:1px solid var(--border); border-radius:8px;
+      padding:9px 14px; color:var(--text); font-size:13px; outline:none; transition:border-color .2s;
+    }
+    .table-search-input:focus { border-color:#667eea; }
+    .table-search-count { font-size:12px; color:var(--text3); white-space:nowrap; }
+    .csv-btn {
+      padding:7px 14px; border-radius:8px; border:1px solid #48bb78;
+      background:transparent; color:#38a169; font-size:12px; font-weight:600;
+      cursor:pointer; white-space:nowrap; transition:all .2s;
+    }
+    .csv-btn:hover { background:#48bb78; color:#fff; }
+    [data-theme="dark"] .csv-btn { color:#68d391; border-color:#68d391; }
+    [data-theme="dark"] .csv-btn:hover { background:#48bb78; color:#fff; }
+
     .empty-state { text-align:center; padding:40px; color:var(--text4); font-size:14px; }
 
     .footer {
@@ -331,6 +347,11 @@
       <div class="card">
         <div class="card-title">High Risk Policyholders</div>
         <div class="card-subtitle">Sorted by prior claims (highest first)</div>
+        <div class="table-search-box">
+          <input class="table-search-input" id="highRiskSearch" placeholder="Search by name, state or ID..." oninput="filterTable('highRiskSearch','highRiskTable')"/>
+          <span class="table-search-count" id="highRiskCount2"></span>
+          <button class="csv-btn" onclick="exportCSV('highRiskTable','high-risk-policyholders')">Download CSV</button>
+        </div>
         <table>
           <thead><tr><th>ID</th><th>Name</th><th>State</th><th>Credit Score</th><th>Prior Claims</th><th>Age</th><th>Gender</th></tr></thead>
           <tbody id="highRiskTable"><tr><td colspan="7" class="empty-state">Loading...</td></tr></tbody>
@@ -343,6 +364,11 @@
       <div class="card">
         <div class="card-title">Fraud Flagged Claims</div>
         <div class="card-subtitle">All claims marked as potentially fraudulent — sorted by amount</div>
+        <div class="table-search-box">
+          <input class="table-search-input" id="fraudSearch" placeholder="Search by claim ID, type or status..." oninput="filterTable('fraudSearch','fraudTable')"/>
+          <span class="table-search-count" id="fraudCount2"></span>
+          <button class="csv-btn" onclick="exportCSV('fraudTable','fraud-claims')">Download CSV</button>
+        </div>
         <table>
           <thead><tr><th>Claim ID</th><th>Policy ID</th><th>Type</th><th>Amount</th><th>Date</th><th>Status</th><th>Days to Report</th></tr></thead>
           <tbody id="fraudTable"><tr><td colspan="7" class="empty-state">Loading...</td></tr></tbody>
@@ -388,6 +414,11 @@
       <div class="card" style="margin-bottom:20px">
         <div class="card-title">Late Payments</div>
         <div class="card-subtitle">Payments made after the due date — sorted by late fee</div>
+        <div class="table-search-box">
+          <input class="table-search-input" id="lateSearch" placeholder="Search by customer, state or payment ID..." oninput="filterTable('lateSearch','latePaymentsTable')"/>
+          <span class="table-search-count" id="lateCount2"></span>
+          <button class="csv-btn" onclick="exportCSV('latePaymentsTable','late-payments')">Download CSV</button>
+        </div>
         <table>
           <thead><tr><th>Payment ID</th><th>Policy ID</th><th>Date</th><th>Amount</th><th>Late Fee</th><th>Method</th><th>Customer</th><th>State</th></tr></thead>
           <tbody id="latePaymentsTable"><tr><td colspan="8" class="empty-state">Loading...</td></tr></tbody>
@@ -808,6 +839,43 @@ async function loadHealth() {
     `<div style="margin-top:16px;padding:12px;background:var(--badge-grn-bg);border-radius:8px;color:#38a169;font-size:13px">
       ✅ Migration complete — all 5 tables loaded successfully
     </div>`;
+}
+
+// ── EXPORT CSV ────────────────────────────────────────────────────────────────
+function exportCSV(tableId, filename) {
+  const rows = document.querySelectorAll(`#${tableId} tr:not([style*="display: none"])`)
+  const headers = [...document.querySelectorAll(`#${tableId}`).item(0).closest('table').querySelectorAll('thead th')]
+    .map(th => th.textContent.trim());
+  const csvRows = [headers.join(',')];
+  rows.forEach(row => {
+    const cols = [...row.querySelectorAll('td')].map(td => {
+      const text = td.textContent.trim().replace(/,/g, ' ');
+      return `"${text}"`;
+    });
+    if (cols.length) csvRows.push(cols.join(','));
+  });
+  const blob = new Blob([csvRows.join('\n')], { type:'text/csv' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url; a.download = `${filename}.csv`; a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ── TABLE SEARCH ──────────────────────────────────────────────────────────────
+function filterTable(inputId, tableId) {
+  const term = document.getElementById(inputId).value.toLowerCase();
+  const rows = document.querySelectorAll(`#${tableId} tr`);
+  let visible = 0;
+  rows.forEach(row => {
+    const text = row.textContent.toLowerCase();
+    const show = text.includes(term);
+    row.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  // update count label — derive countId from inputId
+  const countId = inputId.replace('Search','Count2').replace('highRiskSearch','highRiskCount2');
+  const countEl = document.getElementById(countId);
+  if (countEl) countEl.textContent = term ? `${visible} result${visible !== 1 ? 's' : ''}` : '';
 }
 
 // load overview on start
