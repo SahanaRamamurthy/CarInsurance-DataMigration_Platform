@@ -1,6 +1,6 @@
-# Car Insurance Data Migration Platform
+# VInsure Car — Data Migration Platform
 
-An end-to-end data engineering project that simulates a real-world insurance data migration - from raw messy CSVs through a full ETL pipeline into a PostgreSQL database, exposed via a Flask REST API and visualized in an interactive analytics dashboard.
+An end-to-end data engineering project that simulates a real-world insurance data migration - from raw messy CSVs through a full ETL pipeline into a PostgreSQL database, exposed via a Flask REST API with role-based authentication and visualized in an interactive analytics dashboard.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask)
@@ -112,7 +112,70 @@ docker compose up --build
 
 ---
 
-### Phase 5.5 - Dashboard Preview
+### Phase 6 - REST API (`app/routes.py`)
+
+Built a Flask REST API with 10 endpoints to query the migrated data:
+
+| Endpoint | Description |
+|---|---|
+| `GET /` | API info and all available routes |
+| `GET /summary` | Row counts for all 5 tables |
+| `GET /policyholders/high-risk` | Customers with low credit or many prior claims |
+| `GET /policyholders/high-risk/count` | Count of high-risk policyholders |
+| `GET /claims/fraud` | All fraud-flagged claims |
+| `GET /claims/summary` | Claims grouped by type with fraud analysis |
+| `GET /policies/expiring-soon` | Policies expiring in the next 30 days |
+| `GET /payments/late` | All late payments with fees |
+| `GET /vehicles/<vehicle_id>` | Vehicle details by ID |
+| `GET /migration/health` | Full system health check |
+
+---
+
+### Phase 7 - Authentication & Role-Based Access (`app/auth.py`)
+
+Added a secure login system with two roles — Super Admin and Admin.
+
+| Role | Username | Access |
+|---|---|---|
+| Super Admin | `superadmin` | Dashboard + Admin Panel + User Management |
+| Admin | `admin` | Dashboard only |
+
+**Features:**
+- Login page with VInsure Car branding
+- Flask session-based authentication
+- Protected routes — all API endpoints require login
+- Super Admin panel at `/admin` with user management and role permissions
+- Logout from any page
+
+---
+
+### Phase 8 - Analytics Dashboard (`dashboard.html`)
+
+Built an interactive analytics dashboard served directly by Flask - no separate frontend server needed.
+
+**Features:**
+- Light / Dark theme toggle (light by default)
+- VInsure Car branding with logo
+- Sidebar navigation covering all API endpoints
+- KPI cards - total policyholders, policies, claims, avg premium, avg credit score
+- Claims by Type bar chart (total vs fraud)
+- Fraud vs Legitimate donut chart
+- Portfolio Risk Indicators with progress bars
+- High Risk Policyholders table + chart by state
+- Fraud Claims table with status badges
+- Late Payments table with late fees
+- Vehicle Lookup - search any vehicle by ID
+- Migration Health - live row counts and system status
+- **Search & Filter** on High Risk, Fraud Claims and Late Payments tables
+- **Export to CSV** button on all 3 tables
+
+```
+http://localhost:5000/dashboard
+```
+
+---
+
+### Phase 8.5 - Dashboard Screenshots
 
 **Dashboard Overview**
 ![Dashboard Overview](assets/dashboard-overview.png)
@@ -134,49 +197,7 @@ docker compose up --build
 
 ---
 
-### Phase 6 - REST API (`app/routes.py`)
-
-Built a Flask REST API with 10 endpoints to query the migrated data:
-
-| Endpoint | Description |
-|---|---|
-| `GET /` | API info and all available routes |
-| `GET /summary` | Row counts for all 5 tables |
-| `GET /policyholders/high-risk` | Customers with low credit or many prior claims |
-| `GET /policyholders/high-risk/count` | Count of high-risk policyholders |
-| `GET /claims/fraud` | All fraud-flagged claims |
-| `GET /claims/summary` | Claims grouped by type with fraud analysis |
-| `GET /policies/expiring-soon` | Policies expiring in the next 30 days |
-| `GET /payments/late` | All late payments with fees |
-| `GET /vehicles/<vehicle_id>` | Vehicle details by ID |
-| `GET /migration/health` | Full system health check |
-
----
-
-### Phase 7 - Analytics Dashboard (`dashboard.html`)
-
-Built an interactive analytics dashboard served directly by Flask - no separate frontend server needed.
-
-**Features:**
-- Dark / Light theme toggle
-- Sidebar navigation covering all API endpoints
-- KPI cards - total policyholders, policies, claims, avg premium, avg credit score
-- Claims by Type bar chart (total vs fraud)
-- Fraud vs Legitimate donut chart
-- Portfolio Risk Indicators with progress bars
-- High Risk Policyholders table + chart by state
-- Fraud Claims table with status badges
-- Late Payments table with late fees
-- Vehicle Lookup - search any vehicle by ID
-- Migration Health - live row counts and system status
-
-```
-http://localhost:5000/dashboard
-```
-
----
-
-### Phase 8 - Kubernetes (`kubernetes/`)
+### Phase 9 - Kubernetes (`kubernetes/`)
 
 Wrote production-ready Kubernetes manifests for deploying to any K8s cluster:
 
@@ -192,7 +213,7 @@ kubectl apply -f kubernetes/
 
 ---
 
-### Phase 9 - Data Profiling Notebooks (`Notebooks/`)
+### Phase 10 - Data Profiling Notebooks (`Notebooks/`)
 
 Documented the data quality investigation and DB verification in Jupyter notebooks:
 
@@ -229,8 +250,12 @@ docker compose up --build
 # 6. Load data into PostgreSQL
 python load_data.py
 
-# 7. Open the dashboard
-# Visit: http://localhost:5000/dashboard
+# 7. Open the login page
+# Visit: http://localhost:5000/login
+
+# 8. Login credentials
+# superadmin / Admin@123  →  Full access + Admin Panel
+# admin / Staff@123       →  Dashboard access
 ```
 
 ---
@@ -246,7 +271,8 @@ CarInsurance-DataMigration-Platform/
 │
 ├── app/
 │   ├── __init__.py                 # Flask app factory
-│   ├── routes.py                   # All API endpoints
+│   ├── routes.py                   # All API endpoints + auth routes
+│   ├── auth.py                     # User credentials and role verification
 │   └── db.py                       # SQLAlchemy engine
 │
 ├── models/                         # SQLAlchemy ORM models
@@ -267,10 +293,15 @@ CarInsurance-DataMigration-Platform/
 │   ├── data_profiling.ipynb
 │   └── PostgreSQL_data_load.ipynb
 │
+├── assets/                         # Logo and screenshots
+│   └── vinsure-car-logo.png
+│
 ├── generate_data.py                # Phase 1 - generate raw data
 ├── process_data.py                 # Phase 2 - ETL cleaning
 ├── load_data.py                    # Phase 4 - load into PostgreSQL
-├── dashboard.html                  # Phase 7 - analytics dashboard
+├── dashboard.html                  # Phase 8 - analytics dashboard
+├── login.html                      # Phase 7 - login page
+├── admin.html                      # Phase 7 - super admin panel
 ├── app.py                          # Flask entry point
 ├── docker-compose.yml              # Phase 5 - containerization
 ├── Dockerfile
@@ -292,10 +323,11 @@ CarInsurance-DataMigration-Platform/
 | `DB_PORT` | Database port | `5432` |
 | `DB_NAME` | Database name | `carinsurance_db` |
 | `PORT` | Flask server port | `5000` |
+| `SECRET_KEY` | Flask session secret key | `carinsure-secret-2024` |
 
 ---
 
 ## Author
 
-**Sahana Ramamurthy**  
+**Sahana Ramamurthy**
 [GitHub](https://github.com/SahanaRamamurthy)
